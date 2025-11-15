@@ -86,7 +86,7 @@ public class PdfFormExtractorService {
             PDField field2 = acroForm.getField("Seller and");
 
             if (field1 != null && field2 != null) {
-                acroForm.setNeedAppearances(true);
+                acroForm.setNeedAppearances(false);
                 // --- NEW FIX ---
                 // The error is specific to the field's *existing* appearance string.
                 // We clear it so PDFBox uses the global default we set (which is standard
@@ -110,7 +110,7 @@ public class PdfFormExtractorService {
                 field2.setValue(sellerName);
                 acroForm.refreshAppearances(Arrays.asList(field2));
 
-                acroForm.flatten();
+                // acroForm.flatten();
                 System.out.println("Form fields filled successfully.");
             } else {
                 System.err.println("Error: One or both specified form fields were not found in the PDF.");
