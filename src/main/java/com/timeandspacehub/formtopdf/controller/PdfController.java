@@ -1,24 +1,20 @@
 package com.timeandspacehub.formtopdf.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
-import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
-
-import org.springframework.http.ResponseEntity;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
 
 @RestController
 @RequestMapping("/api/pdf")
@@ -42,11 +38,17 @@ public class PdfController {
                 .body(pdfBytes);
     }
 
-    @GetMapping("/data")
-    public String getData(){
-        return "helo";
+
+    @GetMapping("/fields")
+    public List<String> extractFormFields() throws Exception{
+        List<String> result = pdfFormExtractorService.extractFormFieldNames();
+        return result;
     }
 
+    @GetMapping("/debug")
+    public void debug() throws Exception{
+        pdfFormExtractorService.debugFieldInfo();
+    }
 
     @PostMapping("/fill-and-save")
     public ResponseEntity<?> fillAndSavePdf(@RequestBody Map<String, String> data) {
