@@ -14,12 +14,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.timeandspacehub.formtopdf.dto.BuyerInput;
+import com.timeandspacehub.formtopdf.dto.PdfFieldStructure;
 import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
 
 @RestController
 @RequestMapping("/api/pdf")
 public class PdfController {
-
 
     @Autowired
     private PdfFormExtractorService pdfFormExtractorService;
@@ -39,39 +40,23 @@ public class PdfController {
     }
 
 
-    @GetMapping("/fields")
-    public List<String> extractFormFields() throws Exception{
-        List<String> result = pdfFormExtractorService.extractFormFieldNames();
-        return result;
-    }
-
-    @GetMapping("/debug")
-    public void debug() throws Exception{
-        pdfFormExtractorService.debugFieldInfo();
+    @GetMapping("/field-info")
+    public ResponseEntity<List<PdfFieldStructure>> getFieldInfo() throws Exception {
+        List<PdfFieldStructure> list = pdfFormExtractorService.getFieldInfo();
+        return ResponseEntity.ok(list);
     }
 
     @PostMapping("/fill-and-save")
-    public ResponseEntity<?> fillAndSavePdf(@RequestBody Map<String, String> data) {
+    public ResponseEntity<?> fillAndSavePdf(@RequestBody BuyerInput input) {
         try {
-            String sellerName = data.get("sellerName");
-            String buyerName = data.get("buyerName");
-            
-            if (sellerName == null || sellerName.trim().isEmpty()) {
-                throw new IllegalArgumentException("sellerName is required");
-            }
-            if (buyerName == null || buyerName.trim().isEmpty()) {
-                throw new IllegalArgumentException("buyerName is required");
-            }
-            
-            String savedFilePath = pdfFormExtractorService.fillAndSavePdf(sellerName, buyerName);
-            
+
+            String savedFilePath = pdfFormExtractorService.fillAndSavePdf(input);
+
             Map<String, Object> response = new HashMap<>();
             response.put("success", true);
             response.put("message", "PDF filled and saved successfully");
             response.put("filePath", savedFilePath);
-            response.put("sellerName", sellerName);
-            response.put("buyerName", buyerName);
-            
+
             return ResponseEntity.ok(response);
         } catch (Exception e) {
             Map<String, Object> error = new HashMap<>();
@@ -81,9 +66,10 @@ public class PdfController {
         }
     }
 
-
-
-
-
+    @GetMapping("/fields")
+    public List<String> extractFormFields() throws Exception{
+        List<String> result = pdfFormExtractorService.extractFormFieldNames();
+        return result;
+    }
 
 }

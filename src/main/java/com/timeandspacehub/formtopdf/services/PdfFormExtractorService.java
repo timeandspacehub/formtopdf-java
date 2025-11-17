@@ -1,138 +1,234 @@
 package com.timeandspacehub.formtopdf.services;
 
-
 import java.io.File;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import org.apache.pdfbox.cos.COSName;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
 import org.apache.pdfbox.pdmodel.interactive.form.PDCheckBox;
 import org.apache.pdfbox.pdmodel.interactive.form.PDField;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
+import com.timeandspacehub.formtopdf.dto.BuyerInput;
+import com.timeandspacehub.formtopdf.dto.PdfFieldStructure;
+
 @Service
 public class PdfFormExtractorService {
-    
+
     public List<String> extractFormFieldNames() throws Exception {
         ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
         String pdfPath = resource.getFile().getAbsolutePath();
 
         List<String> fieldNames = new ArrayList<>();
-        
+
         PDDocument document = PDDocument.load(new File(pdfPath));
         PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
-        
+
         if (acroForm != null) {
             List<PDField> fields = acroForm.getFields();
             for (PDField field : fields) {
-                fieldNames.add(field.getFullyQualifiedName());
+
+                String rawStr = field.getFullyQualifiedName();
+                String rawStrAndUnderscore = rawStr.replaceAll("(?<=\\w) (?=\\w)", "_");
+
+                fieldNames.add("VAR_" + rawStrAndUnderscore);
             }
         }
-        
+
         document.close();
         return fieldNames;
     }
-        
-    public void debugFieldInfo() throws Exception {
+
+    public List<PdfFieldStructure> getFieldInfo() throws Exception {
+
+        List<PdfFieldStructure> list = new ArrayList<>();
+
         ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
         String pdfPath = resource.getFile().getAbsolutePath();
-        
+
         PDDocument document = PDDocument.load(new File(pdfPath));
         PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
-        
+
         if (acroForm != null) {
             List<PDField> fields = acroForm.getFields();
-            System.out.println("\n=== FIRST 5 FIELDS DEBUG INFO ===\n");
-            
-            for (int i = 0; i <= Math.min(15, fields.size()); i++) {
+            System.out.println("Total no. of fields is" + fields.size());
+
+            for (int i = 0; i < fields.size(); i++) {
                 PDField field = fields.get(i);
-                System.out.println("Field " + i + ":");
-                System.out.println("  Name: " + field.getFullyQualifiedName());
-                System.out.println("  Value: " + field.getValueAsString());
-                System.out.println("  Type: " + field.getClass().getSimpleName());
-                System.out.println();
+
+                // PdfFieldStructure.b
+                PdfFieldStructure obj = new PdfFieldStructure(i + 1, field.getFullyQualifiedName(),
+                        field.getValueAsString(), field.getClass().getSimpleName());
+                list.add(obj);
             }
         }
-        
+
         document.close();
+
+        return list;
     }
 
-    
-    public String fillAndSavePdf(String sellerName, String buyerName) throws Exception {
+    public String fillAndSavePdf(BuyerInput input) throws Exception {
+        // 1. Get PDF file from resources directory
         ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
         String pdfPath = resource.getFile().getAbsolutePath();
-        
+
         PDDocument document = PDDocument.load(new File(pdfPath));
         PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
-        String originalDA = acroForm.getDefaultAppearance(); //For switching Helvetica font and Original font of Acro
-        
-        if (acroForm != null) {
+        String originalDA = acroForm.getDefaultAppearance(); // For switching Helvetica font and Original font of Acro
 
+        if (acroForm != null) {
             acroForm.setNeedAppearances(false);
 
-            // Get the specific fields by their exact names
-            PDField field1 = acroForm.getField("1 PARTIES The parties to this contract are");
-            PDField field2 = acroForm.getField("Seller and");
+            // 2. Fill only text fields first
+            List<PdfFieldStructure> pdfFileStructureList = getFieldInfo();
+
+            acroForm.setDefaultAppearance("/Helv 0 Tf 0 g");
+
+            for (int i = 0; i < pdfFileStructureList.size(); i++) {
+            // for (int i = 0; i < 3; i++) {
+
+                PdfFieldStructure fieldDto = pdfFileStructureList.get(i);
+
+                if (fieldDto.getFieldClass().equalsIgnoreCase("PDTextField")) {
+
+
+                    String fieldName = fieldDto.getFieldName();
+                    PDField field = acroForm.getField(fieldName);
+                    field.getCOSObject().removeItem(COSName.DA);
+                    
+    
+                    // Build method name: "get" + "Apple"
+                    //SAMPLE GETTER FOR INPUT OBJECT : getVAR_1_PARTIES_The_parties_to_this_contract_are
+                    String methodName = "getVAR_" + fieldName.substring(0, 1).toUpperCase() + fieldName.substring(1);
+                    methodName = methodName.replaceAll("(?<=\\w) (?=\\w)", "_");
+
+                    // Get method on BuyerInput
+                    Method method = BuyerInput.class.getMethod(methodName);
+
+                    // Invoke method
+                    Object value = method.invoke(input);
+
+                    if (value !=null){
+                       String x =  (String) value;
+                       field.setValue(x);
+                    }
+
+                    acroForm.refreshAppearances(Arrays.asList(field));
+                }
+            }
+
+            // 3. Fill only check boxes
             PDField rawField12 = acroForm.getField("B Sum of all financing described in the attached");
 
+            // Checkbox code ony - Starts
+            acroForm.setDefaultAppearance(originalDA);
 
-            if (field1 != null && field2 != null && rawField12 !=null) {
-                // --- NEW FIX ---
-                // The error is specific to the field's *existing* appearance string.
-                // We clear it so PDFBox uses the global default we set (which is standard
-                // Helvetica)
-                // or generates one from scratch correctly.
+            if (rawField12 instanceof PDCheckBox) {
 
-                // Clear the problematic default appearance from the field dictionary
-                field1.getCOSObject().removeItem(COSName.DA);
-                field2.getCOSObject().removeItem(COSName.DA);
+                PDCheckBox checkbox = (PDCheckBox) rawField12;
 
-                // Set the global default appearance string to a known good value again, just in
-                // case
-                acroForm.setDefaultAppearance("/Helv 0 Tf 0 g");
-                // --- END NEW FIX ---
-
-                field1.setValue(buyerName);
-                // This refresh should now work without crashing because the problematic string
-                // is gone
-                acroForm.refreshAppearances(Arrays.asList(field1));
-
-                field2.setValue(sellerName);
-                acroForm.refreshAppearances(Arrays.asList(field2));
-
-                // Checkbox code ony - Starts
-                acroForm.setDefaultAppearance(originalDA);
-
-                if (rawField12 instanceof PDCheckBox) {
-
-                    PDCheckBox checkbox = (PDCheckBox) rawField12;
-                  
-                    checkbox.check();
-                    acroForm.refreshAppearances(Arrays.asList(checkbox));
-                } else {
-                    System.err.println("Field 'B Sum of all financing described in the attached' is not a checkbox type!");
-                }
-                System.out.println("Form fields filled successfully.");
-                // Checkbox code ony - Ends
-                
+                checkbox.check();
+                acroForm.refreshAppearances(Arrays.asList(checkbox));
             } else {
-                System.err.println("Error: One or both specified form fields were not found in the PDF.");
+                System.err.println("Field 'B Sum of all financing described in the attached' is not a checkbox type!");
             }
+            System.out.println("Form fields filled successfully.");
+            // Checkbox code ony - Ends
+
         } else {
             System.err.println("Error: The PDF does not contain an AcroForm.");
         }
-        
+
         String outputPath = "result.pdf";
         document.save(outputPath);
         document.close();
-        
+
         return outputPath;
     }
+
+    /*
+    public String fillAndSavePdf(BuyerInput input) throws Exception {
+        // 1. Get PDF file from resources directory
+        ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
+        String pdfPath = resource.getFile().getAbsolutePath();
+
+        PDDocument document = PDDocument.load(new File(pdfPath));
+        PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
+        String originalDA = acroForm.getDefaultAppearance(); // For switching Helvetica font and Original font of Acro
+
+        if (acroForm != null) {
+            acroForm.setNeedAppearances(false);
+
+            // 2. Fill only text fields first
+            List<PdfFieldStructure> pdfFileStructureList = getFieldInfo();
+
+            acroForm.setDefaultAppearance("/Helv 0 Tf 0 g");
+            for (int i = 0; i < 3; i++) {
+
+                PdfFieldStructure fieldDto = pdfFileStructureList.get(i);
+
+                if (fieldDto.getFieldClass().equalsIgnoreCase("PDTextField")) {
+
+
+                    String fieldName = fieldDto.getFieldName();
+                    PDField field = acroForm.getField(fieldName);
+                    field.getCOSObject().removeItem(COSName.DA);
+                    
     
-    
+                    // Build method name: "get" + "Apple"
+                    //SAMPLE GETTER FOR INPUT OBJECT : getVAR_1_PARTIES_The_parties_to_this_contract_are
+                    String methodName = "getVAR_" + fieldName.substring(0, 1).toUpperCase() + fieldName.substring(1);
+                    methodName = methodName.replaceAll("(?<=\\w) (?=\\w)", "_");
+
+                    // Get method on BuyerInput
+                    Method method = BuyerInput.class.getMethod(methodName);
+
+                    // Invoke method
+                    Object value = method.invoke(input);
+
+                    if (value !=null){
+                       String x =  (String) value;
+                       field.setValue(x);
+                    }
+
+                    acroForm.refreshAppearances(Arrays.asList(field));
+                }
+            }
+
+            // 3. Fill only check boxes
+            PDField rawField12 = acroForm.getField("B Sum of all financing described in the attached");
+
+            // Checkbox code ony - Starts
+            acroForm.setDefaultAppearance(originalDA);
+
+            if (rawField12 instanceof PDCheckBox) {
+
+                PDCheckBox checkbox = (PDCheckBox) rawField12;
+
+                checkbox.check();
+                acroForm.refreshAppearances(Arrays.asList(checkbox));
+            } else {
+                System.err.println("Field 'B Sum of all financing described in the attached' is not a checkbox type!");
+            }
+            System.out.println("Form fields filled successfully.");
+            // Checkbox code ony - Ends
+
+        } else {
+            System.err.println("Error: The PDF does not contain an AcroForm.");
+        }
+
+        String outputPath = "result.pdf";
+        document.save(outputPath);
+        document.close();
+
+        return outputPath;
+    }
+    */
+
 }
