@@ -1,2216 +1,2664 @@
 package com.timeandspacehub.formtopdf.dto;
 
 public class BuyerInput {
+  public String var_1_parties_the_parties_to_this_contract_are;
+  public String var_seller_and;
+  public String var_a_land_lot;
+  public String var_block;
+  public String var_undefined;
+  public String var_addition_city_of;
+  public String var_county_of;
+  public String var_texas_known_as;
+  public String var_be_removed_prior_to_delivery_of_possession;
+  public String var_undefined_2;
+  public String var_undefined_3;
+  public String var_b_sum_of_all_financing_described_in_the_attached;
+  public String var_check_box2;
+  public String var_loan_assumption_addendum;
+  public String var_undefined_4;
+  public String var_undefined_5;
+  public String var_i_will_not_be_amended_or_deleted_from_the_title_policy_or;
+  public String var_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of;
+  public String var_a_title_policy_seller_shall_furnish_to_buyer_at;
+  public String var_sellers;
+  public String var_seller;
+  public String var_to_escrow_agent_within_1;
+  public String var_initialed_for_identification_by_buyer;
+  public String var_undefined_8;
+  public String var_and_seller;
+  public String var_undefined_9;
+  public String var_page_2_of_10;
+  public String var_undefined_6;
+  public String var_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable;
+  public String var_undefined_7;
+  public String var_as_earnest_money_to;
+  public String var_as_earnest_money_to_2;
+  public String var_earnest_money_of;
+  public String var_to_escrow_agent_within;
+  public String var_the_title_company_and_buyers_lenders_check_one_box_only;
+  public String var_sellers_2;
+  public String var_buyers_expense_no_later;
+  public String var_insurance_title_policy_issued_by;
+  public String var_2within;
+  public String var_3within;
+  public String var_is;
+  public String var_is_not;
+  public String var_2_membership_in_property_owners_associations_the_property;
+  public String var_and_seller_2;
+  public String var_undefined_10;
+  public String var_undefined_11;
+  public String var_page_3_of_10;
+  public String var_buyer;
+  public String var_than_3_days_prior_to_closing_date;
+  public String var_within_one;
+  public String var_within_two;
+  public String var_within_three;
+  public String var_3_days_prior;
+  public String var_within_four;
+  public String var_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier;
+  public String var_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use;
+  public String var_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the;
+  public String var_1within;
+  public String var_2_within;
+  public String var_property_code_requires_seller_to_notify_buyer_as_follows;
+  public String var_and_seller_3;
+  public String var_undefined_12;
+  public String var_the_private_transfer_fee;
+  public String var_contract_concerning;
+  public String var_text4;
+  public String var_text4_2;
+  public String var_text4_3;
+  public String var_1_buyer_accepts_the_property_as_is;
+  public String var_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the;
+  public String var_within;
+  public String var_upon;
+  public String var_initialed_for_identification_by_buyer_2;
+  public String var_undefined_14;
+  public String var_and_seller_4;
+  public String var_undefined_15;
+  public String var_contract_concerning_2;
+  public String var_as_is;
+  public String var_as_is_except;
+  public String var_following_specific_repairs_and_treatments;
+  public String var_undefined_13;
+  public String var_service_contract_in_an_amount_not_exceeding;
+  public String var_brokers_and_sales;
+  public String var_brokers_and_sales_2;
+  public String var_a_the_closing_of_the_sale_will_be_on_or_before;
+  public String var_20;
+  public String var_initialed_for_identification_by_buyer_3;
+  public String var_buyers_expenses_as_allowed_by_the_lender;
+  public String var_and_seller_5;
+  public String var_undefined_16;
+  public String var_contract_concerning_3;
+  public String var_will;
+  public String var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the;
+  public String var_text3;
+  public String var_text3_2;
+  public String var_text3_3;
+  public String var_will_1;
+  public String var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1;
+  public String var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1;
+  public String var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2;
+  public String var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller;
+  public String var_initialed_for_identification_by_buyer_4;
+  public String var_undefined_17;
+  public String var_and_seller_6;
+  public String var_undefined_18;
+  public String var_page_7_of_10;
+  public String var_ac_numb_1;
+  public String var_ac_numb_2;
+  public String var_ac_numb_3;
+  public String var_ac_numb_4;
+  public String var_contract_concerning_4;
+  public String var_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows;
+  public String var_at;
+  public String var_ac1;
+  public String var_phone_51;
+  public String var_phone_52;
+  public String var_undefined_20_0;
+  public String var_undefined_20;
+  public String var_undefined_19;
+  public String var_at_2;
+  public String var_ac4;
+  public String var_fax_52;
+  public String var_undefined_numb_21;
+  public String var_undefined_numb_22_0;
+  public String var_undefined_numb_22;
+  public String var_third_party_financing_addendum;
+  public String var_seller_financing_addendum;
+  public String var_addendum_for_property_subject_to;
+  public String var_buyers_temporary_residential_lease;
+  public String var_loan_assumption_addendum_2;
+  public String var_addendum_for_sale_of_other_property_by;
+  public String var_addendum_for_reservation_of_oil_gas;
+  public String var_addendum_for_backup_contract;
+  public String var_check_box8;
+  public String var_check_box9;
+  public String var_check_box_10;
+  public String var_check_box_11;
+  public String var_environmental_assessment_threatened_or;
+  public String var_sellers_temporary_residential_lease;
+  public String var_short_sale_addendum;
+  public String var_addendum_for_property_located_seaward;
+  public String var_sellers_disclos;
+  public String var_addend;
+  public String var_addendum_for_property_in_a_propane_gas;
+  public String var_pid;
+  public String var_addendum_for_section_1031;
+  public String var_other;
+  public String var_system_service_area;
+  public String var_1;
+  public String var_2;
+  public String var_3;
+  public String var_attorney_is;
+  public String var_undefined_24;
+  public String var_text2;
+  public String var_text1;
+  public String var_text7;
+  public String var_text6;
+  public String var_email;
+  public String var_attorney_is_2;
+  public String var_undefined_25;
+  public String var_text22;
+  public String var_phone11;
+  public String var_text23;
+  public String var_phone_2;
+  public String var_email_2;
+  public String var_initialed_for_identification_by_buyer_5;
+  public String var_and_seller_7;
+  public String var_undefined_22;
+  public String var_undefined_23;
+  public String var_address_of_property;
+  public String var_executed_the;
+  public String var_day_of;
+  public String var_20_2;
+  public String var_signature8;
+  public String var_signature10;
+  public String var_signature9;
+  public String var_signature11;
+  public String var_addr_of_prop;
+  public String var_other_broker_firm;
+  public String var_license_no;
+  public String var_buyer_only;
+  public String var_seller_as_list_brok_sub_agent;
+  public String var_associates_name_numb_1;
+  public String var_license_no_2;
+  public String var_associates_name;
+  public String var_associates_email_address;
+  public String var_phone;
+  public String var_licensed_supervisor_of_associate;
+  public String var_license_no_3;
+  public String var_other_brokers_address;
+  public String var_city;
+  public String var_state;
+  public String var_zip;
+  public String var_listing_broker_firm;
+  public String var_license_no_4;
+  public String var_seller_and_buyer_as_an_intermediary;
+  public String var_seller_only_as_sellers_agent;
+  public String var_list_assoc_name;
+  public String var_license_no_5;
+  public String var_listing_associates_name;
+  public String var_listing_associates_email_address;
+  public String var_phone_3;
+  public String var_licensed_supervisor_of_listing_associate;
+  public String var_license_no_6;
+  public String var_listing_brokers_office_address;
+  public String var_phone_4;
+  public String var_city_2;
+  public String var_state_2;
+  public String var_zip_2;
+  public String var_selling_associates_name;
+  public String var_license_no_7;
+  public String var_selling_associates_name_1;
+  public String var_selling_associates_email_address;
+  public String var_phone_5;
+  public String var_licensed_supervisor_of_selling_associate;
+  public String var_license_no_8;
+  public String var_selling_associates_office_address;
+  public String var_city_3;
+  public String var_state_3;
+  public String var_zip_3;
+  public String var_dollar_amt;
+  public String var_when_mailed_to;
+  public String var_percentage;
+  public String var_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from;
+  public String var_address_of_property_2;
+  public String var_is_acknowledged;
+  public String var_option_fee_in_the_form_of;
+  public String var_seller_or_listing_broker;
+  public String var_date;
+  public String var_is_acknowledged_2;
+  public String var_earnest_money_in_the_form_of;
+  public String var_escrow_agent;
+  public String var_received_by;
+  public String var_address;
+  public String var_city_4;
+  public String var_state_4;
+  public String var_zip_4;
+  public String var_email_address;
+  public String var_datetime;
+  public String var_phone_6;
+  public String var_fax;
+  public String var_escrow_agent_2;
+  public String var_received_by_2;
+  public String var_address_2;
+  public String var_city_5;
+  public String var_state_5;
+  public String var_zip_5;
+  public String var_email_address_2;
+  public String var_date_2;
+  public String var_phone_7;
+  public String var_fax_2;
+  public String var_is_acknowledged_3;
+  public String var_additional_earnest_money_in_the_form_of;
+  public String var_escrow_agent_3;
+  public String var_received_by_3;
 
-  public String VAR_1_PARTIES_The_parties_to_this_contract_are;
-  public String VAR_Seller_and;
-  public String VAR_A_LAND_Lot;
-  public String VAR_Block;
-  public String VAR_undefined;
-  public String VAR_Addition_City_of;
-  public String VAR_County_of;
-  public String VAR_Texas_known_as;
-  public String VAR_be_removed_prior_to_delivery_of_possession;
-  public String VAR_undefined_2;
-  public String VAR_undefined_3;
-  public String VAR_B_Sum_of_all_financing_described_in_the_attached;
-  public String VAR_Check_Box2;
-  public String VAR_Loan_Assumption_Addendum;
-  public String VAR_undefined_4;
-  public String VAR_undefined_5;
-  public String VAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or;
-  public String VAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of;
-  public String VAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at;
-  public String VAR_Sellers;
-  public String VAR_Seller;
-  public String VAR_to_escrow_agent_within_1;
-  public String VAR_Initialed_for_identification_by_Buyer;
-  public String VAR_undefined_8;
-  public String VAR_and_Seller;
-  public String VAR_undefined_9;
-  public String VAR_Page_2_of_10;
-  public String VAR_undefined_6;
-  public String VAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable;
-  public String VAR_undefined_7;
-  public String VAR_as_earnest_money_to;
-  public String VAR_as_earnest_money_to_2;
-  public String VAR_earnest_money_of;
-  public String VAR_to_escrow_agent_within;
-  public String VAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only;
-  public String VAR_Sellers_2;
-  public String VAR_Buyers_expense_no_later;
-  public String VAR_insurance_Title_Policy_issued_by;
-  public String VAR_2Within;
-  public String VAR_3Within;
-  public String VAR_is;
-  public String VAR_is_not;
-  public String VAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property;
-  public String VAR_and_Seller_2;
-  public String VAR_undefined_10;
-  public String VAR_undefined_11;
-  public String VAR_Page_3_of_10;
-  public String VAR_Buyer;
-  public String VAR_than_3_days_prior_to_Closing_Date;
-  public String VAR_Within_one;
-  public String VAR_Within_two;
-  public String VAR_Within_three;
-  public String VAR_3_days_prior;
-  public String VAR_Within_four;
-  public String VAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier;
-  public String VAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use;
-  public String VAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the;
-  public String VAR_1Within;
-  public String VAR_2_Within;
-  public String VAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows;
-  public String VAR_and_Seller_3;
-  public String VAR_undefined_12;
-  public String VAR_The_private_transfer_fee;
-  public String VAR_Contract_Concerning;
-  public String VAR_Text4;
-  public String VAR_Text4_2;
-  public String VAR_Text4_3;
-  public String VAR_1_Buyer_accepts_the_Property_As_Is;
-  public String VAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the;
-  public String VAR_Within;
-  public String VAR_upon;
-  public String VAR_Initialed_for_identification_by_Buyer_2;
-  public String VAR_undefined_14;
-  public String VAR_and_Seller_4;
-  public String VAR_undefined_15;
-  public String VAR_Contract_Concerning_2;
-  public String VAR_As_Is;
-  public String VAR_As_Is_except;
-  public String VAR_following_specific_repairs_and_treatments;
-  public String VAR_undefined_13;
-  public String VAR_service_contract_in_an_amount_not_exceeding;
-  public String VAR_Brokers_and_Sales;
-  public String VAR_Brokers_and_Sales_2;
-  public String VAR_A_The_closing_of_the_sale_will_be_on_or_before;
-  public String VAR_20;
-  public String VAR_Initialed_for_identification_by_Buyer_3;
-  public String VAR_Buyers_Expenses_as_allowed_by_the_lender;
-  public String VAR_and_Seller_5;
-  public String VAR_undefined_16;
-  public String VAR_Contract_Concerning_3;
-  public String VAR_will;
-  public String VAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the;
-  public String VAR_Text3;
-  public String VAR_Text3_2;
-  public String VAR_Text3_3;
-  public String VAR_will_1;
-  public String VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1;
-  public String VAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1;
-  public String VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2;
-  public String VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller;
-  public String VAR_Initialed_for_identification_by_Buyer_4;
-  public String VAR_undefined_17;
-  public String VAR_and_Seller_6;
-  public String VAR_undefined_18;
-  public String VAR_Page_7_of_10;
-  public String VAR_AC_numb_1;
-  public String VAR_AC_numb_2;
-  public String VAR_AC_numb_3;
-  public String VAR_AC_numb_4;
-  public String VAR_Contract_Concerning_4;
-  public String VAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows;
-  public String VAR_at;
-  public String VAR_AC1;
-  public String VAR_Phone_51;
-  public String VAR_Phone_52;
-  public String VAR_undefined_20_0; //check
-  public String VAR_undefined_20;
-  public String VAR_undefined_19;
-  public String VAR_at_2;
-  public String VAR_AC4;
-  public String VAR_Fax_52;
-  public String VAR_undefined_numb_21;
-  public String VAR_undefined_numb_22_0; //check
-  public String VAR_undefined_numb_22;
-  public String VAR_Third_Party_Financing_Addendum;
-  public String VAR_Seller_Financing_Addendum;
-  public String VAR_Addendum_for_Property_Subject_to;
-  public String VAR_Buyers_Temporary_Residential_Lease;
-  public String VAR_Loan_Assumption_Addendum_2;
-  public String VAR_Addendum_for_Sale_of_Other_Property_by;
-  public String VAR_Addendum_for_Reservation_of_Oil_Gas;
-  public String VAR_Addendum_for_BackUp_Contract;
-  public String VAR_Check_Box8;
-  public String VAR_Check_Box9;
-  public String VAR_Check_box_10;
-  public String VAR_Check_box_11;
-  public String VAR_Environmental_Assessment_Threatened_or;
-  public String VAR_Sellers_Temporary_Residential_Lease;
-  public String VAR_Short_Sale_Addendum;
-  public String VAR_Addendum_for_Property_Located_Seaward;
-  public String VAR_Sellers_Disclos;
-  public String VAR_Addend;
-  public String VAR_Addendum_for_Property_in_a_Propane_Gas;
-  public String VAR_PID;
-  public String VAR_Addendum_for_Section_1031;
-  public String VAR_Other;
-  public String VAR_System_Service_Area;
-  public String VAR_1;
-  public String VAR_2;
-  public String VAR_3;
-  public String VAR_Attorney_is;
-  public String VAR_undefined_24;
-  public String VAR_Text2;
-  public String VAR_Text1;
-  public String VAR_Text7;
-  public String VAR_Text6;
-  public String VAR_Email;
-  public String VAR_Attorney_is_2;
-  public String VAR_undefined_25;
-  public String VAR_Text22;
-  public String VAR_Phone11;
-  public String VAR_Text23;
-  public String VAR_Email_2;
-  public String VAR_Initialed_for_identification_by_Buyer_5;
-  public String VAR_and_Seller_7;
-  public String VAR_undefined_22;
-  public String VAR_undefined_23;
-  public String VAR_Address_of_Property;
-  public String VAR_EXECUTED_the;
-  public String VAR_day_of;
-  public String VAR_20_2;
-  public String VAR_Signature8;
-  public String VAR_Signature10;
-  public String VAR_Signature9;
-  public String VAR_Signature11;
-  public String VAR_Addr_of_Prop;
-  public String VAR_Other_Broker_Firm;
-  public String VAR_License_No;
-  public String VAR_Buyer_only;
-  public String VAR_Seller_as_List_Brok_Sub_agent;
-  public String VAR_Associates_Name_numb_1;
-  public String VAR_License_No_2;
-  public String VAR_Associates_Name;
-  public String VAR_Associates_Email_Address;
-  public String VAR_Phone;
-  public String VAR_Licensed_Supervisor_of_Associate;
-  public String VAR_License_No_3;
-  public String VAR_Other_Brokers_Address;
-  public String VAR_Phone_2;
-  public String VAR_City;
-  public String VAR_State;
-  public String VAR_Zip;
-  public String VAR_Listing_Broker_Firm;
-  public String VAR_License_No_4;
-  public String VAR_Seller_and_Buyer_as_an_intermediary;
-  public String VAR_Seller_only_as_Sellers_agent;
-  public String VAR_List_Assoc_Name;
-  public String VAR_License_No_5;
-  public String VAR_Listing_Associates_Name;
-  public String VAR_Listing_Associates_Email_Address;
-  public String VAR_Phone_3;
-  public String VAR_Licensed_Supervisor_of_Listing_Associate;
-  public String VAR_License_No_6;
-  public String VAR_Listing_Brokers_Office_Address;
-  public String VAR_Phone_4;
-  public String VAR_City_2;
-  public String VAR_State_2;
-  public String VAR_Zip_2;
-  public String VAR_Selling_Associates_Name;
-  public String VAR_License_No_7;
-  public String VAR_Selling_Associates_Name_1; //check
-  public String VAR_Selling_Associates_Email_Address;
-  public String VAR_Phone_5;
-  public String VAR_Licensed_Supervisor_of_Selling_Associate;
-  public String VAR_License_No_8;
-  public String VAR_Selling_Associates_Office_Address;
-  public String VAR_City_3;
-  public String VAR_State_3;
-  public String VAR_Zip_3;
-  public String VAR_Dollar_Amt;
-  public String VAR_when_mailed_to;
-  public String VAR_Percentage;
-  public String VAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from;
-  public String VAR_Address_of_Property_2;
-  public String VAR_is_acknowledged;
-  public String VAR_Option_Fee_in_the_form_of;
-  public String VAR_Seller_or_Listing_Broker;
-  public String VAR_Date;
-  public String VAR_is_acknowledged_2;
-  public String VAR_Earnest_Money_in_the_form_of;
-  public String VAR_Escrow_Agent;
-  public String VAR_Received_by;
-  public String VAR_Address;
-  public String VAR_City_4;
-  public String VAR_State_4;
-  public String VAR_Zip_4;
-  public String VAR_Email_Address;
-  public String VAR_DateTime;
-  public String VAR_Phone_6;
-  public String VAR_Fax;
-  public String VAR_Escrow_Agent_2;
-  public String VAR_Received_by_2;
-  public String VAR_Address_2;
-  public String VAR_City_5;
-  public String VAR_State_5;
-  public String VAR_Zip_5;
-  public String VAR_Email_Address_2;
-  public String VAR_Date_2;
-  public String VAR_Phone_7;
-  public String VAR_Fax_2;
-  public String VAR_is_acknowledged_3;
-  public String VAR_additional_Earnest_Money_in_the_form_of;
-  public String VAR_Escrow_Agent_3;
-  public String VAR_Received_by_3;
-  public String VAR_Address_3;
-  public String VAR_City_6;
-  public String VAR_State_6;
-  public String VAR_Zip_6;
-  public String VAR_Email_Address_3;
-  public String VAR_DateTime_2;
-  public String VAR_Phone_8;
-  public String VAR_Fax_3;
+  public BuyerInput(String var_1_parties_the_parties_to_this_contract_are, String var_seller_and, String var_a_land_lot,
+      String var_block, String var_undefined, String var_addition_city_of, String var_county_of,
+      String var_texas_known_as, String var_be_removed_prior_to_delivery_of_possession, String var_undefined_2,
+      String var_undefined_3, String var_b_sum_of_all_financing_described_in_the_attached, String var_check_box2,
+      String var_loan_assumption_addendum, String var_undefined_4, String var_undefined_5,
+      String var_i_will_not_be_amended_or_deleted_from_the_title_policy_or,
+      String var_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of,
+      String var_a_title_policy_seller_shall_furnish_to_buyer_at, String var_sellers, String var_seller,
+      String var_to_escrow_agent_within_1, String var_initialed_for_identification_by_buyer, String var_undefined_8,
+      String var_and_seller, String var_undefined_9, String var_page_2_of_10, String var_undefined_6,
+      String var_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable,
+      String var_undefined_7, String var_as_earnest_money_to, String var_as_earnest_money_to_2,
+      String var_earnest_money_of, String var_to_escrow_agent_within,
+      String var_the_title_company_and_buyers_lenders_check_one_box_only, String var_sellers_2,
+      String var_buyers_expense_no_later, String var_insurance_title_policy_issued_by, String var_2within,
+      String var_3within, String var_is, String var_is_not,
+      String var_2_membership_in_property_owners_associations_the_property, String var_and_seller_2,
+      String var_undefined_10, String var_undefined_11, String var_page_3_of_10, String var_buyer,
+      String var_than_3_days_prior_to_closing_date, String var_within_one, String var_within_two,
+      String var_within_three, String var_3_days_prior, String var_within_four,
+      String var_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier,
+      String var_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use,
+      String var_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the,
+      String var_1within, String var_2_within, String var_property_code_requires_seller_to_notify_buyer_as_follows,
+      String var_and_seller_3, String var_undefined_12, String var_the_private_transfer_fee,
+      String var_contract_concerning, String var_text4, String var_text4_2, String var_text4_3,
+      String var_1_buyer_accepts_the_property_as_is,
+      String var_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the,
+      String var_within, String var_upon, String var_initialed_for_identification_by_buyer_2, String var_undefined_14,
+      String var_and_seller_4, String var_undefined_15, String var_contract_concerning_2, String var_as_is,
+      String var_as_is_except, String var_following_specific_repairs_and_treatments, String var_undefined_13,
+      String var_service_contract_in_an_amount_not_exceeding, String var_brokers_and_sales,
+      String var_brokers_and_sales_2, String var_a_the_closing_of_the_sale_will_be_on_or_before, String var_20,
+      String var_initialed_for_identification_by_buyer_3, String var_buyers_expenses_as_allowed_by_the_lender,
+      String var_and_seller_5, String var_undefined_16, String var_contract_concerning_3, String var_will,
+      String var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the, String var_text3,
+      String var_text3_2, String var_text3_3, String var_will_1,
+      String var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1,
+      String var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1,
+      String var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2,
+      String var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller,
+      String var_initialed_for_identification_by_buyer_4, String var_undefined_17, String var_and_seller_6,
+      String var_undefined_18, String var_page_7_of_10, String var_ac_numb_1, String var_ac_numb_2,
+      String var_ac_numb_3, String var_ac_numb_4, String var_contract_concerning_4,
+      String var_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows,
+      String var_at, String var_ac1, String var_phone_51, String var_phone_52, String var_undefined_20_0,
+      String var_undefined_20, String var_undefined_19, String var_at_2, String var_ac4, String var_fax_52,
+      String var_undefined_numb_21, String var_undefined_numb_22_0, String var_undefined_numb_22,
+      String var_third_party_financing_addendum, String var_seller_financing_addendum,
+      String var_addendum_for_property_subject_to, String var_buyers_temporary_residential_lease,
+      String var_loan_assumption_addendum_2, String var_addendum_for_sale_of_other_property_by,
+      String var_addendum_for_reservation_of_oil_gas, String var_addendum_for_backup_contract, String var_check_box8,
+      String var_check_box9, String var_check_box_10, String var_check_box_11,
+      String var_environmental_assessment_threatened_or, String var_sellers_temporary_residential_lease,
+      String var_short_sale_addendum, String var_addendum_for_property_located_seaward, String var_sellers_disclos,
+      String var_addend, String var_addendum_for_property_in_a_propane_gas, String var_pid,
+      String var_addendum_for_section_1031, String var_other, String var_system_service_area, String var_1,
+      String var_2, String var_3, String var_attorney_is, String var_undefined_24, String var_text2, String var_text1,
+      String var_text7, String var_text6, String var_email, String var_attorney_is_2, String var_undefined_25,
+      String var_text22, String var_phone11, String var_text23, String var_phone_2, String var_email_2,
+      String var_initialed_for_identification_by_buyer_5, String var_and_seller_7, String var_undefined_22,
+      String var_undefined_23, String var_address_of_property, String var_executed_the, String var_day_of,
+      String var_20_2, String var_signature8, String var_signature10, String var_signature9, String var_signature11,
+      String var_addr_of_prop, String var_other_broker_firm, String var_license_no, String var_buyer_only,
+      String var_seller_as_list_brok_sub_agent, String var_associates_name_numb_1, String var_license_no_2,
+      String var_associates_name, String var_associates_email_address, String var_phone,
+      String var_licensed_supervisor_of_associate, String var_license_no_3, String var_other_brokers_address,
+      String var_city, String var_state, String var_zip, String var_listing_broker_firm, String var_license_no_4,
+      String var_seller_and_buyer_as_an_intermediary, String var_seller_only_as_sellers_agent,
+      String var_list_assoc_name, String var_license_no_5, String var_listing_associates_name,
+      String var_listing_associates_email_address, String var_phone_3,
+      String var_licensed_supervisor_of_listing_associate, String var_license_no_6,
+      String var_listing_brokers_office_address, String var_phone_4, String var_city_2, String var_state_2,
+      String var_zip_2, String var_selling_associates_name, String var_license_no_7,
+      String var_selling_associates_name_1, String var_selling_associates_email_address, String var_phone_5,
+      String var_licensed_supervisor_of_selling_associate, String var_license_no_8,
+      String var_selling_associates_office_address, String var_city_3, String var_state_3, String var_zip_3,
+      String var_dollar_amt, String var_when_mailed_to, String var_percentage,
+      String var_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from,
+      String var_address_of_property_2, String var_is_acknowledged, String var_option_fee_in_the_form_of,
+      String var_seller_or_listing_broker, String var_date, String var_is_acknowledged_2,
+      String var_earnest_money_in_the_form_of, String var_escrow_agent, String var_received_by, String var_address,
+      String var_city_4, String var_state_4, String var_zip_4, String var_email_address, String var_datetime,
+      String var_phone_6, String var_fax, String var_escrow_agent_2, String var_received_by_2, String var_address_2,
+      String var_city_5, String var_state_5, String var_zip_5, String var_email_address_2, String var_date_2,
+      String var_phone_7, String var_fax_2, String var_is_acknowledged_3,
+      String var_additional_earnest_money_in_the_form_of, String var_escrow_agent_3, String var_received_by_3) {
+    this.var_1_parties_the_parties_to_this_contract_are = var_1_parties_the_parties_to_this_contract_are;
+    this.var_seller_and = var_seller_and;
+    this.var_a_land_lot = var_a_land_lot;
+    this.var_block = var_block;
+    this.var_undefined = var_undefined;
+    this.var_addition_city_of = var_addition_city_of;
+    this.var_county_of = var_county_of;
+    this.var_texas_known_as = var_texas_known_as;
+    this.var_be_removed_prior_to_delivery_of_possession = var_be_removed_prior_to_delivery_of_possession;
+    this.var_undefined_2 = var_undefined_2;
+    this.var_undefined_3 = var_undefined_3;
+    this.var_b_sum_of_all_financing_described_in_the_attached = var_b_sum_of_all_financing_described_in_the_attached;
+    this.var_check_box2 = var_check_box2;
+    this.var_loan_assumption_addendum = var_loan_assumption_addendum;
+    this.var_undefined_4 = var_undefined_4;
+    this.var_undefined_5 = var_undefined_5;
+    this.var_i_will_not_be_amended_or_deleted_from_the_title_policy_or = var_i_will_not_be_amended_or_deleted_from_the_title_policy_or;
+    this.var_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of = var_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of;
+    this.var_a_title_policy_seller_shall_furnish_to_buyer_at = var_a_title_policy_seller_shall_furnish_to_buyer_at;
+    this.var_sellers = var_sellers;
+    this.var_seller = var_seller;
+    this.var_to_escrow_agent_within_1 = var_to_escrow_agent_within_1;
+    this.var_initialed_for_identification_by_buyer = var_initialed_for_identification_by_buyer;
+    this.var_undefined_8 = var_undefined_8;
+    this.var_and_seller = var_and_seller;
+    this.var_undefined_9 = var_undefined_9;
+    this.var_page_2_of_10 = var_page_2_of_10;
+    this.var_undefined_6 = var_undefined_6;
+    this.var_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable = var_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable;
+    this.var_undefined_7 = var_undefined_7;
+    this.var_as_earnest_money_to = var_as_earnest_money_to;
+    this.var_as_earnest_money_to_2 = var_as_earnest_money_to_2;
+    this.var_earnest_money_of = var_earnest_money_of;
+    this.var_to_escrow_agent_within = var_to_escrow_agent_within;
+    this.var_the_title_company_and_buyers_lenders_check_one_box_only = var_the_title_company_and_buyers_lenders_check_one_box_only;
+    this.var_sellers_2 = var_sellers_2;
+    this.var_buyers_expense_no_later = var_buyers_expense_no_later;
+    this.var_insurance_title_policy_issued_by = var_insurance_title_policy_issued_by;
+    this.var_2within = var_2within;
+    this.var_3within = var_3within;
+    this.var_is = var_is;
+    this.var_is_not = var_is_not;
+    this.var_2_membership_in_property_owners_associations_the_property = var_2_membership_in_property_owners_associations_the_property;
+    this.var_and_seller_2 = var_and_seller_2;
+    this.var_undefined_10 = var_undefined_10;
+    this.var_undefined_11 = var_undefined_11;
+    this.var_page_3_of_10 = var_page_3_of_10;
+    this.var_buyer = var_buyer;
+    this.var_than_3_days_prior_to_closing_date = var_than_3_days_prior_to_closing_date;
+    this.var_within_one = var_within_one;
+    this.var_within_two = var_within_two;
+    this.var_within_three = var_within_three;
+    this.var_3_days_prior = var_3_days_prior;
+    this.var_within_four = var_within_four;
+    this.var_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier = var_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier;
+    this.var_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use = var_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use;
+    this.var_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the = var_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the;
+    this.var_1within = var_1within;
+    this.var_2_within = var_2_within;
+    this.var_property_code_requires_seller_to_notify_buyer_as_follows = var_property_code_requires_seller_to_notify_buyer_as_follows;
+    this.var_and_seller_3 = var_and_seller_3;
+    this.var_undefined_12 = var_undefined_12;
+    this.var_the_private_transfer_fee = var_the_private_transfer_fee;
+    this.var_contract_concerning = var_contract_concerning;
+    this.var_text4 = var_text4;
+    this.var_text4_2 = var_text4_2;
+    this.var_text4_3 = var_text4_3;
+    this.var_1_buyer_accepts_the_property_as_is = var_1_buyer_accepts_the_property_as_is;
+    this.var_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the = var_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the;
+    this.var_within = var_within;
+    this.var_upon = var_upon;
+    this.var_initialed_for_identification_by_buyer_2 = var_initialed_for_identification_by_buyer_2;
+    this.var_undefined_14 = var_undefined_14;
+    this.var_and_seller_4 = var_and_seller_4;
+    this.var_undefined_15 = var_undefined_15;
+    this.var_contract_concerning_2 = var_contract_concerning_2;
+    this.var_as_is = var_as_is;
+    this.var_as_is_except = var_as_is_except;
+    this.var_following_specific_repairs_and_treatments = var_following_specific_repairs_and_treatments;
+    this.var_undefined_13 = var_undefined_13;
+    this.var_service_contract_in_an_amount_not_exceeding = var_service_contract_in_an_amount_not_exceeding;
+    this.var_brokers_and_sales = var_brokers_and_sales;
+    this.var_brokers_and_sales_2 = var_brokers_and_sales_2;
+    this.var_a_the_closing_of_the_sale_will_be_on_or_before = var_a_the_closing_of_the_sale_will_be_on_or_before;
+    this.var_20 = var_20;
+    this.var_initialed_for_identification_by_buyer_3 = var_initialed_for_identification_by_buyer_3;
+    this.var_buyers_expenses_as_allowed_by_the_lender = var_buyers_expenses_as_allowed_by_the_lender;
+    this.var_and_seller_5 = var_and_seller_5;
+    this.var_undefined_16 = var_undefined_16;
+    this.var_contract_concerning_3 = var_contract_concerning_3;
+    this.var_will = var_will;
+    this.var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the = var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the;
+    this.var_text3 = var_text3;
+    this.var_text3_2 = var_text3_2;
+    this.var_text3_3 = var_text3_3;
+    this.var_will_1 = var_will_1;
+    this.var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1 = var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1;
+    this.var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1 = var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1;
+    this.var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2 = var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2;
+    this.var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller = var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller;
+    this.var_initialed_for_identification_by_buyer_4 = var_initialed_for_identification_by_buyer_4;
+    this.var_undefined_17 = var_undefined_17;
+    this.var_and_seller_6 = var_and_seller_6;
+    this.var_undefined_18 = var_undefined_18;
+    this.var_page_7_of_10 = var_page_7_of_10;
+    this.var_ac_numb_1 = var_ac_numb_1;
+    this.var_ac_numb_2 = var_ac_numb_2;
+    this.var_ac_numb_3 = var_ac_numb_3;
+    this.var_ac_numb_4 = var_ac_numb_4;
+    this.var_contract_concerning_4 = var_contract_concerning_4;
+    this.var_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows = var_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows;
+    this.var_at = var_at;
+    this.var_ac1 = var_ac1;
+    this.var_phone_51 = var_phone_51;
+    this.var_phone_52 = var_phone_52;
+    this.var_undefined_20_0 = var_undefined_20_0;
+    this.var_undefined_20 = var_undefined_20;
+    this.var_undefined_19 = var_undefined_19;
+    this.var_at_2 = var_at_2;
+    this.var_ac4 = var_ac4;
+    this.var_fax_52 = var_fax_52;
+    this.var_undefined_numb_21 = var_undefined_numb_21;
+    this.var_undefined_numb_22_0 = var_undefined_numb_22_0;
+    this.var_undefined_numb_22 = var_undefined_numb_22;
+    this.var_third_party_financing_addendum = var_third_party_financing_addendum;
+    this.var_seller_financing_addendum = var_seller_financing_addendum;
+    this.var_addendum_for_property_subject_to = var_addendum_for_property_subject_to;
+    this.var_buyers_temporary_residential_lease = var_buyers_temporary_residential_lease;
+    this.var_loan_assumption_addendum_2 = var_loan_assumption_addendum_2;
+    this.var_addendum_for_sale_of_other_property_by = var_addendum_for_sale_of_other_property_by;
+    this.var_addendum_for_reservation_of_oil_gas = var_addendum_for_reservation_of_oil_gas;
+    this.var_addendum_for_backup_contract = var_addendum_for_backup_contract;
+    this.var_check_box8 = var_check_box8;
+    this.var_check_box9 = var_check_box9;
+    this.var_check_box_10 = var_check_box_10;
+    this.var_check_box_11 = var_check_box_11;
+    this.var_environmental_assessment_threatened_or = var_environmental_assessment_threatened_or;
+    this.var_sellers_temporary_residential_lease = var_sellers_temporary_residential_lease;
+    this.var_short_sale_addendum = var_short_sale_addendum;
+    this.var_addendum_for_property_located_seaward = var_addendum_for_property_located_seaward;
+    this.var_sellers_disclos = var_sellers_disclos;
+    this.var_addend = var_addend;
+    this.var_addendum_for_property_in_a_propane_gas = var_addendum_for_property_in_a_propane_gas;
+    this.var_pid = var_pid;
+    this.var_addendum_for_section_1031 = var_addendum_for_section_1031;
+    this.var_other = var_other;
+    this.var_system_service_area = var_system_service_area;
+    this.var_1 = var_1;
+    this.var_2 = var_2;
+    this.var_3 = var_3;
+    this.var_attorney_is = var_attorney_is;
+    this.var_undefined_24 = var_undefined_24;
+    this.var_text2 = var_text2;
+    this.var_text1 = var_text1;
+    this.var_text7 = var_text7;
+    this.var_text6 = var_text6;
+    this.var_email = var_email;
+    this.var_attorney_is_2 = var_attorney_is_2;
+    this.var_undefined_25 = var_undefined_25;
+    this.var_text22 = var_text22;
+    this.var_phone11 = var_phone11;
+    this.var_text23 = var_text23;
+    this.var_phone_2 = var_phone_2;
+    this.var_email_2 = var_email_2;
+    this.var_initialed_for_identification_by_buyer_5 = var_initialed_for_identification_by_buyer_5;
+    this.var_and_seller_7 = var_and_seller_7;
+    this.var_undefined_22 = var_undefined_22;
+    this.var_undefined_23 = var_undefined_23;
+    this.var_address_of_property = var_address_of_property;
+    this.var_executed_the = var_executed_the;
+    this.var_day_of = var_day_of;
+    this.var_20_2 = var_20_2;
+    this.var_signature8 = var_signature8;
+    this.var_signature10 = var_signature10;
+    this.var_signature9 = var_signature9;
+    this.var_signature11 = var_signature11;
+    this.var_addr_of_prop = var_addr_of_prop;
+    this.var_other_broker_firm = var_other_broker_firm;
+    this.var_license_no = var_license_no;
+    this.var_buyer_only = var_buyer_only;
+    this.var_seller_as_list_brok_sub_agent = var_seller_as_list_brok_sub_agent;
+    this.var_associates_name_numb_1 = var_associates_name_numb_1;
+    this.var_license_no_2 = var_license_no_2;
+    this.var_associates_name = var_associates_name;
+    this.var_associates_email_address = var_associates_email_address;
+    this.var_phone = var_phone;
+    this.var_licensed_supervisor_of_associate = var_licensed_supervisor_of_associate;
+    this.var_license_no_3 = var_license_no_3;
+    this.var_other_brokers_address = var_other_brokers_address;
+    this.var_city = var_city;
+    this.var_state = var_state;
+    this.var_zip = var_zip;
+    this.var_listing_broker_firm = var_listing_broker_firm;
+    this.var_license_no_4 = var_license_no_4;
+    this.var_seller_and_buyer_as_an_intermediary = var_seller_and_buyer_as_an_intermediary;
+    this.var_seller_only_as_sellers_agent = var_seller_only_as_sellers_agent;
+    this.var_list_assoc_name = var_list_assoc_name;
+    this.var_license_no_5 = var_license_no_5;
+    this.var_listing_associates_name = var_listing_associates_name;
+    this.var_listing_associates_email_address = var_listing_associates_email_address;
+    this.var_phone_3 = var_phone_3;
+    this.var_licensed_supervisor_of_listing_associate = var_licensed_supervisor_of_listing_associate;
+    this.var_license_no_6 = var_license_no_6;
+    this.var_listing_brokers_office_address = var_listing_brokers_office_address;
+    this.var_phone_4 = var_phone_4;
+    this.var_city_2 = var_city_2;
+    this.var_state_2 = var_state_2;
+    this.var_zip_2 = var_zip_2;
+    this.var_selling_associates_name = var_selling_associates_name;
+    this.var_license_no_7 = var_license_no_7;
+    this.var_selling_associates_name_1 = var_selling_associates_name_1;
+    this.var_selling_associates_email_address = var_selling_associates_email_address;
+    this.var_phone_5 = var_phone_5;
+    this.var_licensed_supervisor_of_selling_associate = var_licensed_supervisor_of_selling_associate;
+    this.var_license_no_8 = var_license_no_8;
+    this.var_selling_associates_office_address = var_selling_associates_office_address;
+    this.var_city_3 = var_city_3;
+    this.var_state_3 = var_state_3;
+    this.var_zip_3 = var_zip_3;
+    this.var_dollar_amt = var_dollar_amt;
+    this.var_when_mailed_to = var_when_mailed_to;
+    this.var_percentage = var_percentage;
+    this.var_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from = var_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from;
+    this.var_address_of_property_2 = var_address_of_property_2;
+    this.var_is_acknowledged = var_is_acknowledged;
+    this.var_option_fee_in_the_form_of = var_option_fee_in_the_form_of;
+    this.var_seller_or_listing_broker = var_seller_or_listing_broker;
+    this.var_date = var_date;
+    this.var_is_acknowledged_2 = var_is_acknowledged_2;
+    this.var_earnest_money_in_the_form_of = var_earnest_money_in_the_form_of;
+    this.var_escrow_agent = var_escrow_agent;
+    this.var_received_by = var_received_by;
+    this.var_address = var_address;
+    this.var_city_4 = var_city_4;
+    this.var_state_4 = var_state_4;
+    this.var_zip_4 = var_zip_4;
+    this.var_email_address = var_email_address;
+    this.var_datetime = var_datetime;
+    this.var_phone_6 = var_phone_6;
+    this.var_fax = var_fax;
+    this.var_escrow_agent_2 = var_escrow_agent_2;
+    this.var_received_by_2 = var_received_by_2;
+    this.var_address_2 = var_address_2;
+    this.var_city_5 = var_city_5;
+    this.var_state_5 = var_state_5;
+    this.var_zip_5 = var_zip_5;
+    this.var_email_address_2 = var_email_address_2;
+    this.var_date_2 = var_date_2;
+    this.var_phone_7 = var_phone_7;
+    this.var_fax_2 = var_fax_2;
+    this.var_is_acknowledged_3 = var_is_acknowledged_3;
+    this.var_additional_earnest_money_in_the_form_of = var_additional_earnest_money_in_the_form_of;
+    this.var_escrow_agent_3 = var_escrow_agent_3;
+    this.var_received_by_3 = var_received_by_3;
+  }
 
-  
-  public BuyerInput(String vAR_1_PARTIES_The_parties_to_this_contract_are, String vAR_Seller_and, String vAR_A_LAND_Lot,
-        String vAR_Block, String vAR_undefined, String vAR_Addition_City_of, String vAR_County_of,
-        String vAR_Texas_known_as, String vAR_be_removed_prior_to_delivery_of_possession, String vAR_undefined_2,
-        String vAR_undefined_3, String vAR_B_Sum_of_all_financing_described_in_the_attached, String vAR_Check_Box2,
-        String vAR_Loan_Assumption_Addendum, String vAR_undefined_4, String vAR_undefined_5,
-        String vAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or,
-        String vAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of,
-        String vAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at, String vAR_Sellers, String vAR_Seller,
-        String vAR_to_escrow_agent_within_1, String vAR_Initialed_for_identification_by_Buyer, String vAR_undefined_8,
-        String vAR_and_Seller, String vAR_undefined_9, String vAR_Page_2_of_10, String vAR_undefined_6,
-        String vAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable,
-        String vAR_undefined_7, String vAR_as_earnest_money_to, String vAR_as_earnest_money_to_2,
-        String vAR_earnest_money_of, String vAR_to_escrow_agent_within,
-        String vAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only, String vAR_Sellers_2,
-        String vAR_Buyers_expense_no_later, String vAR_insurance_Title_Policy_issued_by, String vAR_2Within,
-        String vAR_3Within, String vAR_is, String vAR_is_not,
-        String vAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property, String vAR_and_Seller_2,
-        String vAR_undefined_10, String vAR_undefined_11, String vAR_Page_3_of_10, String vAR_Buyer,
-        String vAR_than_3_days_prior_to_Closing_Date, String vAR_Within_one, String vAR_Within_two,
-        String vAR_Within_three, String vAR_3_days_prior, String vAR_Within_four,
-        String vAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier,
-        String vAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use,
-        String vAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the,
-        String vAR_1Within, String vAR_2_Within, String vAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows,
-        String vAR_and_Seller_3, String vAR_undefined_12, String vAR_The_private_transfer_fee,
-        String vAR_Contract_Concerning, String vAR_Text4, String vAR_Text4_2, String vAR_Text4_3,
-        String vAR_1_Buyer_accepts_the_Property_As_Is,
-        String vAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the,
-        String vAR_Within, String vAR_upon, String vAR_Initialed_for_identification_by_Buyer_2, String vAR_undefined_14,
-        String vAR_and_Seller_4, String vAR_undefined_15, String vAR_Contract_Concerning_2, String vAR_As_Is,
-        String vAR_As_Is_except, String vAR_following_specific_repairs_and_treatments, String vAR_undefined_13,
-        String vAR_service_contract_in_an_amount_not_exceeding, String vAR_Brokers_and_Sales,
-        String vAR_Brokers_and_Sales_2, String vAR_A_The_closing_of_the_sale_will_be_on_or_before, String vAR_20,
-        String vAR_Initialed_for_identification_by_Buyer_3, String vAR_Buyers_Expenses_as_allowed_by_the_lender,
-        String vAR_and_Seller_5, String vAR_undefined_16, String vAR_Contract_Concerning_3, String vAR_will,
-        String vAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the, String vAR_Text3,
-        String vAR_Text3_2, String vAR_Text3_3, String vAR_will_1,
-        String vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1,
-        String vAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1,
-        String vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2,
-        String vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller,
-        String vAR_Initialed_for_identification_by_Buyer_4, String vAR_undefined_17, String vAR_and_Seller_6,
-        String vAR_undefined_18, String vAR_Page_7_of_10, String vAR_AC_numb_1, String vAR_AC_numb_2,
-        String vAR_AC_numb_3, String vAR_AC_numb_4, String vAR_Contract_Concerning_4,
-        String vAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows,
-        String vAR_at, String vAR_AC1, String vAR_Phone_51, String vAR_Phone_52, String vAR_undefined_20_0,
-        String vAR_undefined_20, String vAR_undefined_19, String vAR_at_2, String vAR_AC4, String vAR_Fax_52,
-        String vAR_undefined_numb_21, String vAR_undefined_numb_22_0, String vAR_undefined_numb_22,
-        String vAR_Third_Party_Financing_Addendum, String vAR_Seller_Financing_Addendum,
-        String vAR_Addendum_for_Property_Subject_to, String vAR_Buyers_Temporary_Residential_Lease,
-        String vAR_Loan_Assumption_Addendum_2, String vAR_Addendum_for_Sale_of_Other_Property_by,
-        String vAR_Addendum_for_Reservation_of_Oil_Gas, String vAR_Addendum_for_BackUp_Contract, String vAR_Check_Box8,
-        String vAR_Check_Box9, String vAR_Check_box_10, String vAR_Check_box_11,
-        String vAR_Environmental_Assessment_Threatened_or, String vAR_Sellers_Temporary_Residential_Lease,
-        String vAR_Short_Sale_Addendum, String vAR_Addendum_for_Property_Located_Seaward, String vAR_Sellers_Disclos,
-        String vAR_Addend, String vAR_Addendum_for_Property_in_a_Propane_Gas, String vAR_PID,
-        String vAR_Addendum_for_Section_1031, String vAR_Other, String vAR_System_Service_Area, String vAR_1,
-        String vAR_2, String vAR_3, String vAR_Attorney_is, String vAR_undefined_24, String vAR_Text2, String vAR_Text1,
-        String vAR_Text7, String vAR_Text6, String vAR_Email, String vAR_Attorney_is_2, String vAR_undefined_25,
-        String vAR_Text22, String vAR_Phone11, String vAR_Text23, String vAR_Email_2,
-        String vAR_Initialed_for_identification_by_Buyer_5, String vAR_and_Seller_7, String vAR_undefined_22,
-        String vAR_undefined_23, String vAR_Address_of_Property, String vAR_EXECUTED_the, String vAR_day_of,
-        String vAR_20_2, String vAR_Signature8, String vAR_Signature10, String vAR_Signature9, String vAR_Signature11,
-        String vAR_Addr_of_Prop, String vAR_Other_Broker_Firm, String vAR_License_No, String vAR_Buyer_only,
-        String vAR_Seller_as_List_Brok_Sub_agent, String vAR_Associates_Name_numb_1, String vAR_License_No_2,
-        String vAR_Associates_Name, String vAR_Associates_Email_Address, String vAR_Phone,
-        String vAR_Licensed_Supervisor_of_Associate, String vAR_License_No_3, String vAR_Other_Brokers_Address,
-        String vAR_Phone_2, String vAR_City, String vAR_State, String vAR_Zip, String vAR_Listing_Broker_Firm,
-        String vAR_License_No_4, String vAR_Seller_and_Buyer_as_an_intermediary,
-        String vAR_Seller_only_as_Sellers_agent, String vAR_List_Assoc_Name, String vAR_License_No_5,
-        String vAR_Listing_Associates_Name, String vAR_Listing_Associates_Email_Address, String vAR_Phone_3,
-        String vAR_Licensed_Supervisor_of_Listing_Associate, String vAR_License_No_6,
-        String vAR_Listing_Brokers_Office_Address, String vAR_Phone_4, String vAR_City_2, String vAR_State_2,
-        String vAR_Zip_2, String vAR_Selling_Associates_Name, String vAR_License_No_7,
-        String vAR_Selling_Associates_Name_1, String vAR_Selling_Associates_Email_Address, String vAR_Phone_5,
-        String vAR_Licensed_Supervisor_of_Selling_Associate, String vAR_License_No_8,
-        String vAR_Selling_Associates_Office_Address, String vAR_City_3, String vAR_State_3, String vAR_Zip_3,
-        String vAR_Dollar_Amt, String vAR_when_mailed_to, String vAR_Percentage,
-        String vAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from,
-        String vAR_Address_of_Property_2, String vAR_is_acknowledged, String vAR_Option_Fee_in_the_form_of,
-        String vAR_Seller_or_Listing_Broker, String vAR_Date, String vAR_is_acknowledged_2,
-        String vAR_Earnest_Money_in_the_form_of, String vAR_Escrow_Agent, String vAR_Received_by, String vAR_Address,
-        String vAR_City_4, String vAR_State_4, String vAR_Zip_4, String vAR_Email_Address, String vAR_DateTime,
-        String vAR_Phone_6, String vAR_Fax, String vAR_Escrow_Agent_2, String vAR_Received_by_2, String vAR_Address_2,
-        String vAR_City_5, String vAR_State_5, String vAR_Zip_5, String vAR_Email_Address_2, String vAR_Date_2,
-        String vAR_Phone_7, String vAR_Fax_2, String vAR_is_acknowledged_3,
-        String vAR_additional_Earnest_Money_in_the_form_of, String vAR_Escrow_Agent_3, String vAR_Received_by_3) {
-    VAR_1_PARTIES_The_parties_to_this_contract_are = vAR_1_PARTIES_The_parties_to_this_contract_are;
-    VAR_Seller_and = vAR_Seller_and;
-    VAR_A_LAND_Lot = vAR_A_LAND_Lot;
-    VAR_Block = vAR_Block;
-    VAR_undefined = vAR_undefined;
-    VAR_Addition_City_of = vAR_Addition_City_of;
-    VAR_County_of = vAR_County_of;
-    VAR_Texas_known_as = vAR_Texas_known_as;
-    VAR_be_removed_prior_to_delivery_of_possession = vAR_be_removed_prior_to_delivery_of_possession;
-    VAR_undefined_2 = vAR_undefined_2;
-    VAR_undefined_3 = vAR_undefined_3;
-    VAR_B_Sum_of_all_financing_described_in_the_attached = vAR_B_Sum_of_all_financing_described_in_the_attached;
-    VAR_Check_Box2 = vAR_Check_Box2;
-    VAR_Loan_Assumption_Addendum = vAR_Loan_Assumption_Addendum;
-    VAR_undefined_4 = vAR_undefined_4;
-    VAR_undefined_5 = vAR_undefined_5;
-    VAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or = vAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or;
-    VAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of = vAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of;
-    VAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at = vAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at;
-    VAR_Sellers = vAR_Sellers;
-    VAR_Seller = vAR_Seller;
-    VAR_to_escrow_agent_within_1 = vAR_to_escrow_agent_within_1;
-    VAR_Initialed_for_identification_by_Buyer = vAR_Initialed_for_identification_by_Buyer;
-    VAR_undefined_8 = vAR_undefined_8;
-    VAR_and_Seller = vAR_and_Seller;
-    VAR_undefined_9 = vAR_undefined_9;
-    VAR_Page_2_of_10 = vAR_Page_2_of_10;
-    VAR_undefined_6 = vAR_undefined_6;
-    VAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable = vAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable;
-    VAR_undefined_7 = vAR_undefined_7;
-    VAR_as_earnest_money_to = vAR_as_earnest_money_to;
-    VAR_as_earnest_money_to_2 = vAR_as_earnest_money_to_2;
-    VAR_earnest_money_of = vAR_earnest_money_of;
-    VAR_to_escrow_agent_within = vAR_to_escrow_agent_within;
-    VAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only = vAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only;
-    VAR_Sellers_2 = vAR_Sellers_2;
-    VAR_Buyers_expense_no_later = vAR_Buyers_expense_no_later;
-    VAR_insurance_Title_Policy_issued_by = vAR_insurance_Title_Policy_issued_by;
-    VAR_2Within = vAR_2Within;
-    VAR_3Within = vAR_3Within;
-    VAR_is = vAR_is;
-    VAR_is_not = vAR_is_not;
-    VAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property = vAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property;
-    VAR_and_Seller_2 = vAR_and_Seller_2;
-    VAR_undefined_10 = vAR_undefined_10;
-    VAR_undefined_11 = vAR_undefined_11;
-    VAR_Page_3_of_10 = vAR_Page_3_of_10;
-    VAR_Buyer = vAR_Buyer;
-    VAR_than_3_days_prior_to_Closing_Date = vAR_than_3_days_prior_to_Closing_Date;
-    VAR_Within_one = vAR_Within_one;
-    VAR_Within_two = vAR_Within_two;
-    VAR_Within_three = vAR_Within_three;
-    VAR_3_days_prior = vAR_3_days_prior;
-    VAR_Within_four = vAR_Within_four;
-    VAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier = vAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier;
-    VAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use = vAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use;
-    VAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the = vAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the;
-    VAR_1Within = vAR_1Within;
-    VAR_2_Within = vAR_2_Within;
-    VAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows = vAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows;
-    VAR_and_Seller_3 = vAR_and_Seller_3;
-    VAR_undefined_12 = vAR_undefined_12;
-    VAR_The_private_transfer_fee = vAR_The_private_transfer_fee;
-    VAR_Contract_Concerning = vAR_Contract_Concerning;
-    VAR_Text4 = vAR_Text4;
-    VAR_Text4_2 = vAR_Text4_2;
-    VAR_Text4_3 = vAR_Text4_3;
-    VAR_1_Buyer_accepts_the_Property_As_Is = vAR_1_Buyer_accepts_the_Property_As_Is;
-    VAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the = vAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the;
-    VAR_Within = vAR_Within;
-    VAR_upon = vAR_upon;
-    VAR_Initialed_for_identification_by_Buyer_2 = vAR_Initialed_for_identification_by_Buyer_2;
-    VAR_undefined_14 = vAR_undefined_14;
-    VAR_and_Seller_4 = vAR_and_Seller_4;
-    VAR_undefined_15 = vAR_undefined_15;
-    VAR_Contract_Concerning_2 = vAR_Contract_Concerning_2;
-    VAR_As_Is = vAR_As_Is;
-    VAR_As_Is_except = vAR_As_Is_except;
-    VAR_following_specific_repairs_and_treatments = vAR_following_specific_repairs_and_treatments;
-    VAR_undefined_13 = vAR_undefined_13;
-    VAR_service_contract_in_an_amount_not_exceeding = vAR_service_contract_in_an_amount_not_exceeding;
-    VAR_Brokers_and_Sales = vAR_Brokers_and_Sales;
-    VAR_Brokers_and_Sales_2 = vAR_Brokers_and_Sales_2;
-    VAR_A_The_closing_of_the_sale_will_be_on_or_before = vAR_A_The_closing_of_the_sale_will_be_on_or_before;
-    VAR_20 = vAR_20;
-    VAR_Initialed_for_identification_by_Buyer_3 = vAR_Initialed_for_identification_by_Buyer_3;
-    VAR_Buyers_Expenses_as_allowed_by_the_lender = vAR_Buyers_Expenses_as_allowed_by_the_lender;
-    VAR_and_Seller_5 = vAR_and_Seller_5;
-    VAR_undefined_16 = vAR_undefined_16;
-    VAR_Contract_Concerning_3 = vAR_Contract_Concerning_3;
-    VAR_will = vAR_will;
-    VAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the = vAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the;
-    VAR_Text3 = vAR_Text3;
-    VAR_Text3_2 = vAR_Text3_2;
-    VAR_Text3_3 = vAR_Text3_3;
-    VAR_will_1 = vAR_will_1;
-    VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1 = vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1;
-    VAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1 = vAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1;
-    VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2 = vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2;
-    VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller = vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller;
-    VAR_Initialed_for_identification_by_Buyer_4 = vAR_Initialed_for_identification_by_Buyer_4;
-    VAR_undefined_17 = vAR_undefined_17;
-    VAR_and_Seller_6 = vAR_and_Seller_6;
-    VAR_undefined_18 = vAR_undefined_18;
-    VAR_Page_7_of_10 = vAR_Page_7_of_10;
-    VAR_AC_numb_1 = vAR_AC_numb_1;
-    VAR_AC_numb_2 = vAR_AC_numb_2;
-    VAR_AC_numb_3 = vAR_AC_numb_3;
-    VAR_AC_numb_4 = vAR_AC_numb_4;
-    VAR_Contract_Concerning_4 = vAR_Contract_Concerning_4;
-    VAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows = vAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows;
-    VAR_at = vAR_at;
-    VAR_AC1 = vAR_AC1;
-    VAR_Phone_51 = vAR_Phone_51;
-    VAR_Phone_52 = vAR_Phone_52;
-    VAR_undefined_20_0 = vAR_undefined_20_0;
-    VAR_undefined_20 = vAR_undefined_20;
-    VAR_undefined_19 = vAR_undefined_19;
-    VAR_at_2 = vAR_at_2;
-    VAR_AC4 = vAR_AC4;
-    VAR_Fax_52 = vAR_Fax_52;
-    VAR_undefined_numb_21 = vAR_undefined_numb_21;
-    VAR_undefined_numb_22_0 = vAR_undefined_numb_22_0;
-    VAR_undefined_numb_22 = vAR_undefined_numb_22;
-    VAR_Third_Party_Financing_Addendum = vAR_Third_Party_Financing_Addendum;
-    VAR_Seller_Financing_Addendum = vAR_Seller_Financing_Addendum;
-    VAR_Addendum_for_Property_Subject_to = vAR_Addendum_for_Property_Subject_to;
-    VAR_Buyers_Temporary_Residential_Lease = vAR_Buyers_Temporary_Residential_Lease;
-    VAR_Loan_Assumption_Addendum_2 = vAR_Loan_Assumption_Addendum_2;
-    VAR_Addendum_for_Sale_of_Other_Property_by = vAR_Addendum_for_Sale_of_Other_Property_by;
-    VAR_Addendum_for_Reservation_of_Oil_Gas = vAR_Addendum_for_Reservation_of_Oil_Gas;
-    VAR_Addendum_for_BackUp_Contract = vAR_Addendum_for_BackUp_Contract;
-    VAR_Check_Box8 = vAR_Check_Box8;
-    VAR_Check_Box9 = vAR_Check_Box9;
-    VAR_Check_box_10 = vAR_Check_box_10;
-    VAR_Check_box_11 = vAR_Check_box_11;
-    VAR_Environmental_Assessment_Threatened_or = vAR_Environmental_Assessment_Threatened_or;
-    VAR_Sellers_Temporary_Residential_Lease = vAR_Sellers_Temporary_Residential_Lease;
-    VAR_Short_Sale_Addendum = vAR_Short_Sale_Addendum;
-    VAR_Addendum_for_Property_Located_Seaward = vAR_Addendum_for_Property_Located_Seaward;
-    VAR_Sellers_Disclos = vAR_Sellers_Disclos;
-    VAR_Addend = vAR_Addend;
-    VAR_Addendum_for_Property_in_a_Propane_Gas = vAR_Addendum_for_Property_in_a_Propane_Gas;
-    VAR_PID = vAR_PID;
-    VAR_Addendum_for_Section_1031 = vAR_Addendum_for_Section_1031;
-    VAR_Other = vAR_Other;
-    VAR_System_Service_Area = vAR_System_Service_Area;
-    VAR_1 = vAR_1;
-    VAR_2 = vAR_2;
-    VAR_3 = vAR_3;
-    VAR_Attorney_is = vAR_Attorney_is;
-    VAR_undefined_24 = vAR_undefined_24;
-    VAR_Text2 = vAR_Text2;
-    VAR_Text1 = vAR_Text1;
-    VAR_Text7 = vAR_Text7;
-    VAR_Text6 = vAR_Text6;
-    VAR_Email = vAR_Email;
-    VAR_Attorney_is_2 = vAR_Attorney_is_2;
-    VAR_undefined_25 = vAR_undefined_25;
-    VAR_Text22 = vAR_Text22;
-    VAR_Phone11 = vAR_Phone11;
-    VAR_Text23 = vAR_Text23;
-    VAR_Email_2 = vAR_Email_2;
-    VAR_Initialed_for_identification_by_Buyer_5 = vAR_Initialed_for_identification_by_Buyer_5;
-    VAR_and_Seller_7 = vAR_and_Seller_7;
-    VAR_undefined_22 = vAR_undefined_22;
-    VAR_undefined_23 = vAR_undefined_23;
-    VAR_Address_of_Property = vAR_Address_of_Property;
-    VAR_EXECUTED_the = vAR_EXECUTED_the;
-    VAR_day_of = vAR_day_of;
-    VAR_20_2 = vAR_20_2;
-    VAR_Signature8 = vAR_Signature8;
-    VAR_Signature10 = vAR_Signature10;
-    VAR_Signature9 = vAR_Signature9;
-    VAR_Signature11 = vAR_Signature11;
-    VAR_Addr_of_Prop = vAR_Addr_of_Prop;
-    VAR_Other_Broker_Firm = vAR_Other_Broker_Firm;
-    VAR_License_No = vAR_License_No;
-    VAR_Buyer_only = vAR_Buyer_only;
-    VAR_Seller_as_List_Brok_Sub_agent = vAR_Seller_as_List_Brok_Sub_agent;
-    VAR_Associates_Name_numb_1 = vAR_Associates_Name_numb_1;
-    VAR_License_No_2 = vAR_License_No_2;
-    VAR_Associates_Name = vAR_Associates_Name;
-    VAR_Associates_Email_Address = vAR_Associates_Email_Address;
-    VAR_Phone = vAR_Phone;
-    VAR_Licensed_Supervisor_of_Associate = vAR_Licensed_Supervisor_of_Associate;
-    VAR_License_No_3 = vAR_License_No_3;
-    VAR_Other_Brokers_Address = vAR_Other_Brokers_Address;
-    VAR_Phone_2 = vAR_Phone_2;
-    VAR_City = vAR_City;
-    VAR_State = vAR_State;
-    VAR_Zip = vAR_Zip;
-    VAR_Listing_Broker_Firm = vAR_Listing_Broker_Firm;
-    VAR_License_No_4 = vAR_License_No_4;
-    VAR_Seller_and_Buyer_as_an_intermediary = vAR_Seller_and_Buyer_as_an_intermediary;
-    VAR_Seller_only_as_Sellers_agent = vAR_Seller_only_as_Sellers_agent;
-    VAR_List_Assoc_Name = vAR_List_Assoc_Name;
-    VAR_License_No_5 = vAR_License_No_5;
-    VAR_Listing_Associates_Name = vAR_Listing_Associates_Name;
-    VAR_Listing_Associates_Email_Address = vAR_Listing_Associates_Email_Address;
-    VAR_Phone_3 = vAR_Phone_3;
-    VAR_Licensed_Supervisor_of_Listing_Associate = vAR_Licensed_Supervisor_of_Listing_Associate;
-    VAR_License_No_6 = vAR_License_No_6;
-    VAR_Listing_Brokers_Office_Address = vAR_Listing_Brokers_Office_Address;
-    VAR_Phone_4 = vAR_Phone_4;
-    VAR_City_2 = vAR_City_2;
-    VAR_State_2 = vAR_State_2;
-    VAR_Zip_2 = vAR_Zip_2;
-    VAR_Selling_Associates_Name = vAR_Selling_Associates_Name;
-    VAR_License_No_7 = vAR_License_No_7;
-    VAR_Selling_Associates_Name_1 = vAR_Selling_Associates_Name_1;
-    VAR_Selling_Associates_Email_Address = vAR_Selling_Associates_Email_Address;
-    VAR_Phone_5 = vAR_Phone_5;
-    VAR_Licensed_Supervisor_of_Selling_Associate = vAR_Licensed_Supervisor_of_Selling_Associate;
-    VAR_License_No_8 = vAR_License_No_8;
-    VAR_Selling_Associates_Office_Address = vAR_Selling_Associates_Office_Address;
-    VAR_City_3 = vAR_City_3;
-    VAR_State_3 = vAR_State_3;
-    VAR_Zip_3 = vAR_Zip_3;
-    VAR_Dollar_Amt = vAR_Dollar_Amt;
-    VAR_when_mailed_to = vAR_when_mailed_to;
-    VAR_Percentage = vAR_Percentage;
-    VAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from = vAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from;
-    VAR_Address_of_Property_2 = vAR_Address_of_Property_2;
-    VAR_is_acknowledged = vAR_is_acknowledged;
-    VAR_Option_Fee_in_the_form_of = vAR_Option_Fee_in_the_form_of;
-    VAR_Seller_or_Listing_Broker = vAR_Seller_or_Listing_Broker;
-    VAR_Date = vAR_Date;
-    VAR_is_acknowledged_2 = vAR_is_acknowledged_2;
-    VAR_Earnest_Money_in_the_form_of = vAR_Earnest_Money_in_the_form_of;
-    VAR_Escrow_Agent = vAR_Escrow_Agent;
-    VAR_Received_by = vAR_Received_by;
-    VAR_Address = vAR_Address;
-    VAR_City_4 = vAR_City_4;
-    VAR_State_4 = vAR_State_4;
-    VAR_Zip_4 = vAR_Zip_4;
-    VAR_Email_Address = vAR_Email_Address;
-    VAR_DateTime = vAR_DateTime;
-    VAR_Phone_6 = vAR_Phone_6;
-    VAR_Fax = vAR_Fax;
-    VAR_Escrow_Agent_2 = vAR_Escrow_Agent_2;
-    VAR_Received_by_2 = vAR_Received_by_2;
-    VAR_Address_2 = vAR_Address_2;
-    VAR_City_5 = vAR_City_5;
-    VAR_State_5 = vAR_State_5;
-    VAR_Zip_5 = vAR_Zip_5;
-    VAR_Email_Address_2 = vAR_Email_Address_2;
-    VAR_Date_2 = vAR_Date_2;
-    VAR_Phone_7 = vAR_Phone_7;
-    VAR_Fax_2 = vAR_Fax_2;
-    VAR_is_acknowledged_3 = vAR_is_acknowledged_3;
-    VAR_additional_Earnest_Money_in_the_form_of = vAR_additional_Earnest_Money_in_the_form_of;
-    VAR_Escrow_Agent_3 = vAR_Escrow_Agent_3;
-    VAR_Received_by_3 = vAR_Received_by_3;
-    // VAR_Address_3 = vAR_Address_3;
-    // VAR_City_6 = vAR_City_6;
-    // VAR_State_6 = vAR_State_6;
-    // VAR_Zip_6 = vAR_Zip_6;
-    // VAR_Email_Address_3 = vAR_Email_Address_3;
-    // VAR_DateTime_2 = vAR_DateTime_2;
-    // VAR_Phone_8 = vAR_Phone_8;
-    // VAR_Fax_3 = vAR_Fax_3;
-}
+  public String getVar_1_parties_the_parties_to_this_contract_are() {
+    return var_1_parties_the_parties_to_this_contract_are;
+  }
 
+  public void setVar_1_parties_the_parties_to_this_contract_are(String var_1_parties_the_parties_to_this_contract_are) {
+    this.var_1_parties_the_parties_to_this_contract_are = var_1_parties_the_parties_to_this_contract_are;
+  }
 
+  public String getVar_seller_and() {
+    return var_seller_and;
+  }
 
+  public void setVar_seller_and(String var_seller_and) {
+    this.var_seller_and = var_seller_and;
+  }
 
+  public String getVar_a_land_lot() {
+    return var_a_land_lot;
+  }
 
-  public String getVAR_1_PARTIES_The_parties_to_this_contract_are() {
-    return VAR_1_PARTIES_The_parties_to_this_contract_are;
-  }
-  public void setVAR_1_PARTIES_The_parties_to_this_contract_are(String vAR_1_PARTIES_The_parties_to_this_contract_are) {
-    VAR_1_PARTIES_The_parties_to_this_contract_are = vAR_1_PARTIES_The_parties_to_this_contract_are;
-  }
-  public String getVAR_Seller_and() {
-    return VAR_Seller_and;
-  }
-  public void setVAR_Seller_and(String vAR_Seller_and) {
-    VAR_Seller_and = vAR_Seller_and;
-  }
-  public String getVAR_A_LAND_Lot() {
-    return VAR_A_LAND_Lot;
-  }
-  public void setVAR_A_LAND_Lot(String vAR_A_LAND_Lot) {
-    VAR_A_LAND_Lot = vAR_A_LAND_Lot;
-  }
-  public String getVAR_Block() {
-    return VAR_Block;
-  }
-  public void setVAR_Block(String vAR_Block) {
-    VAR_Block = vAR_Block;
-  }
-  public String getVAR_undefined() {
-    return VAR_undefined;
-  }
-  public void setVAR_undefined(String vAR_undefined) {
-    VAR_undefined = vAR_undefined;
-  }
-  public String getVAR_Addition_City_of() {
-    return VAR_Addition_City_of;
-  }
-  public void setVAR_Addition_City_of(String vAR_Addition_City_of) {
-    VAR_Addition_City_of = vAR_Addition_City_of;
-  }
-  public String getVAR_County_of() {
-    return VAR_County_of;
-  }
-  public void setVAR_County_of(String vAR_County_of) {
-    VAR_County_of = vAR_County_of;
-  }
-  public String getVAR_Texas_known_as() {
-    return VAR_Texas_known_as;
-  }
-  public void setVAR_Texas_known_as(String vAR_Texas_known_as) {
-    VAR_Texas_known_as = vAR_Texas_known_as;
-  }
-  public String getVAR_be_removed_prior_to_delivery_of_possession() {
-    return VAR_be_removed_prior_to_delivery_of_possession;
-  }
-  public void setVAR_be_removed_prior_to_delivery_of_possession(String vAR_be_removed_prior_to_delivery_of_possession) {
-    VAR_be_removed_prior_to_delivery_of_possession = vAR_be_removed_prior_to_delivery_of_possession;
-  }
-  public String getVAR_undefined_2() {
-    return VAR_undefined_2;
-  }
-  public void setVAR_undefined_2(String vAR_undefined_2) {
-    VAR_undefined_2 = vAR_undefined_2;
-  }
-  public String getVAR_undefined_3() {
-    return VAR_undefined_3;
-  }
-  public void setVAR_undefined_3(String vAR_undefined_3) {
-    VAR_undefined_3 = vAR_undefined_3;
-  }
-  public String getVAR_B_Sum_of_all_financing_described_in_the_attached() {
-    return VAR_B_Sum_of_all_financing_described_in_the_attached;
-  }
-  public void setVAR_B_Sum_of_all_financing_described_in_the_attached(
-        String vAR_B_Sum_of_all_financing_described_in_the_attached) {
-    VAR_B_Sum_of_all_financing_described_in_the_attached = vAR_B_Sum_of_all_financing_described_in_the_attached;
-  }
-  public String getVAR_Check_Box2() {
-    return VAR_Check_Box2;
-  }
-  public void setVAR_Check_Box2(String vAR_Check_Box2) {
-    VAR_Check_Box2 = vAR_Check_Box2;
-  }
-  public String getVAR_Loan_Assumption_Addendum() {
-    return VAR_Loan_Assumption_Addendum;
-  }
-  public void setVAR_Loan_Assumption_Addendum(String vAR_Loan_Assumption_Addendum) {
-    VAR_Loan_Assumption_Addendum = vAR_Loan_Assumption_Addendum;
-  }
-  public String getVAR_undefined_4() {
-    return VAR_undefined_4;
-  }
-  public void setVAR_undefined_4(String vAR_undefined_4) {
-    VAR_undefined_4 = vAR_undefined_4;
-  }
-  public String getVAR_undefined_5() {
-    return VAR_undefined_5;
-  }
-  public void setVAR_undefined_5(String vAR_undefined_5) {
-    VAR_undefined_5 = vAR_undefined_5;
-  }
-  public String getVAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or() {
-    return VAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or;
-  }
-  public void setVAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or(
-        String vAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or) {
-    VAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or = vAR_i_will_not_be_amended_or_deleted_from_the_title_policy_or;
-  }
-  public String getVAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of() {
-    return VAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of;
-  }
-  public void setVAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of(
-        String vAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of) {
-    VAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of = vAR_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of;
-  }
-  public String getVAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at() {
-    return VAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at;
-  }
-  public void setVAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at(
-        String vAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at) {
-    VAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at = vAR_A_TITLE_POLICY_Seller_shall_furnish_to_Buyer_at;
-  }
-  public String getVAR_Sellers() {
-    return VAR_Sellers;
-  }
-  public void setVAR_Sellers(String vAR_Sellers) {
-    VAR_Sellers = vAR_Sellers;
-  }
-  public String getVAR_Seller() {
-    return VAR_Seller;
-  }
-  public void setVAR_Seller(String vAR_Seller) {
-    VAR_Seller = vAR_Seller;
-  }
-  public String getVAR_to_escrow_agent_within_1() {
-    return VAR_to_escrow_agent_within_1;
-  }
-  public void setVAR_to_escrow_agent_within_1(String vAR_to_escrow_agent_within_1) {
-    VAR_to_escrow_agent_within_1 = vAR_to_escrow_agent_within_1;
-  }
-  public String getVAR_Initialed_for_identification_by_Buyer() {
-    return VAR_Initialed_for_identification_by_Buyer;
-  }
-  public void setVAR_Initialed_for_identification_by_Buyer(String vAR_Initialed_for_identification_by_Buyer) {
-    VAR_Initialed_for_identification_by_Buyer = vAR_Initialed_for_identification_by_Buyer;
-  }
-  public String getVAR_undefined_8() {
-    return VAR_undefined_8;
-  }
-  public void setVAR_undefined_8(String vAR_undefined_8) {
-    VAR_undefined_8 = vAR_undefined_8;
-  }
-  public String getVAR_and_Seller() {
-    return VAR_and_Seller;
-  }
-  public void setVAR_and_Seller(String vAR_and_Seller) {
-    VAR_and_Seller = vAR_and_Seller;
-  }
-  public String getVAR_undefined_9() {
-    return VAR_undefined_9;
-  }
-  public void setVAR_undefined_9(String vAR_undefined_9) {
-    VAR_undefined_9 = vAR_undefined_9;
-  }
-  public String getVAR_Page_2_of_10() {
-    return VAR_Page_2_of_10;
-  }
-  public void setVAR_Page_2_of_10(String vAR_Page_2_of_10) {
-    VAR_Page_2_of_10 = vAR_Page_2_of_10;
-  }
-  public String getVAR_undefined_6() {
-    return VAR_undefined_6;
-  }
-  public void setVAR_undefined_6(String vAR_undefined_6) {
-    VAR_undefined_6 = vAR_undefined_6;
-  }
-  public String getVAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable() {
-    return VAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable;
-  }
-  public void setVAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable(
-        String vAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable) {
-    VAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable = vAR_other_party_in_writing_before_entering_into_a_contract_of_sale_Disclose_if_applicable;
-  }
-  public String getVAR_undefined_7() {
-    return VAR_undefined_7;
-  }
-  public void setVAR_undefined_7(String vAR_undefined_7) {
-    VAR_undefined_7 = vAR_undefined_7;
-  }
-  public String getVAR_as_earnest_money_to() {
-    return VAR_as_earnest_money_to;
-  }
-  public void setVAR_as_earnest_money_to(String vAR_as_earnest_money_to) {
-    VAR_as_earnest_money_to = vAR_as_earnest_money_to;
-  }
-  public String getVAR_as_earnest_money_to_2() {
-    return VAR_as_earnest_money_to_2;
-  }
-  public void setVAR_as_earnest_money_to_2(String vAR_as_earnest_money_to_2) {
-    VAR_as_earnest_money_to_2 = vAR_as_earnest_money_to_2;
-  }
-  public String getVAR_earnest_money_of() {
-    return VAR_earnest_money_of;
-  }
-  public void setVAR_earnest_money_of(String vAR_earnest_money_of) {
-    VAR_earnest_money_of = vAR_earnest_money_of;
-  }
-  public String getVAR_to_escrow_agent_within() {
-    return VAR_to_escrow_agent_within;
-  }
-  public void setVAR_to_escrow_agent_within(String vAR_to_escrow_agent_within) {
-    VAR_to_escrow_agent_within = vAR_to_escrow_agent_within;
-  }
-  public String getVAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only() {
-    return VAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only;
-  }
-  public void setVAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only(
-        String vAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only) {
-    VAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only = vAR_the_Title_Company_and_Buyers_lenders_Check_one_box_only;
-  }
-  public String getVAR_Sellers_2() {
-    return VAR_Sellers_2;
-  }
-  public void setVAR_Sellers_2(String vAR_Sellers_2) {
-    VAR_Sellers_2 = vAR_Sellers_2;
-  }
-  public String getVAR_Buyers_expense_no_later() {
-    return VAR_Buyers_expense_no_later;
-  }
-  public void setVAR_Buyers_expense_no_later(String vAR_Buyers_expense_no_later) {
-    VAR_Buyers_expense_no_later = vAR_Buyers_expense_no_later;
-  }
-  public String getVAR_insurance_Title_Policy_issued_by() {
-    return VAR_insurance_Title_Policy_issued_by;
-  }
-  public void setVAR_insurance_Title_Policy_issued_by(String vAR_insurance_Title_Policy_issued_by) {
-    VAR_insurance_Title_Policy_issued_by = vAR_insurance_Title_Policy_issued_by;
-  }
-  public String getVAR_2Within() {
-    return VAR_2Within;
-  }
-  public void setVAR_2Within(String vAR_2Within) {
-    VAR_2Within = vAR_2Within;
-  }
-  public String getVAR_3Within() {
-    return VAR_3Within;
-  }
-  public void setVAR_3Within(String vAR_3Within) {
-    VAR_3Within = vAR_3Within;
-  }
-  public String getVAR_is() {
-    return VAR_is;
-  }
-  public void setVAR_is(String vAR_is) {
-    VAR_is = vAR_is;
-  }
-  public String getVAR_is_not() {
-    return VAR_is_not;
-  }
-  public void setVAR_is_not(String vAR_is_not) {
-    VAR_is_not = vAR_is_not;
-  }
-  public String getVAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property() {
-    return VAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property;
-  }
-  public void setVAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property(
-        String vAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property) {
-    VAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property = vAR_2_MEMBERSHIP_IN_PROPERTY_OWNERS_ASSOCIATIONS_The_Property;
-  }
-  public String getVAR_and_Seller_2() {
-    return VAR_and_Seller_2;
-  }
-  public void setVAR_and_Seller_2(String vAR_and_Seller_2) {
-    VAR_and_Seller_2 = vAR_and_Seller_2;
-  }
-  public String getVAR_undefined_10() {
-    return VAR_undefined_10;
-  }
-  public void setVAR_undefined_10(String vAR_undefined_10) {
-    VAR_undefined_10 = vAR_undefined_10;
-  }
-  public String getVAR_undefined_11() {
-    return VAR_undefined_11;
-  }
-  public void setVAR_undefined_11(String vAR_undefined_11) {
-    VAR_undefined_11 = vAR_undefined_11;
-  }
-  public String getVAR_Page_3_of_10() {
-    return VAR_Page_3_of_10;
-  }
-  public void setVAR_Page_3_of_10(String vAR_Page_3_of_10) {
-    VAR_Page_3_of_10 = vAR_Page_3_of_10;
-  }
-  public String getVAR_Buyer() {
-    return VAR_Buyer;
-  }
-  public void setVAR_Buyer(String vAR_Buyer) {
-    VAR_Buyer = vAR_Buyer;
-  }
-  public String getVAR_than_3_days_prior_to_Closing_Date() {
-    return VAR_than_3_days_prior_to_Closing_Date;
-  }
-  public void setVAR_than_3_days_prior_to_Closing_Date(String vAR_than_3_days_prior_to_Closing_Date) {
-    VAR_than_3_days_prior_to_Closing_Date = vAR_than_3_days_prior_to_Closing_Date;
-  }
-  public String getVAR_Within_one() {
-    return VAR_Within_one;
-  }
-  public void setVAR_Within_one(String vAR_Within_one) {
-    VAR_Within_one = vAR_Within_one;
-  }
-  public String getVAR_Within_two() {
-    return VAR_Within_two;
-  }
-  public void setVAR_Within_two(String vAR_Within_two) {
-    VAR_Within_two = vAR_Within_two;
-  }
-  public String getVAR_Within_three() {
-    return VAR_Within_three;
-  }
-  public void setVAR_Within_three(String vAR_Within_three) {
-    VAR_Within_three = vAR_Within_three;
-  }
-  public String getVAR_3_days_prior() {
-    return VAR_3_days_prior;
-  }
-  public void setVAR_3_days_prior(String vAR_3_days_prior) {
-    VAR_3_days_prior = vAR_3_days_prior;
-  }
-  public String getVAR_Within_four() {
-    return VAR_Within_four;
-  }
-  public void setVAR_Within_four(String vAR_Within_four) {
-    VAR_Within_four = vAR_Within_four;
-  }
-  public String getVAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier() {
-    return VAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier;
-  }
-  public void setVAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier(
-        String vAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier) {
-    VAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier = vAR_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier;
-  }
-  public String getVAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use() {
-    return VAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use;
-  }
-  public void setVAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use(
-        String vAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use) {
-    VAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use = vAR_Commitment_other_than_items_6A1_through_9_above_or_which_prohibit_the_following_use;
-  }
-  public String getVAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the() {
-    return VAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the;
-  }
-  public void setVAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the(
-        String vAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the) {
-    VAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the = vAR_the_Commitment_Exception_Documents_and_the_survey_Buyers_failure_to_object_within_the;
-  }
-  public String getVAR_1Within() {
-    return VAR_1Within;
-  }
-  public void setVAR_1Within(String vAR_1Within) {
-    VAR_1Within = vAR_1Within;
-  }
-  public String getVAR_2_Within() {
-    return VAR_2_Within;
-  }
-  public void setVAR_2_Within(String vAR_2_Within) {
-    VAR_2_Within = vAR_2_Within;
-  }
-  public String getVAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows() {
-    return VAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows;
-  }
-  public void setVAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows(
-        String vAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows) {
-    VAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows = vAR_Property_Code_requires_Seller_to_notify_Buyer_as_follows;
-  }
-  public String getVAR_and_Seller_3() {
-    return VAR_and_Seller_3;
-  }
-  public void setVAR_and_Seller_3(String vAR_and_Seller_3) {
-    VAR_and_Seller_3 = vAR_and_Seller_3;
-  }
-  public String getVAR_undefined_12() {
-    return VAR_undefined_12;
-  }
-  public void setVAR_undefined_12(String vAR_undefined_12) {
-    VAR_undefined_12 = vAR_undefined_12;
-  }
-  public String getVAR_The_private_transfer_fee() {
-    return VAR_The_private_transfer_fee;
-  }
-  public void setVAR_The_private_transfer_fee(String vAR_The_private_transfer_fee) {
-    VAR_The_private_transfer_fee = vAR_The_private_transfer_fee;
-  }
-  public String getVAR_Contract_Concerning() {
-    return VAR_Contract_Concerning;
-  }
-  public void setVAR_Contract_Concerning(String vAR_Contract_Concerning) {
-    VAR_Contract_Concerning = vAR_Contract_Concerning;
-  }
-  public String getVAR_Text4() {
-    return VAR_Text4;
-  }
-  public void setVAR_Text4(String vAR_Text4) {
-    VAR_Text4 = vAR_Text4;
-  }
-  public String getVAR_Text4_2() {
-    return VAR_Text4_2;
-  }
-  public void setVAR_Text4_2(String vAR_Text4_2) {
-    VAR_Text4_2 = vAR_Text4_2;
-  }
-  public String getVAR_Text4_3() {
-    return VAR_Text4_3;
-  }
-  public void setVAR_Text4_3(String vAR_Text4_3) {
-    VAR_Text4_3 = vAR_Text4_3;
-  }
-  public String getVAR_1_Buyer_accepts_the_Property_As_Is() {
-    return VAR_1_Buyer_accepts_the_Property_As_Is;
-  }
-  public void setVAR_1_Buyer_accepts_the_Property_As_Is(String vAR_1_Buyer_accepts_the_Property_As_Is) {
-    VAR_1_Buyer_accepts_the_Property_As_Is = vAR_1_Buyer_accepts_the_Property_As_Is;
-  }
-  public String getVAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the() {
-    return VAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the;
-  }
-  public void setVAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the(
-        String vAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the) {
-    VAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the = vAR_2_Buyer_accepts_the_Property_As_Is_provided_Seller_at_Sellers_expense_shall_complete_the;
-  }
-  public String getVAR_Within() {
-    return VAR_Within;
-  }
-  public void setVAR_Within(String vAR_Within) {
-    VAR_Within = vAR_Within;
-  }
-  public String getVAR_upon() {
-    return VAR_upon;
-  }
-  public void setVAR_upon(String vAR_upon) {
-    VAR_upon = vAR_upon;
-  }
-  public String getVAR_Initialed_for_identification_by_Buyer_2() {
-    return VAR_Initialed_for_identification_by_Buyer_2;
-  }
-  public void setVAR_Initialed_for_identification_by_Buyer_2(String vAR_Initialed_for_identification_by_Buyer_2) {
-    VAR_Initialed_for_identification_by_Buyer_2 = vAR_Initialed_for_identification_by_Buyer_2;
-  }
-  public String getVAR_undefined_14() {
-    return VAR_undefined_14;
-  }
-  public void setVAR_undefined_14(String vAR_undefined_14) {
-    VAR_undefined_14 = vAR_undefined_14;
-  }
-  public String getVAR_and_Seller_4() {
-    return VAR_and_Seller_4;
-  }
-  public void setVAR_and_Seller_4(String vAR_and_Seller_4) {
-    VAR_and_Seller_4 = vAR_and_Seller_4;
-  }
-  public String getVAR_undefined_15() {
-    return VAR_undefined_15;
-  }
-  public void setVAR_undefined_15(String vAR_undefined_15) {
-    VAR_undefined_15 = vAR_undefined_15;
-  }
-  public String getVAR_Contract_Concerning_2() {
-    return VAR_Contract_Concerning_2;
-  }
-  public void setVAR_Contract_Concerning_2(String vAR_Contract_Concerning_2) {
-    VAR_Contract_Concerning_2 = vAR_Contract_Concerning_2;
-  }
-  public String getVAR_As_Is() {
-    return VAR_As_Is;
-  }
-  public void setVAR_As_Is(String vAR_As_Is) {
-    VAR_As_Is = vAR_As_Is;
-  }
-  public String getVAR_As_Is_except() {
-    return VAR_As_Is_except;
-  }
-  public void setVAR_As_Is_except(String vAR_As_Is_except) {
-    VAR_As_Is_except = vAR_As_Is_except;
-  }
-  public String getVAR_following_specific_repairs_and_treatments() {
-    return VAR_following_specific_repairs_and_treatments;
-  }
-  public void setVAR_following_specific_repairs_and_treatments(String vAR_following_specific_repairs_and_treatments) {
-    VAR_following_specific_repairs_and_treatments = vAR_following_specific_repairs_and_treatments;
-  }
-  public String getVAR_undefined_13() {
-    return VAR_undefined_13;
-  }
-  public void setVAR_undefined_13(String vAR_undefined_13) {
-    VAR_undefined_13 = vAR_undefined_13;
-  }
-  public String getVAR_service_contract_in_an_amount_not_exceeding() {
-    return VAR_service_contract_in_an_amount_not_exceeding;
-  }
-  public void setVAR_service_contract_in_an_amount_not_exceeding(String vAR_service_contract_in_an_amount_not_exceeding) {
-    VAR_service_contract_in_an_amount_not_exceeding = vAR_service_contract_in_an_amount_not_exceeding;
-  }
-  public String getVAR_Brokers_and_Sales() {
-    return VAR_Brokers_and_Sales;
-  }
-  public void setVAR_Brokers_and_Sales(String vAR_Brokers_and_Sales) {
-    VAR_Brokers_and_Sales = vAR_Brokers_and_Sales;
-  }
-  public String getVAR_Brokers_and_Sales_2() {
-    return VAR_Brokers_and_Sales_2;
-  }
-  public void setVAR_Brokers_and_Sales_2(String vAR_Brokers_and_Sales_2) {
-    VAR_Brokers_and_Sales_2 = vAR_Brokers_and_Sales_2;
-  }
-  public String getVAR_A_The_closing_of_the_sale_will_be_on_or_before() {
-    return VAR_A_The_closing_of_the_sale_will_be_on_or_before;
-  }
-  public void setVAR_A_The_closing_of_the_sale_will_be_on_or_before(
-        String vAR_A_The_closing_of_the_sale_will_be_on_or_before) {
-    VAR_A_The_closing_of_the_sale_will_be_on_or_before = vAR_A_The_closing_of_the_sale_will_be_on_or_before;
-  }
-  public String getVAR_20() {
-    return VAR_20;
-  }
-  public void setVAR_20(String vAR_20) {
-    VAR_20 = vAR_20;
-  }
-  public String getVAR_Initialed_for_identification_by_Buyer_3() {
-    return VAR_Initialed_for_identification_by_Buyer_3;
-  }
-  public void setVAR_Initialed_for_identification_by_Buyer_3(String vAR_Initialed_for_identification_by_Buyer_3) {
-    VAR_Initialed_for_identification_by_Buyer_3 = vAR_Initialed_for_identification_by_Buyer_3;
-  }
-  public String getVAR_Buyers_Expenses_as_allowed_by_the_lender() {
-    return VAR_Buyers_Expenses_as_allowed_by_the_lender;
-  }
-  public void setVAR_Buyers_Expenses_as_allowed_by_the_lender(String vAR_Buyers_Expenses_as_allowed_by_the_lender) {
-    VAR_Buyers_Expenses_as_allowed_by_the_lender = vAR_Buyers_Expenses_as_allowed_by_the_lender;
-  }
-  public String getVAR_and_Seller_5() {
-    return VAR_and_Seller_5;
-  }
-  public void setVAR_and_Seller_5(String vAR_and_Seller_5) {
-    VAR_and_Seller_5 = vAR_and_Seller_5;
-  }
-  public String getVAR_undefined_16() {
-    return VAR_undefined_16;
-  }
-  public void setVAR_undefined_16(String vAR_undefined_16) {
-    VAR_undefined_16 = vAR_undefined_16;
-  }
-  public String getVAR_Contract_Concerning_3() {
-    return VAR_Contract_Concerning_3;
-  }
-  public void setVAR_Contract_Concerning_3(String vAR_Contract_Concerning_3) {
-    VAR_Contract_Concerning_3 = vAR_Contract_Concerning_3;
-  }
-  public String getVAR_will() {
-    return VAR_will;
-  }
-  public void setVAR_will(String vAR_will) {
-    VAR_will = vAR_will;
-  }
-  public String getVAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the() {
-    return VAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the;
-  }
-  public void setVAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the(
-        String vAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the) {
-    VAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the = vAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the;
-  }
-  public String getVAR_Text3() {
-    return VAR_Text3;
-  }
-  public void setVAR_Text3(String vAR_Text3) {
-    VAR_Text3 = vAR_Text3;
-  }
-  public String getVAR_Text3_2() {
-    return VAR_Text3_2;
-  }
-  public void setVAR_Text3_2(String vAR_Text3_2) {
-    VAR_Text3_2 = vAR_Text3_2;
-  }
-  public String getVAR_Text3_3() {
-    return VAR_Text3_3;
-  }
-  public void setVAR_Text3_3(String vAR_Text3_3) {
-    VAR_Text3_3 = vAR_Text3_3;
-  }
-  public String getVAR_will_1() {
-    return VAR_will_1;
-  }
-  public void setVAR_will_1(String vAR_will_1) {
-    VAR_will_1 = vAR_will_1;
-  }
-  public String getVAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1() {
-    return VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1;
-  }
-  public void setVAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1(
-        String vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1) {
-    VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1 = vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller_1;
-  }
-  public String getVAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1() {
-    return VAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1;
-  }
-  public void setVAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1(
-        String vAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1) {
-    VAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1 = vAR_will_not_be_credited_to_the_Sales_Price_at_closing_Time_is_of_the_1;
-  }
-  public String getVAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2() {
-    return VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2;
-  }
-  public void setVAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2(
-        String vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2) {
-    VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2 = vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller2;
-  }
-  public String getVAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller() {
-    return VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller;
-  }
-  public void setVAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller(
-        String vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller) {
-    VAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller = vAR_acknowledged_by_Seller_and_Buyers_agreement_to_pay_Seller;
-  }
-  public String getVAR_Initialed_for_identification_by_Buyer_4() {
-    return VAR_Initialed_for_identification_by_Buyer_4;
-  }
-  public void setVAR_Initialed_for_identification_by_Buyer_4(String vAR_Initialed_for_identification_by_Buyer_4) {
-    VAR_Initialed_for_identification_by_Buyer_4 = vAR_Initialed_for_identification_by_Buyer_4;
-  }
-  public String getVAR_undefined_17() {
-    return VAR_undefined_17;
-  }
-  public void setVAR_undefined_17(String vAR_undefined_17) {
-    VAR_undefined_17 = vAR_undefined_17;
-  }
-  public String getVAR_and_Seller_6() {
-    return VAR_and_Seller_6;
-  }
-  public void setVAR_and_Seller_6(String vAR_and_Seller_6) {
-    VAR_and_Seller_6 = vAR_and_Seller_6;
-  }
-  public String getVAR_undefined_18() {
-    return VAR_undefined_18;
-  }
-  public void setVAR_undefined_18(String vAR_undefined_18) {
-    VAR_undefined_18 = vAR_undefined_18;
-  }
-  public String getVAR_Page_7_of_10() {
-    return VAR_Page_7_of_10;
-  }
-  public void setVAR_Page_7_of_10(String vAR_Page_7_of_10) {
-    VAR_Page_7_of_10 = vAR_Page_7_of_10;
-  }
-  public String getVAR_AC_numb_1() {
-    return VAR_AC_numb_1;
-  }
-  public void setVAR_AC_numb_1(String vAR_AC_numb_1) {
-    VAR_AC_numb_1 = vAR_AC_numb_1;
-  }
-  public String getVAR_AC_numb_2() {
-    return VAR_AC_numb_2;
-  }
-  public void setVAR_AC_numb_2(String vAR_AC_numb_2) {
-    VAR_AC_numb_2 = vAR_AC_numb_2;
-  }
-  public String getVAR_AC_numb_3() {
-    return VAR_AC_numb_3;
-  }
-  public void setVAR_AC_numb_3(String vAR_AC_numb_3) {
-    VAR_AC_numb_3 = vAR_AC_numb_3;
-  }
-  public String getVAR_AC_numb_4() {
-    return VAR_AC_numb_4;
-  }
-  public void setVAR_AC_numb_4(String vAR_AC_numb_4) {
-    VAR_AC_numb_4 = vAR_AC_numb_4;
-  }
-  public String getVAR_Contract_Concerning_4() {
-    return VAR_Contract_Concerning_4;
-  }
-  public void setVAR_Contract_Concerning_4(String vAR_Contract_Concerning_4) {
-    VAR_Contract_Concerning_4 = vAR_Contract_Concerning_4;
-  }
-  public String getVAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows() {
-    return VAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows;
-  }
-  public void setVAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows(
-        String vAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows) {
-    VAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows = vAR_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows;
-  }
-  public String getVAR_at() {
-    return VAR_at;
-  }
-  public void setVAR_at(String vAR_at) {
-    VAR_at = vAR_at;
-  }
-  public String getVAR_AC1() {
-    return VAR_AC1;
-  }
-  public void setVAR_AC1(String vAR_AC1) {
-    VAR_AC1 = vAR_AC1;
-  }
-  public String getVAR_Phone_51() {
-    return VAR_Phone_51;
-  }
-  public void setVAR_Phone_51(String vAR_Phone_51) {
-    VAR_Phone_51 = vAR_Phone_51;
-  }
-  public String getVAR_Phone_52() {
-    return VAR_Phone_52;
-  }
-  public void setVAR_Phone_52(String vAR_Phone_52) {
-    VAR_Phone_52 = vAR_Phone_52;
-  }
-  public String getVAR_undefined_20_0() {
-    return VAR_undefined_20_0;
-  }
-  public void setVAR_undefined_20_0(String vAR_undefined_20_0) {
-    VAR_undefined_20_0 = vAR_undefined_20_0;
-  }
-  public String getVAR_undefined_20() {
-    return VAR_undefined_20;
-  }
-  public void setVAR_undefined_20(String vAR_undefined_20) {
-    VAR_undefined_20 = vAR_undefined_20;
-  }
-  public String getVAR_undefined_19() {
-    return VAR_undefined_19;
-  }
-  public void setVAR_undefined_19(String vAR_undefined_19) {
-    VAR_undefined_19 = vAR_undefined_19;
-  }
-  public String getVAR_at_2() {
-    return VAR_at_2;
-  }
-  public void setVAR_at_2(String vAR_at_2) {
-    VAR_at_2 = vAR_at_2;
-  }
-  public String getVAR_AC4() {
-    return VAR_AC4;
-  }
-  public void setVAR_AC4(String vAR_AC4) {
-    VAR_AC4 = vAR_AC4;
-  }
-  public String getVAR_Fax_52() {
-    return VAR_Fax_52;
-  }
-  public void setVAR_Fax_52(String vAR_Fax_52) {
-    VAR_Fax_52 = vAR_Fax_52;
-  }
-  public String getVAR_undefined_numb_21() {
-    return VAR_undefined_numb_21;
-  }
-  public void setVAR_undefined_numb_21(String vAR_undefined_numb_21) {
-    VAR_undefined_numb_21 = vAR_undefined_numb_21;
-  }
-  public String getVAR_undefined_numb_22_0() {
-    return VAR_undefined_numb_22_0;
-  }
-  public void setVAR_undefined_numb_22_0(String vAR_undefined_numb_22_0) {
-    VAR_undefined_numb_22_0 = vAR_undefined_numb_22_0;
-  }
-  public String getVAR_undefined_numb_22() {
-    return VAR_undefined_numb_22;
-  }
-  public void setVAR_undefined_numb_22(String vAR_undefined_numb_22) {
-    VAR_undefined_numb_22 = vAR_undefined_numb_22;
-  }
-  public String getVAR_Third_Party_Financing_Addendum() {
-    return VAR_Third_Party_Financing_Addendum;
-  }
-  public void setVAR_Third_Party_Financing_Addendum(String vAR_Third_Party_Financing_Addendum) {
-    VAR_Third_Party_Financing_Addendum = vAR_Third_Party_Financing_Addendum;
-  }
-  public String getVAR_Seller_Financing_Addendum() {
-    return VAR_Seller_Financing_Addendum;
-  }
-  public void setVAR_Seller_Financing_Addendum(String vAR_Seller_Financing_Addendum) {
-    VAR_Seller_Financing_Addendum = vAR_Seller_Financing_Addendum;
-  }
-  public String getVAR_Addendum_for_Property_Subject_to() {
-    return VAR_Addendum_for_Property_Subject_to;
-  }
-  public void setVAR_Addendum_for_Property_Subject_to(String vAR_Addendum_for_Property_Subject_to) {
-    VAR_Addendum_for_Property_Subject_to = vAR_Addendum_for_Property_Subject_to;
-  }
-  public String getVAR_Buyers_Temporary_Residential_Lease() {
-    return VAR_Buyers_Temporary_Residential_Lease;
-  }
-  public void setVAR_Buyers_Temporary_Residential_Lease(String vAR_Buyers_Temporary_Residential_Lease) {
-    VAR_Buyers_Temporary_Residential_Lease = vAR_Buyers_Temporary_Residential_Lease;
-  }
-  public String getVAR_Loan_Assumption_Addendum_2() {
-    return VAR_Loan_Assumption_Addendum_2;
-  }
-  public void setVAR_Loan_Assumption_Addendum_2(String vAR_Loan_Assumption_Addendum_2) {
-    VAR_Loan_Assumption_Addendum_2 = vAR_Loan_Assumption_Addendum_2;
-  }
-  public String getVAR_Addendum_for_Sale_of_Other_Property_by() {
-    return VAR_Addendum_for_Sale_of_Other_Property_by;
-  }
-  public void setVAR_Addendum_for_Sale_of_Other_Property_by(String vAR_Addendum_for_Sale_of_Other_Property_by) {
-    VAR_Addendum_for_Sale_of_Other_Property_by = vAR_Addendum_for_Sale_of_Other_Property_by;
-  }
-  public String getVAR_Addendum_for_Reservation_of_Oil_Gas() {
-    return VAR_Addendum_for_Reservation_of_Oil_Gas;
-  }
-  public void setVAR_Addendum_for_Reservation_of_Oil_Gas(String vAR_Addendum_for_Reservation_of_Oil_Gas) {
-    VAR_Addendum_for_Reservation_of_Oil_Gas = vAR_Addendum_for_Reservation_of_Oil_Gas;
-  }
-  public String getVAR_Addendum_for_BackUp_Contract() {
-    return VAR_Addendum_for_BackUp_Contract;
-  }
-  public void setVAR_Addendum_for_BackUp_Contract(String vAR_Addendum_for_BackUp_Contract) {
-    VAR_Addendum_for_BackUp_Contract = vAR_Addendum_for_BackUp_Contract;
-  }
-  public String getVAR_Check_Box8() {
-    return VAR_Check_Box8;
-  }
-  public void setVAR_Check_Box8(String vAR_Check_Box8) {
-    VAR_Check_Box8 = vAR_Check_Box8;
-  }
-  public String getVAR_Check_Box9() {
-    return VAR_Check_Box9;
-  }
-  public void setVAR_Check_Box9(String vAR_Check_Box9) {
-    VAR_Check_Box9 = vAR_Check_Box9;
-  }
-  public String getVAR_Check_box_10() {
-    return VAR_Check_box_10;
-  }
-  public void setVAR_Check_box_10(String vAR_Check_box_10) {
-    VAR_Check_box_10 = vAR_Check_box_10;
-  }
-  public String getVAR_Check_box_11() {
-    return VAR_Check_box_11;
-  }
-  public void setVAR_Check_box_11(String vAR_Check_box_11) {
-    VAR_Check_box_11 = vAR_Check_box_11;
-  }
-  public String getVAR_Environmental_Assessment_Threatened_or() {
-    return VAR_Environmental_Assessment_Threatened_or;
-  }
-  public void setVAR_Environmental_Assessment_Threatened_or(String vAR_Environmental_Assessment_Threatened_or) {
-    VAR_Environmental_Assessment_Threatened_or = vAR_Environmental_Assessment_Threatened_or;
-  }
-  public String getVAR_Sellers_Temporary_Residential_Lease() {
-    return VAR_Sellers_Temporary_Residential_Lease;
-  }
-  public void setVAR_Sellers_Temporary_Residential_Lease(String vAR_Sellers_Temporary_Residential_Lease) {
-    VAR_Sellers_Temporary_Residential_Lease = vAR_Sellers_Temporary_Residential_Lease;
-  }
-  public String getVAR_Short_Sale_Addendum() {
-    return VAR_Short_Sale_Addendum;
-  }
-  public void setVAR_Short_Sale_Addendum(String vAR_Short_Sale_Addendum) {
-    VAR_Short_Sale_Addendum = vAR_Short_Sale_Addendum;
-  }
-  public String getVAR_Addendum_for_Property_Located_Seaward() {
-    return VAR_Addendum_for_Property_Located_Seaward;
-  }
-  public void setVAR_Addendum_for_Property_Located_Seaward(String vAR_Addendum_for_Property_Located_Seaward) {
-    VAR_Addendum_for_Property_Located_Seaward = vAR_Addendum_for_Property_Located_Seaward;
-  }
-  public String getVAR_Sellers_Disclos() {
-    return VAR_Sellers_Disclos;
-  }
-  public void setVAR_Sellers_Disclos(String vAR_Sellers_Disclos) {
-    VAR_Sellers_Disclos = vAR_Sellers_Disclos;
-  }
-  public String getVAR_Addend() {
-    return VAR_Addend;
-  }
-  public void setVAR_Addend(String vAR_Addend) {
-    VAR_Addend = vAR_Addend;
-  }
-  public String getVAR_Addendum_for_Property_in_a_Propane_Gas() {
-    return VAR_Addendum_for_Property_in_a_Propane_Gas;
-  }
-  public void setVAR_Addendum_for_Property_in_a_Propane_Gas(String vAR_Addendum_for_Property_in_a_Propane_Gas) {
-    VAR_Addendum_for_Property_in_a_Propane_Gas = vAR_Addendum_for_Property_in_a_Propane_Gas;
-  }
-  public String getVAR_PID() {
-    return VAR_PID;
-  }
-  public void setVAR_PID(String vAR_PID) {
-    VAR_PID = vAR_PID;
-  }
-  public String getVAR_Addendum_for_Section_1031() {
-    return VAR_Addendum_for_Section_1031;
-  }
-  public void setVAR_Addendum_for_Section_1031(String vAR_Addendum_for_Section_1031) {
-    VAR_Addendum_for_Section_1031 = vAR_Addendum_for_Section_1031;
-  }
-  public String getVAR_Other() {
-    return VAR_Other;
-  }
-  public void setVAR_Other(String vAR_Other) {
-    VAR_Other = vAR_Other;
-  }
-  public String getVAR_System_Service_Area() {
-    return VAR_System_Service_Area;
-  }
-  public void setVAR_System_Service_Area(String vAR_System_Service_Area) {
-    VAR_System_Service_Area = vAR_System_Service_Area;
-  }
-  public String getVAR_1() {
-    return VAR_1;
-  }
-  public void setVAR_1(String vAR_1) {
-    VAR_1 = vAR_1;
-  }
-  public String getVAR_2() {
-    return VAR_2;
-  }
-  public void setVAR_2(String vAR_2) {
-    VAR_2 = vAR_2;
-  }
-  public String getVAR_3() {
-    return VAR_3;
-  }
-  public void setVAR_3(String vAR_3) {
-    VAR_3 = vAR_3;
-  }
-  public String getVAR_Attorney_is() {
-    return VAR_Attorney_is;
-  }
-  public void setVAR_Attorney_is(String vAR_Attorney_is) {
-    VAR_Attorney_is = vAR_Attorney_is;
-  }
-  public String getVAR_undefined_24() {
-    return VAR_undefined_24;
-  }
-  public void setVAR_undefined_24(String vAR_undefined_24) {
-    VAR_undefined_24 = vAR_undefined_24;
-  }
-  public String getVAR_Text2() {
-    return VAR_Text2;
-  }
-  public void setVAR_Text2(String vAR_Text2) {
-    VAR_Text2 = vAR_Text2;
-  }
-  public String getVAR_Text1() {
-    return VAR_Text1;
-  }
-  public void setVAR_Text1(String vAR_Text1) {
-    VAR_Text1 = vAR_Text1;
-  }
-  public String getVAR_Text7() {
-    return VAR_Text7;
-  }
-  public void setVAR_Text7(String vAR_Text7) {
-    VAR_Text7 = vAR_Text7;
-  }
-  public String getVAR_Text6() {
-    return VAR_Text6;
-  }
-  public void setVAR_Text6(String vAR_Text6) {
-    VAR_Text6 = vAR_Text6;
-  }
-  public String getVAR_Email() {
-    return VAR_Email;
-  }
-  public void setVAR_Email(String vAR_Email) {
-    VAR_Email = vAR_Email;
-  }
-  public String getVAR_Attorney_is_2() {
-    return VAR_Attorney_is_2;
-  }
-  public void setVAR_Attorney_is_2(String vAR_Attorney_is_2) {
-    VAR_Attorney_is_2 = vAR_Attorney_is_2;
-  }
-  public String getVAR_undefined_25() {
-    return VAR_undefined_25;
-  }
-  public void setVAR_undefined_25(String vAR_undefined_25) {
-    VAR_undefined_25 = vAR_undefined_25;
-  }
-  public String getVAR_Text22() {
-    return VAR_Text22;
-  }
-  public void setVAR_Text22(String vAR_Text22) {
-    VAR_Text22 = vAR_Text22;
-  }
-  public String getVAR_Phone11() {
-    return VAR_Phone11;
-  }
-  public void setVAR_Phone11(String vAR_Phone11) {
-    VAR_Phone11 = vAR_Phone11;
-  }
-  public String getVAR_Text23() {
-    return VAR_Text23;
-  }
-  public void setVAR_Text23(String vAR_Text23) {
-    VAR_Text23 = vAR_Text23;
-  }
-  public String getVAR_Email_2() {
-    return VAR_Email_2;
-  }
-  public void setVAR_Email_2(String vAR_Email_2) {
-    VAR_Email_2 = vAR_Email_2;
-  }
-  public String getVAR_Initialed_for_identification_by_Buyer_5() {
-    return VAR_Initialed_for_identification_by_Buyer_5;
-  }
-  public void setVAR_Initialed_for_identification_by_Buyer_5(String vAR_Initialed_for_identification_by_Buyer_5) {
-    VAR_Initialed_for_identification_by_Buyer_5 = vAR_Initialed_for_identification_by_Buyer_5;
-  }
-  public String getVAR_and_Seller_7() {
-    return VAR_and_Seller_7;
-  }
-  public void setVAR_and_Seller_7(String vAR_and_Seller_7) {
-    VAR_and_Seller_7 = vAR_and_Seller_7;
-  }
-  public String getVAR_undefined_22() {
-    return VAR_undefined_22;
-  }
-  public void setVAR_undefined_22(String vAR_undefined_22) {
-    VAR_undefined_22 = vAR_undefined_22;
-  }
-  public String getVAR_undefined_23() {
-    return VAR_undefined_23;
-  }
-  public void setVAR_undefined_23(String vAR_undefined_23) {
-    VAR_undefined_23 = vAR_undefined_23;
-  }
-  public String getVAR_Address_of_Property() {
-    return VAR_Address_of_Property;
-  }
-  public void setVAR_Address_of_Property(String vAR_Address_of_Property) {
-    VAR_Address_of_Property = vAR_Address_of_Property;
-  }
-  public String getVAR_EXECUTED_the() {
-    return VAR_EXECUTED_the;
-  }
-  public void setVAR_EXECUTED_the(String vAR_EXECUTED_the) {
-    VAR_EXECUTED_the = vAR_EXECUTED_the;
-  }
-  public String getVAR_day_of() {
-    return VAR_day_of;
-  }
-  public void setVAR_day_of(String vAR_day_of) {
-    VAR_day_of = vAR_day_of;
-  }
-  public String getVAR_20_2() {
-    return VAR_20_2;
-  }
-  public void setVAR_20_2(String vAR_20_2) {
-    VAR_20_2 = vAR_20_2;
-  }
-  public String getVAR_Signature8() {
-    return VAR_Signature8;
-  }
-  public void setVAR_Signature8(String vAR_Signature8) {
-    VAR_Signature8 = vAR_Signature8;
-  }
-  public String getVAR_Signature10() {
-    return VAR_Signature10;
-  }
-  public void setVAR_Signature10(String vAR_Signature10) {
-    VAR_Signature10 = vAR_Signature10;
-  }
-  public String getVAR_Signature9() {
-    return VAR_Signature9;
-  }
-  public void setVAR_Signature9(String vAR_Signature9) {
-    VAR_Signature9 = vAR_Signature9;
-  }
-  public String getVAR_Signature11() {
-    return VAR_Signature11;
-  }
-  public void setVAR_Signature11(String vAR_Signature11) {
-    VAR_Signature11 = vAR_Signature11;
-  }
-  public String getVAR_Addr_of_Prop() {
-    return VAR_Addr_of_Prop;
-  }
-  public void setVAR_Addr_of_Prop(String vAR_Addr_of_Prop) {
-    VAR_Addr_of_Prop = vAR_Addr_of_Prop;
-  }
-  public String getVAR_Other_Broker_Firm() {
-    return VAR_Other_Broker_Firm;
-  }
-  public void setVAR_Other_Broker_Firm(String vAR_Other_Broker_Firm) {
-    VAR_Other_Broker_Firm = vAR_Other_Broker_Firm;
-  }
-  public String getVAR_License_No() {
-    return VAR_License_No;
-  }
-  public void setVAR_License_No(String vAR_License_No) {
-    VAR_License_No = vAR_License_No;
-  }
-  public String getVAR_Buyer_only() {
-    return VAR_Buyer_only;
-  }
-  public void setVAR_Buyer_only(String vAR_Buyer_only) {
-    VAR_Buyer_only = vAR_Buyer_only;
-  }
-  public String getVAR_Seller_as_List_Brok_Sub_agent() {
-    return VAR_Seller_as_List_Brok_Sub_agent;
-  }
-  public void setVAR_Seller_as_List_Brok_Sub_agent(String vAR_Seller_as_List_Brok_Sub_agent) {
-    VAR_Seller_as_List_Brok_Sub_agent = vAR_Seller_as_List_Brok_Sub_agent;
-  }
-  public String getVAR_Associates_Name_numb_1() {
-    return VAR_Associates_Name_numb_1;
-  }
-  public void setVAR_Associates_Name_numb_1(String vAR_Associates_Name_numb_1) {
-    VAR_Associates_Name_numb_1 = vAR_Associates_Name_numb_1;
-  }
-  public String getVAR_License_No_2() {
-    return VAR_License_No_2;
-  }
-  public void setVAR_License_No_2(String vAR_License_No_2) {
-    VAR_License_No_2 = vAR_License_No_2;
-  }
-  public String getVAR_Associates_Name() {
-    return VAR_Associates_Name;
-  }
-  public void setVAR_Associates_Name(String vAR_Associates_Name) {
-    VAR_Associates_Name = vAR_Associates_Name;
-  }
-  public String getVAR_Associates_Email_Address() {
-    return VAR_Associates_Email_Address;
-  }
-  public void setVAR_Associates_Email_Address(String vAR_Associates_Email_Address) {
-    VAR_Associates_Email_Address = vAR_Associates_Email_Address;
-  }
-  public String getVAR_Phone() {
-    return VAR_Phone;
-  }
-  public void setVAR_Phone(String vAR_Phone) {
-    VAR_Phone = vAR_Phone;
-  }
-  public String getVAR_Licensed_Supervisor_of_Associate() {
-    return VAR_Licensed_Supervisor_of_Associate;
-  }
-  public void setVAR_Licensed_Supervisor_of_Associate(String vAR_Licensed_Supervisor_of_Associate) {
-    VAR_Licensed_Supervisor_of_Associate = vAR_Licensed_Supervisor_of_Associate;
-  }
-  public String getVAR_License_No_3() {
-    return VAR_License_No_3;
-  }
-  public void setVAR_License_No_3(String vAR_License_No_3) {
-    VAR_License_No_3 = vAR_License_No_3;
-  }
-  public String getVAR_Other_Brokers_Address() {
-    return VAR_Other_Brokers_Address;
-  }
-  public void setVAR_Other_Brokers_Address(String vAR_Other_Brokers_Address) {
-    VAR_Other_Brokers_Address = vAR_Other_Brokers_Address;
-  }
-  public String getVAR_Phone_2() {
-    return VAR_Phone_2;
-  }
-  public void setVAR_Phone_2(String vAR_Phone_2) {
-    VAR_Phone_2 = vAR_Phone_2;
-  }
-  public String getVAR_City() {
-    return VAR_City;
-  }
-  public void setVAR_City(String vAR_City) {
-    VAR_City = vAR_City;
-  }
-  public String getVAR_State() {
-    return VAR_State;
-  }
-  public void setVAR_State(String vAR_State) {
-    VAR_State = vAR_State;
-  }
-  public String getVAR_Zip() {
-    return VAR_Zip;
-  }
-  public void setVAR_Zip(String vAR_Zip) {
-    VAR_Zip = vAR_Zip;
-  }
-  public String getVAR_Listing_Broker_Firm() {
-    return VAR_Listing_Broker_Firm;
-  }
-  public void setVAR_Listing_Broker_Firm(String vAR_Listing_Broker_Firm) {
-    VAR_Listing_Broker_Firm = vAR_Listing_Broker_Firm;
-  }
-  public String getVAR_License_No_4() {
-    return VAR_License_No_4;
-  }
-  public void setVAR_License_No_4(String vAR_License_No_4) {
-    VAR_License_No_4 = vAR_License_No_4;
-  }
-  public String getVAR_Seller_and_Buyer_as_an_intermediary() {
-    return VAR_Seller_and_Buyer_as_an_intermediary;
-  }
-  public void setVAR_Seller_and_Buyer_as_an_intermediary(String vAR_Seller_and_Buyer_as_an_intermediary) {
-    VAR_Seller_and_Buyer_as_an_intermediary = vAR_Seller_and_Buyer_as_an_intermediary;
-  }
-  public String getVAR_Seller_only_as_Sellers_agent() {
-    return VAR_Seller_only_as_Sellers_agent;
-  }
-  public void setVAR_Seller_only_as_Sellers_agent(String vAR_Seller_only_as_Sellers_agent) {
-    VAR_Seller_only_as_Sellers_agent = vAR_Seller_only_as_Sellers_agent;
-  }
-  public String getVAR_List_Assoc_Name() {
-    return VAR_List_Assoc_Name;
-  }
-  public void setVAR_List_Assoc_Name(String vAR_List_Assoc_Name) {
-    VAR_List_Assoc_Name = vAR_List_Assoc_Name;
-  }
-  public String getVAR_License_No_5() {
-    return VAR_License_No_5;
-  }
-  public void setVAR_License_No_5(String vAR_License_No_5) {
-    VAR_License_No_5 = vAR_License_No_5;
-  }
-  public String getVAR_Listing_Associates_Name() {
-    return VAR_Listing_Associates_Name;
-  }
-  public void setVAR_Listing_Associates_Name(String vAR_Listing_Associates_Name) {
-    VAR_Listing_Associates_Name = vAR_Listing_Associates_Name;
-  }
-  public String getVAR_Listing_Associates_Email_Address() {
-    return VAR_Listing_Associates_Email_Address;
-  }
-  public void setVAR_Listing_Associates_Email_Address(String vAR_Listing_Associates_Email_Address) {
-    VAR_Listing_Associates_Email_Address = vAR_Listing_Associates_Email_Address;
-  }
-  public String getVAR_Phone_3() {
-    return VAR_Phone_3;
-  }
-  public void setVAR_Phone_3(String vAR_Phone_3) {
-    VAR_Phone_3 = vAR_Phone_3;
-  }
-  public String getVAR_Licensed_Supervisor_of_Listing_Associate() {
-    return VAR_Licensed_Supervisor_of_Listing_Associate;
-  }
-  public void setVAR_Licensed_Supervisor_of_Listing_Associate(String vAR_Licensed_Supervisor_of_Listing_Associate) {
-    VAR_Licensed_Supervisor_of_Listing_Associate = vAR_Licensed_Supervisor_of_Listing_Associate;
-  }
-  public String getVAR_License_No_6() {
-    return VAR_License_No_6;
-  }
-  public void setVAR_License_No_6(String vAR_License_No_6) {
-    VAR_License_No_6 = vAR_License_No_6;
-  }
-  public String getVAR_Listing_Brokers_Office_Address() {
-    return VAR_Listing_Brokers_Office_Address;
-  }
-  public void setVAR_Listing_Brokers_Office_Address(String vAR_Listing_Brokers_Office_Address) {
-    VAR_Listing_Brokers_Office_Address = vAR_Listing_Brokers_Office_Address;
-  }
-  public String getVAR_Phone_4() {
-    return VAR_Phone_4;
-  }
-  public void setVAR_Phone_4(String vAR_Phone_4) {
-    VAR_Phone_4 = vAR_Phone_4;
-  }
-  public String getVAR_City_2() {
-    return VAR_City_2;
-  }
-  public void setVAR_City_2(String vAR_City_2) {
-    VAR_City_2 = vAR_City_2;
-  }
-  public String getVAR_State_2() {
-    return VAR_State_2;
-  }
-  public void setVAR_State_2(String vAR_State_2) {
-    VAR_State_2 = vAR_State_2;
-  }
-  public String getVAR_Zip_2() {
-    return VAR_Zip_2;
-  }
-  public void setVAR_Zip_2(String vAR_Zip_2) {
-    VAR_Zip_2 = vAR_Zip_2;
-  }
-  public String getVAR_Selling_Associates_Name() {
-    return VAR_Selling_Associates_Name;
-  }
-  public void setVAR_Selling_Associates_Name(String vAR_Selling_Associates_Name) {
-    VAR_Selling_Associates_Name = vAR_Selling_Associates_Name;
-  }
-  public String getVAR_License_No_7() {
-    return VAR_License_No_7;
-  }
-  public void setVAR_License_No_7(String vAR_License_No_7) {
-    VAR_License_No_7 = vAR_License_No_7;
-  }
-  public String getVAR_Selling_Associates_Name_1() {
-    return VAR_Selling_Associates_Name_1;
-  }
-  public void setVAR_Selling_Associates_Name_1(String vAR_Selling_Associates_Name_1) {
-    VAR_Selling_Associates_Name_1 = vAR_Selling_Associates_Name_1;
-  }
-  public String getVAR_Selling_Associates_Email_Address() {
-    return VAR_Selling_Associates_Email_Address;
-  }
-  public void setVAR_Selling_Associates_Email_Address(String vAR_Selling_Associates_Email_Address) {
-    VAR_Selling_Associates_Email_Address = vAR_Selling_Associates_Email_Address;
-  }
-  public String getVAR_Phone_5() {
-    return VAR_Phone_5;
-  }
-  public void setVAR_Phone_5(String vAR_Phone_5) {
-    VAR_Phone_5 = vAR_Phone_5;
-  }
-  public String getVAR_Licensed_Supervisor_of_Selling_Associate() {
-    return VAR_Licensed_Supervisor_of_Selling_Associate;
-  }
-  public void setVAR_Licensed_Supervisor_of_Selling_Associate(String vAR_Licensed_Supervisor_of_Selling_Associate) {
-    VAR_Licensed_Supervisor_of_Selling_Associate = vAR_Licensed_Supervisor_of_Selling_Associate;
-  }
-  public String getVAR_License_No_8() {
-    return VAR_License_No_8;
-  }
-  public void setVAR_License_No_8(String vAR_License_No_8) {
-    VAR_License_No_8 = vAR_License_No_8;
-  }
-  public String getVAR_Selling_Associates_Office_Address() {
-    return VAR_Selling_Associates_Office_Address;
-  }
-  public void setVAR_Selling_Associates_Office_Address(String vAR_Selling_Associates_Office_Address) {
-    VAR_Selling_Associates_Office_Address = vAR_Selling_Associates_Office_Address;
-  }
-  public String getVAR_City_3() {
-    return VAR_City_3;
-  }
-  public void setVAR_City_3(String vAR_City_3) {
-    VAR_City_3 = vAR_City_3;
-  }
-  public String getVAR_State_3() {
-    return VAR_State_3;
-  }
-  public void setVAR_State_3(String vAR_State_3) {
-    VAR_State_3 = vAR_State_3;
-  }
-  public String getVAR_Zip_3() {
-    return VAR_Zip_3;
-  }
-  public void setVAR_Zip_3(String vAR_Zip_3) {
-    VAR_Zip_3 = vAR_Zip_3;
-  }
-  public String getVAR_Dollar_Amt() {
-    return VAR_Dollar_Amt;
-  }
-  public void setVAR_Dollar_Amt(String vAR_Dollar_Amt) {
-    VAR_Dollar_Amt = vAR_Dollar_Amt;
-  }
-  public String getVAR_when_mailed_to() {
-    return VAR_when_mailed_to;
-  }
-  public void setVAR_when_mailed_to(String vAR_when_mailed_to) {
-    VAR_when_mailed_to = vAR_when_mailed_to;
-  }
-  public String getVAR_Percentage() {
-    return VAR_Percentage;
-  }
-  public void setVAR_Percentage(String vAR_Percentage) {
-    VAR_Percentage = vAR_Percentage;
-  }
-  public String getVAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from() {
-    return VAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from;
-  }
-  public void setVAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from(
-        String vAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from) {
-    VAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from = vAR_when_the_Listing_Brokers_fee_is_received_Escrow_agent_is_authorized_and_directed_to_pay_Other_Broker_from;
-  }
-  public String getVAR_Address_of_Property_2() {
-    return VAR_Address_of_Property_2;
-  }
-  public void setVAR_Address_of_Property_2(String vAR_Address_of_Property_2) {
-    VAR_Address_of_Property_2 = vAR_Address_of_Property_2;
-  }
-  public String getVAR_is_acknowledged() {
-    return VAR_is_acknowledged;
-  }
-  public void setVAR_is_acknowledged(String vAR_is_acknowledged) {
-    VAR_is_acknowledged = vAR_is_acknowledged;
-  }
-  public String getVAR_Option_Fee_in_the_form_of() {
-    return VAR_Option_Fee_in_the_form_of;
-  }
-  public void setVAR_Option_Fee_in_the_form_of(String vAR_Option_Fee_in_the_form_of) {
-    VAR_Option_Fee_in_the_form_of = vAR_Option_Fee_in_the_form_of;
-  }
-  public String getVAR_Seller_or_Listing_Broker() {
-    return VAR_Seller_or_Listing_Broker;
-  }
-  public void setVAR_Seller_or_Listing_Broker(String vAR_Seller_or_Listing_Broker) {
-    VAR_Seller_or_Listing_Broker = vAR_Seller_or_Listing_Broker;
-  }
-  public String getVAR_Date() {
-    return VAR_Date;
-  }
-  public void setVAR_Date(String vAR_Date) {
-    VAR_Date = vAR_Date;
-  }
-  public String getVAR_is_acknowledged_2() {
-    return VAR_is_acknowledged_2;
-  }
-  public void setVAR_is_acknowledged_2(String vAR_is_acknowledged_2) {
-    VAR_is_acknowledged_2 = vAR_is_acknowledged_2;
-  }
-  public String getVAR_Earnest_Money_in_the_form_of() {
-    return VAR_Earnest_Money_in_the_form_of;
-  }
-  public void setVAR_Earnest_Money_in_the_form_of(String vAR_Earnest_Money_in_the_form_of) {
-    VAR_Earnest_Money_in_the_form_of = vAR_Earnest_Money_in_the_form_of;
-  }
-  public String getVAR_Escrow_Agent() {
-    return VAR_Escrow_Agent;
-  }
-  public void setVAR_Escrow_Agent(String vAR_Escrow_Agent) {
-    VAR_Escrow_Agent = vAR_Escrow_Agent;
-  }
-  public String getVAR_Received_by() {
-    return VAR_Received_by;
-  }
-  public void setVAR_Received_by(String vAR_Received_by) {
-    VAR_Received_by = vAR_Received_by;
-  }
-  public String getVAR_Address() {
-    return VAR_Address;
-  }
-  public void setVAR_Address(String vAR_Address) {
-    VAR_Address = vAR_Address;
-  }
-  public String getVAR_City_4() {
-    return VAR_City_4;
-  }
-  public void setVAR_City_4(String vAR_City_4) {
-    VAR_City_4 = vAR_City_4;
-  }
-  public String getVAR_State_4() {
-    return VAR_State_4;
-  }
-  public void setVAR_State_4(String vAR_State_4) {
-    VAR_State_4 = vAR_State_4;
-  }
-  public String getVAR_Zip_4() {
-    return VAR_Zip_4;
-  }
-  public void setVAR_Zip_4(String vAR_Zip_4) {
-    VAR_Zip_4 = vAR_Zip_4;
-  }
-  public String getVAR_Email_Address() {
-    return VAR_Email_Address;
-  }
-  public void setVAR_Email_Address(String vAR_Email_Address) {
-    VAR_Email_Address = vAR_Email_Address;
-  }
-  public String getVAR_DateTime() {
-    return VAR_DateTime;
-  }
-  public void setVAR_DateTime(String vAR_DateTime) {
-    VAR_DateTime = vAR_DateTime;
-  }
-  public String getVAR_Phone_6() {
-    return VAR_Phone_6;
-  }
-  public void setVAR_Phone_6(String vAR_Phone_6) {
-    VAR_Phone_6 = vAR_Phone_6;
-  }
-  public String getVAR_Fax() {
-    return VAR_Fax;
-  }
-  public void setVAR_Fax(String vAR_Fax) {
-    VAR_Fax = vAR_Fax;
-  }
-  public String getVAR_Escrow_Agent_2() {
-    return VAR_Escrow_Agent_2;
-  }
-  public void setVAR_Escrow_Agent_2(String vAR_Escrow_Agent_2) {
-    VAR_Escrow_Agent_2 = vAR_Escrow_Agent_2;
-  }
-  public String getVAR_Received_by_2() {
-    return VAR_Received_by_2;
-  }
-  public void setVAR_Received_by_2(String vAR_Received_by_2) {
-    VAR_Received_by_2 = vAR_Received_by_2;
-  }
-  public String getVAR_Address_2() {
-    return VAR_Address_2;
-  }
-  public void setVAR_Address_2(String vAR_Address_2) {
-    VAR_Address_2 = vAR_Address_2;
-  }
-  public String getVAR_City_5() {
-    return VAR_City_5;
-  }
-  public void setVAR_City_5(String vAR_City_5) {
-    VAR_City_5 = vAR_City_5;
-  }
-  public String getVAR_State_5() {
-    return VAR_State_5;
-  }
-  public void setVAR_State_5(String vAR_State_5) {
-    VAR_State_5 = vAR_State_5;
-  }
-  public String getVAR_Zip_5() {
-    return VAR_Zip_5;
-  }
-  public void setVAR_Zip_5(String vAR_Zip_5) {
-    VAR_Zip_5 = vAR_Zip_5;
-  }
-  public String getVAR_Email_Address_2() {
-    return VAR_Email_Address_2;
-  }
-  public void setVAR_Email_Address_2(String vAR_Email_Address_2) {
-    VAR_Email_Address_2 = vAR_Email_Address_2;
-  }
-  public String getVAR_Date_2() {
-    return VAR_Date_2;
-  }
-  public void setVAR_Date_2(String vAR_Date_2) {
-    VAR_Date_2 = vAR_Date_2;
-  }
-  public String getVAR_Phone_7() {
-    return VAR_Phone_7;
-  }
-  public void setVAR_Phone_7(String vAR_Phone_7) {
-    VAR_Phone_7 = vAR_Phone_7;
-  }
-  public String getVAR_Fax_2() {
-    return VAR_Fax_2;
-  }
-  public void setVAR_Fax_2(String vAR_Fax_2) {
-    VAR_Fax_2 = vAR_Fax_2;
-  }
-  public String getVAR_is_acknowledged_3() {
-    return VAR_is_acknowledged_3;
-  }
-  public void setVAR_is_acknowledged_3(String vAR_is_acknowledged_3) {
-    VAR_is_acknowledged_3 = vAR_is_acknowledged_3;
-  }
-  public String getVAR_additional_Earnest_Money_in_the_form_of() {
-    return VAR_additional_Earnest_Money_in_the_form_of;
-  }
-  public void setVAR_additional_Earnest_Money_in_the_form_of(String vAR_additional_Earnest_Money_in_the_form_of) {
-    VAR_additional_Earnest_Money_in_the_form_of = vAR_additional_Earnest_Money_in_the_form_of;
-  }
-  public String getVAR_Escrow_Agent_3() {
-    return VAR_Escrow_Agent_3;
-  }
-  public void setVAR_Escrow_Agent_3(String vAR_Escrow_Agent_3) {
-    VAR_Escrow_Agent_3 = vAR_Escrow_Agent_3;
-  }
-  public String getVAR_Received_by_3() {
-    return VAR_Received_by_3;
-  }
-  public void setVAR_Received_by_3(String vAR_Received_by_3) {
-    VAR_Received_by_3 = vAR_Received_by_3;
-  }
-  public String getVAR_Address_3() {
-    return VAR_Address_3;
-  }
-  public void setVAR_Address_3(String vAR_Address_3) {
-    VAR_Address_3 = vAR_Address_3;
-  }
-  public String getVAR_City_6() {
-    return VAR_City_6;
-  }
-  public void setVAR_City_6(String vAR_City_6) {
-    VAR_City_6 = vAR_City_6;
-  }
-  public String getVAR_State_6() {
-    return VAR_State_6;
-  }
-  public void setVAR_State_6(String vAR_State_6) {
-    VAR_State_6 = vAR_State_6;
-  }
-  public String getVAR_Zip_6() {
-    return VAR_Zip_6;
-  }
-  public void setVAR_Zip_6(String vAR_Zip_6) {
-    VAR_Zip_6 = vAR_Zip_6;
-  }
-  public String getVAR_Email_Address_3() {
-    return VAR_Email_Address_3;
-  }
-  public void setVAR_Email_Address_3(String vAR_Email_Address_3) {
-    VAR_Email_Address_3 = vAR_Email_Address_3;
-  }
-  public String getVAR_DateTime_2() {
-    return VAR_DateTime_2;
-  }
-  public void setVAR_DateTime_2(String vAR_DateTime_2) {
-    VAR_DateTime_2 = vAR_DateTime_2;
-  }
-  public String getVAR_Phone_8() {
-    return VAR_Phone_8;
-  }
-  public void setVAR_Phone_8(String vAR_Phone_8) {
-    VAR_Phone_8 = vAR_Phone_8;
-  }
-  public String getVAR_Fax_3() {
-    return VAR_Fax_3;
-  }
-  public void setVAR_Fax_3(String vAR_Fax_3) {
-    VAR_Fax_3 = vAR_Fax_3;
-  }
+  public void setVar_a_land_lot(String var_a_land_lot) {
+    this.var_a_land_lot = var_a_land_lot;
+  }
+
+  public String getVar_block() {
+    return var_block;
+  }
+
+  public void setVar_block(String var_block) {
+    this.var_block = var_block;
+  }
+
+  public String getVar_undefined() {
+    return var_undefined;
+  }
+
+  public void setVar_undefined(String var_undefined) {
+    this.var_undefined = var_undefined;
+  }
+
+  public String getVar_addition_city_of() {
+    return var_addition_city_of;
+  }
+
+  public void setVar_addition_city_of(String var_addition_city_of) {
+    this.var_addition_city_of = var_addition_city_of;
+  }
+
+  public String getVar_county_of() {
+    return var_county_of;
+  }
+
+  public void setVar_county_of(String var_county_of) {
+    this.var_county_of = var_county_of;
+  }
+
+  public String getVar_texas_known_as() {
+    return var_texas_known_as;
+  }
+
+  public void setVar_texas_known_as(String var_texas_known_as) {
+    this.var_texas_known_as = var_texas_known_as;
+  }
+
+  public String getVar_be_removed_prior_to_delivery_of_possession() {
+    return var_be_removed_prior_to_delivery_of_possession;
+  }
+
+  public void setVar_be_removed_prior_to_delivery_of_possession(String var_be_removed_prior_to_delivery_of_possession) {
+    this.var_be_removed_prior_to_delivery_of_possession = var_be_removed_prior_to_delivery_of_possession;
+  }
+
+  public String getVar_undefined_2() {
+    return var_undefined_2;
+  }
+
+  public void setVar_undefined_2(String var_undefined_2) {
+    this.var_undefined_2 = var_undefined_2;
+  }
+
+  public String getVar_undefined_3() {
+    return var_undefined_3;
+  }
+
+  public void setVar_undefined_3(String var_undefined_3) {
+    this.var_undefined_3 = var_undefined_3;
+  }
+
+  public String getVar_b_sum_of_all_financing_described_in_the_attached() {
+    return var_b_sum_of_all_financing_described_in_the_attached;
+  }
+
+  public void setVar_b_sum_of_all_financing_described_in_the_attached(
+      String var_b_sum_of_all_financing_described_in_the_attached) {
+    this.var_b_sum_of_all_financing_described_in_the_attached = var_b_sum_of_all_financing_described_in_the_attached;
+  }
+
+  public String getVar_check_box2() {
+    return var_check_box2;
+  }
+
+  public void setVar_check_box2(String var_check_box2) {
+    this.var_check_box2 = var_check_box2;
+  }
+
+  public String getVar_loan_assumption_addendum() {
+    return var_loan_assumption_addendum;
+  }
+
+  public void setVar_loan_assumption_addendum(String var_loan_assumption_addendum) {
+    this.var_loan_assumption_addendum = var_loan_assumption_addendum;
+  }
+
+  public String getVar_undefined_4() {
+    return var_undefined_4;
+  }
+
+  public void setVar_undefined_4(String var_undefined_4) {
+    this.var_undefined_4 = var_undefined_4;
+  }
+
+  public String getVar_undefined_5() {
+    return var_undefined_5;
+  }
+
+  public void setVar_undefined_5(String var_undefined_5) {
+    this.var_undefined_5 = var_undefined_5;
+  }
+
+  public String getVar_i_will_not_be_amended_or_deleted_from_the_title_policy_or() {
+    return var_i_will_not_be_amended_or_deleted_from_the_title_policy_or;
+  }
+
+  public void setVar_i_will_not_be_amended_or_deleted_from_the_title_policy_or(
+      String var_i_will_not_be_amended_or_deleted_from_the_title_policy_or) {
+    this.var_i_will_not_be_amended_or_deleted_from_the_title_policy_or = var_i_will_not_be_amended_or_deleted_from_the_title_policy_or;
+  }
+
+  public String getVar_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of() {
+    return var_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of;
+  }
+
+  public void setVar_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of(
+      String var_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of) {
+    this.var_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of = var_ii_will_be_amended_to_read_shortages_in_area_at_the_expense_of;
+  }
+
+  public String getVar_a_title_policy_seller_shall_furnish_to_buyer_at() {
+    return var_a_title_policy_seller_shall_furnish_to_buyer_at;
+  }
+
+  public void setVar_a_title_policy_seller_shall_furnish_to_buyer_at(
+      String var_a_title_policy_seller_shall_furnish_to_buyer_at) {
+    this.var_a_title_policy_seller_shall_furnish_to_buyer_at = var_a_title_policy_seller_shall_furnish_to_buyer_at;
+  }
+
+  public String getVar_sellers() {
+    return var_sellers;
+  }
+
+  public void setVar_sellers(String var_sellers) {
+    this.var_sellers = var_sellers;
+  }
+
+  public String getVar_seller() {
+    return var_seller;
+  }
+
+  public void setVar_seller(String var_seller) {
+    this.var_seller = var_seller;
+  }
+
+  public String getVar_to_escrow_agent_within_1() {
+    return var_to_escrow_agent_within_1;
+  }
+
+  public void setVar_to_escrow_agent_within_1(String var_to_escrow_agent_within_1) {
+    this.var_to_escrow_agent_within_1 = var_to_escrow_agent_within_1;
+  }
+
+  public String getVar_initialed_for_identification_by_buyer() {
+    return var_initialed_for_identification_by_buyer;
+  }
+
+  public void setVar_initialed_for_identification_by_buyer(String var_initialed_for_identification_by_buyer) {
+    this.var_initialed_for_identification_by_buyer = var_initialed_for_identification_by_buyer;
+  }
+
+  public String getVar_undefined_8() {
+    return var_undefined_8;
+  }
+
+  public void setVar_undefined_8(String var_undefined_8) {
+    this.var_undefined_8 = var_undefined_8;
+  }
+
+  public String getVar_and_seller() {
+    return var_and_seller;
+  }
+
+  public void setVar_and_seller(String var_and_seller) {
+    this.var_and_seller = var_and_seller;
+  }
+
+  public String getVar_undefined_9() {
+    return var_undefined_9;
+  }
+
+  public void setVar_undefined_9(String var_undefined_9) {
+    this.var_undefined_9 = var_undefined_9;
+  }
+
+  public String getVar_page_2_of_10() {
+    return var_page_2_of_10;
+  }
+
+  public void setVar_page_2_of_10(String var_page_2_of_10) {
+    this.var_page_2_of_10 = var_page_2_of_10;
+  }
+
+  public String getVar_undefined_6() {
+    return var_undefined_6;
+  }
+
+  public void setVar_undefined_6(String var_undefined_6) {
+    this.var_undefined_6 = var_undefined_6;
+  }
+
+  public String getVar_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable() {
+    return var_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable;
+  }
+
+  public void setVar_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable(
+      String var_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable) {
+    this.var_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable = var_other_party_in_writing_before_entering_into_a_contract_of_sale_disclose_if_applicable;
+  }
+
+  public String getVar_undefined_7() {
+    return var_undefined_7;
+  }
+
+  public void setVar_undefined_7(String var_undefined_7) {
+    this.var_undefined_7 = var_undefined_7;
+  }
+
+  public String getVar_as_earnest_money_to() {
+    return var_as_earnest_money_to;
+  }
+
+  public void setVar_as_earnest_money_to(String var_as_earnest_money_to) {
+    this.var_as_earnest_money_to = var_as_earnest_money_to;
+  }
+
+  public String getVar_as_earnest_money_to_2() {
+    return var_as_earnest_money_to_2;
+  }
+
+  public void setVar_as_earnest_money_to_2(String var_as_earnest_money_to_2) {
+    this.var_as_earnest_money_to_2 = var_as_earnest_money_to_2;
+  }
+
+  public String getVar_earnest_money_of() {
+    return var_earnest_money_of;
+  }
+
+  public void setVar_earnest_money_of(String var_earnest_money_of) {
+    this.var_earnest_money_of = var_earnest_money_of;
+  }
+
+  public String getVar_to_escrow_agent_within() {
+    return var_to_escrow_agent_within;
+  }
+
+  public void setVar_to_escrow_agent_within(String var_to_escrow_agent_within) {
+    this.var_to_escrow_agent_within = var_to_escrow_agent_within;
+  }
+
+  public String getVar_the_title_company_and_buyers_lenders_check_one_box_only() {
+    return var_the_title_company_and_buyers_lenders_check_one_box_only;
+  }
+
+  public void setVar_the_title_company_and_buyers_lenders_check_one_box_only(
+      String var_the_title_company_and_buyers_lenders_check_one_box_only) {
+    this.var_the_title_company_and_buyers_lenders_check_one_box_only = var_the_title_company_and_buyers_lenders_check_one_box_only;
+  }
+
+  public String getVar_sellers_2() {
+    return var_sellers_2;
+  }
+
+  public void setVar_sellers_2(String var_sellers_2) {
+    this.var_sellers_2 = var_sellers_2;
+  }
+
+  public String getVar_buyers_expense_no_later() {
+    return var_buyers_expense_no_later;
+  }
+
+  public void setVar_buyers_expense_no_later(String var_buyers_expense_no_later) {
+    this.var_buyers_expense_no_later = var_buyers_expense_no_later;
+  }
+
+  public String getVar_insurance_title_policy_issued_by() {
+    return var_insurance_title_policy_issued_by;
+  }
+
+  public void setVar_insurance_title_policy_issued_by(String var_insurance_title_policy_issued_by) {
+    this.var_insurance_title_policy_issued_by = var_insurance_title_policy_issued_by;
+  }
+
+  public String getVar_2within() {
+    return var_2within;
+  }
+
+  public void setVar_2within(String var_2within) {
+    this.var_2within = var_2within;
+  }
+
+  public String getVar_3within() {
+    return var_3within;
+  }
+
+  public void setVar_3within(String var_3within) {
+    this.var_3within = var_3within;
+  }
+
+  public String getVar_is() {
+    return var_is;
+  }
+
+  public void setVar_is(String var_is) {
+    this.var_is = var_is;
+  }
+
+  public String getVar_is_not() {
+    return var_is_not;
+  }
+
+  public void setVar_is_not(String var_is_not) {
+    this.var_is_not = var_is_not;
+  }
+
+  public String getVar_2_membership_in_property_owners_associations_the_property() {
+    return var_2_membership_in_property_owners_associations_the_property;
+  }
+
+  public void setVar_2_membership_in_property_owners_associations_the_property(
+      String var_2_membership_in_property_owners_associations_the_property) {
+    this.var_2_membership_in_property_owners_associations_the_property = var_2_membership_in_property_owners_associations_the_property;
+  }
+
+  public String getVar_and_seller_2() {
+    return var_and_seller_2;
+  }
+
+  public void setVar_and_seller_2(String var_and_seller_2) {
+    this.var_and_seller_2 = var_and_seller_2;
+  }
+
+  public String getVar_undefined_10() {
+    return var_undefined_10;
+  }
+
+  public void setVar_undefined_10(String var_undefined_10) {
+    this.var_undefined_10 = var_undefined_10;
+  }
+
+  public String getVar_undefined_11() {
+    return var_undefined_11;
+  }
+
+  public void setVar_undefined_11(String var_undefined_11) {
+    this.var_undefined_11 = var_undefined_11;
+  }
+
+  public String getVar_page_3_of_10() {
+    return var_page_3_of_10;
+  }
+
+  public void setVar_page_3_of_10(String var_page_3_of_10) {
+    this.var_page_3_of_10 = var_page_3_of_10;
+  }
+
+  public String getVar_buyer() {
+    return var_buyer;
+  }
+
+  public void setVar_buyer(String var_buyer) {
+    this.var_buyer = var_buyer;
+  }
+
+  public String getVar_than_3_days_prior_to_closing_date() {
+    return var_than_3_days_prior_to_closing_date;
+  }
+
+  public void setVar_than_3_days_prior_to_closing_date(String var_than_3_days_prior_to_closing_date) {
+    this.var_than_3_days_prior_to_closing_date = var_than_3_days_prior_to_closing_date;
+  }
+
+  public String getVar_within_one() {
+    return var_within_one;
+  }
+
+  public void setVar_within_one(String var_within_one) {
+    this.var_within_one = var_within_one;
+  }
+
+  public String getVar_within_two() {
+    return var_within_two;
+  }
+
+  public void setVar_within_two(String var_within_two) {
+    this.var_within_two = var_within_two;
+  }
+
+  public String getVar_within_three() {
+    return var_within_three;
+  }
+
+  public void setVar_within_three(String var_within_three) {
+    this.var_within_three = var_within_three;
+  }
+
+  public String getVar_3_days_prior() {
+    return var_3_days_prior;
+  }
+
+  public void setVar_3_days_prior(String var_3_days_prior) {
+    this.var_3_days_prior = var_3_days_prior;
+  }
+
+  public String getVar_within_four() {
+    return var_within_four;
+  }
+
+  public void setVar_within_four(String var_within_four) {
+    this.var_within_four = var_within_four;
+  }
+
+  public String getVar_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier() {
+    return var_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier;
+  }
+
+  public void setVar_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier(
+      String var_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier) {
+    this.var_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier = var_receipt_or_the_date_specified_in_this_paragraph_whichever_is_earlier;
+  }
+
+  public String getVar_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use() {
+    return var_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use;
+  }
+
+  public void setVar_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use(
+      String var_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use) {
+    this.var_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use = var_commitment_other_than_items_6a1_through_9_above_or_which_prohibit_the_following_use;
+  }
+
+  public String getVar_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the() {
+    return var_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the;
+  }
+
+  public void setVar_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the(
+      String var_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the) {
+    this.var_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the = var_the_commitment_exception_documents_and_the_survey_buyers_failure_to_object_within_the;
+  }
+
+  public String getVar_1within() {
+    return var_1within;
+  }
+
+  public void setVar_1within(String var_1within) {
+    this.var_1within = var_1within;
+  }
+
+  public String getVar_2_within() {
+    return var_2_within;
+  }
+
+  public void setVar_2_within(String var_2_within) {
+    this.var_2_within = var_2_within;
+  }
+
+  public String getVar_property_code_requires_seller_to_notify_buyer_as_follows() {
+    return var_property_code_requires_seller_to_notify_buyer_as_follows;
+  }
+
+  public void setVar_property_code_requires_seller_to_notify_buyer_as_follows(
+      String var_property_code_requires_seller_to_notify_buyer_as_follows) {
+    this.var_property_code_requires_seller_to_notify_buyer_as_follows = var_property_code_requires_seller_to_notify_buyer_as_follows;
+  }
+
+  public String getVar_and_seller_3() {
+    return var_and_seller_3;
+  }
+
+  public void setVar_and_seller_3(String var_and_seller_3) {
+    this.var_and_seller_3 = var_and_seller_3;
+  }
+
+  public String getVar_undefined_12() {
+    return var_undefined_12;
+  }
+
+  public void setVar_undefined_12(String var_undefined_12) {
+    this.var_undefined_12 = var_undefined_12;
+  }
+
+  public String getVar_the_private_transfer_fee() {
+    return var_the_private_transfer_fee;
+  }
+
+  public void setVar_the_private_transfer_fee(String var_the_private_transfer_fee) {
+    this.var_the_private_transfer_fee = var_the_private_transfer_fee;
+  }
+
+  public String getVar_contract_concerning() {
+    return var_contract_concerning;
+  }
+
+  public void setVar_contract_concerning(String var_contract_concerning) {
+    this.var_contract_concerning = var_contract_concerning;
+  }
+
+  public String getVar_text4() {
+    return var_text4;
+  }
+
+  public void setVar_text4(String var_text4) {
+    this.var_text4 = var_text4;
+  }
+
+  public String getVar_text4_2() {
+    return var_text4_2;
+  }
+
+  public void setVar_text4_2(String var_text4_2) {
+    this.var_text4_2 = var_text4_2;
+  }
+
+  public String getVar_text4_3() {
+    return var_text4_3;
+  }
+
+  public void setVar_text4_3(String var_text4_3) {
+    this.var_text4_3 = var_text4_3;
+  }
+
+  public String getVar_1_buyer_accepts_the_property_as_is() {
+    return var_1_buyer_accepts_the_property_as_is;
+  }
+
+  public void setVar_1_buyer_accepts_the_property_as_is(String var_1_buyer_accepts_the_property_as_is) {
+    this.var_1_buyer_accepts_the_property_as_is = var_1_buyer_accepts_the_property_as_is;
+  }
+
+  public String getVar_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the() {
+    return var_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the;
+  }
+
+  public void setVar_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the(
+      String var_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the) {
+    this.var_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the = var_2_buyer_accepts_the_property_as_is_provided_seller_at_sellers_expense_shall_complete_the;
+  }
+
+  public String getVar_within() {
+    return var_within;
+  }
+
+  public void setVar_within(String var_within) {
+    this.var_within = var_within;
+  }
+
+  public String getVar_upon() {
+    return var_upon;
+  }
+
+  public void setVar_upon(String var_upon) {
+    this.var_upon = var_upon;
+  }
+
+  public String getVar_initialed_for_identification_by_buyer_2() {
+    return var_initialed_for_identification_by_buyer_2;
+  }
+
+  public void setVar_initialed_for_identification_by_buyer_2(String var_initialed_for_identification_by_buyer_2) {
+    this.var_initialed_for_identification_by_buyer_2 = var_initialed_for_identification_by_buyer_2;
+  }
+
+  public String getVar_undefined_14() {
+    return var_undefined_14;
+  }
+
+  public void setVar_undefined_14(String var_undefined_14) {
+    this.var_undefined_14 = var_undefined_14;
+  }
+
+  public String getVar_and_seller_4() {
+    return var_and_seller_4;
+  }
+
+  public void setVar_and_seller_4(String var_and_seller_4) {
+    this.var_and_seller_4 = var_and_seller_4;
+  }
+
+  public String getVar_undefined_15() {
+    return var_undefined_15;
+  }
+
+  public void setVar_undefined_15(String var_undefined_15) {
+    this.var_undefined_15 = var_undefined_15;
+  }
+
+  public String getVar_contract_concerning_2() {
+    return var_contract_concerning_2;
+  }
+
+  public void setVar_contract_concerning_2(String var_contract_concerning_2) {
+    this.var_contract_concerning_2 = var_contract_concerning_2;
+  }
+
+  public String getVar_as_is() {
+    return var_as_is;
+  }
+
+  public void setVar_as_is(String var_as_is) {
+    this.var_as_is = var_as_is;
+  }
+
+  public String getVar_as_is_except() {
+    return var_as_is_except;
+  }
+
+  public void setVar_as_is_except(String var_as_is_except) {
+    this.var_as_is_except = var_as_is_except;
+  }
+
+  public String getVar_following_specific_repairs_and_treatments() {
+    return var_following_specific_repairs_and_treatments;
+  }
+
+  public void setVar_following_specific_repairs_and_treatments(String var_following_specific_repairs_and_treatments) {
+    this.var_following_specific_repairs_and_treatments = var_following_specific_repairs_and_treatments;
+  }
+
+  public String getVar_undefined_13() {
+    return var_undefined_13;
+  }
+
+  public void setVar_undefined_13(String var_undefined_13) {
+    this.var_undefined_13 = var_undefined_13;
+  }
+
+  public String getVar_service_contract_in_an_amount_not_exceeding() {
+    return var_service_contract_in_an_amount_not_exceeding;
+  }
+
+  public void setVar_service_contract_in_an_amount_not_exceeding(
+      String var_service_contract_in_an_amount_not_exceeding) {
+    this.var_service_contract_in_an_amount_not_exceeding = var_service_contract_in_an_amount_not_exceeding;
+  }
+
+  public String getVar_brokers_and_sales() {
+    return var_brokers_and_sales;
+  }
+
+  public void setVar_brokers_and_sales(String var_brokers_and_sales) {
+    this.var_brokers_and_sales = var_brokers_and_sales;
+  }
+
+  public String getVar_brokers_and_sales_2() {
+    return var_brokers_and_sales_2;
+  }
+
+  public void setVar_brokers_and_sales_2(String var_brokers_and_sales_2) {
+    this.var_brokers_and_sales_2 = var_brokers_and_sales_2;
+  }
+
+  public String getVar_a_the_closing_of_the_sale_will_be_on_or_before() {
+    return var_a_the_closing_of_the_sale_will_be_on_or_before;
+  }
+
+  public void setVar_a_the_closing_of_the_sale_will_be_on_or_before(
+      String var_a_the_closing_of_the_sale_will_be_on_or_before) {
+    this.var_a_the_closing_of_the_sale_will_be_on_or_before = var_a_the_closing_of_the_sale_will_be_on_or_before;
+  }
+
+  public String getVar_20() {
+    return var_20;
+  }
+
+  public void setVar_20(String var_20) {
+    this.var_20 = var_20;
+  }
+
+  public String getVar_initialed_for_identification_by_buyer_3() {
+    return var_initialed_for_identification_by_buyer_3;
+  }
+
+  public void setVar_initialed_for_identification_by_buyer_3(String var_initialed_for_identification_by_buyer_3) {
+    this.var_initialed_for_identification_by_buyer_3 = var_initialed_for_identification_by_buyer_3;
+  }
+
+  public String getVar_buyers_expenses_as_allowed_by_the_lender() {
+    return var_buyers_expenses_as_allowed_by_the_lender;
+  }
+
+  public void setVar_buyers_expenses_as_allowed_by_the_lender(String var_buyers_expenses_as_allowed_by_the_lender) {
+    this.var_buyers_expenses_as_allowed_by_the_lender = var_buyers_expenses_as_allowed_by_the_lender;
+  }
+
+  public String getVar_and_seller_5() {
+    return var_and_seller_5;
+  }
+
+  public void setVar_and_seller_5(String var_and_seller_5) {
+    this.var_and_seller_5 = var_and_seller_5;
+  }
+
+  public String getVar_undefined_16() {
+    return var_undefined_16;
+  }
+
+  public void setVar_undefined_16(String var_undefined_16) {
+    this.var_undefined_16 = var_undefined_16;
+  }
+
+  public String getVar_contract_concerning_3() {
+    return var_contract_concerning_3;
+  }
+
+  public void setVar_contract_concerning_3(String var_contract_concerning_3) {
+    this.var_contract_concerning_3 = var_contract_concerning_3;
+  }
+
+  public String getVar_will() {
+    return var_will;
+  }
+
+  public void setVar_will(String var_will) {
+    this.var_will = var_will;
+  }
+
+  public String getVar_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the() {
+    return var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the;
+  }
+
+  public void setVar_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the(
+      String var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the) {
+    this.var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the = var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the;
+  }
+
+  public String getVar_text3() {
+    return var_text3;
+  }
+
+  public void setVar_text3(String var_text3) {
+    this.var_text3 = var_text3;
+  }
+
+  public String getVar_text3_2() {
+    return var_text3_2;
+  }
+
+  public void setVar_text3_2(String var_text3_2) {
+    this.var_text3_2 = var_text3_2;
+  }
+
+  public String getVar_text3_3() {
+    return var_text3_3;
+  }
+
+  public void setVar_text3_3(String var_text3_3) {
+    this.var_text3_3 = var_text3_3;
+  }
+
+  public String getVar_will_1() {
+    return var_will_1;
+  }
+
+  public void setVar_will_1(String var_will_1) {
+    this.var_will_1 = var_will_1;
+  }
+
+  public String getVar_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1() {
+    return var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1;
+  }
+
+  public void setVar_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1(
+      String var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1) {
+    this.var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1 = var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller_1;
+  }
+
+  public String getVar_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1() {
+    return var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1;
+  }
+
+  public void setVar_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1(
+      String var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1) {
+    this.var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1 = var_will_not_be_credited_to_the_sales_price_at_closing_time_is_of_the_1;
+  }
+
+  public String getVar_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2() {
+    return var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2;
+  }
+
+  public void setVar_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2(
+      String var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2) {
+    this.var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2 = var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller2;
+  }
+
+  public String getVar_acknowledged_by_seller_and_buyers_agreement_to_pay_seller() {
+    return var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller;
+  }
+
+  public void setVar_acknowledged_by_seller_and_buyers_agreement_to_pay_seller(
+      String var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller) {
+    this.var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller = var_acknowledged_by_seller_and_buyers_agreement_to_pay_seller;
+  }
+
+  public String getVar_initialed_for_identification_by_buyer_4() {
+    return var_initialed_for_identification_by_buyer_4;
+  }
+
+  public void setVar_initialed_for_identification_by_buyer_4(String var_initialed_for_identification_by_buyer_4) {
+    this.var_initialed_for_identification_by_buyer_4 = var_initialed_for_identification_by_buyer_4;
+  }
+
+  public String getVar_undefined_17() {
+    return var_undefined_17;
+  }
+
+  public void setVar_undefined_17(String var_undefined_17) {
+    this.var_undefined_17 = var_undefined_17;
+  }
+
+  public String getVar_and_seller_6() {
+    return var_and_seller_6;
+  }
+
+  public void setVar_and_seller_6(String var_and_seller_6) {
+    this.var_and_seller_6 = var_and_seller_6;
+  }
+
+  public String getVar_undefined_18() {
+    return var_undefined_18;
+  }
+
+  public void setVar_undefined_18(String var_undefined_18) {
+    this.var_undefined_18 = var_undefined_18;
+  }
+
+  public String getVar_page_7_of_10() {
+    return var_page_7_of_10;
+  }
+
+  public void setVar_page_7_of_10(String var_page_7_of_10) {
+    this.var_page_7_of_10 = var_page_7_of_10;
+  }
+
+  public String getVar_ac_numb_1() {
+    return var_ac_numb_1;
+  }
+
+  public void setVar_ac_numb_1(String var_ac_numb_1) {
+    this.var_ac_numb_1 = var_ac_numb_1;
+  }
+
+  public String getVar_ac_numb_2() {
+    return var_ac_numb_2;
+  }
+
+  public void setVar_ac_numb_2(String var_ac_numb_2) {
+    this.var_ac_numb_2 = var_ac_numb_2;
+  }
+
+  public String getVar_ac_numb_3() {
+    return var_ac_numb_3;
+  }
+
+  public void setVar_ac_numb_3(String var_ac_numb_3) {
+    this.var_ac_numb_3 = var_ac_numb_3;
+  }
+
+  public String getVar_ac_numb_4() {
+    return var_ac_numb_4;
+  }
+
+  public void setVar_ac_numb_4(String var_ac_numb_4) {
+    this.var_ac_numb_4 = var_ac_numb_4;
+  }
+
+  public String getVar_contract_concerning_4() {
+    return var_contract_concerning_4;
+  }
+
+  public void setVar_contract_concerning_4(String var_contract_concerning_4) {
+    this.var_contract_concerning_4 = var_contract_concerning_4;
+  }
+
+  public String getVar_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows() {
+    return var_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows;
+  }
+
+  public void setVar_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows(
+      String var_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows) {
+    this.var_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows = var_when_mailed_to_handdelivered_at_or_transmitted_by_fax_or_electronic_transmission_as_follows;
+  }
+
+  public String getVar_at() {
+    return var_at;
+  }
+
+  public void setVar_at(String var_at) {
+    this.var_at = var_at;
+  }
+
+  public String getVar_ac1() {
+    return var_ac1;
+  }
+
+  public void setVar_ac1(String var_ac1) {
+    this.var_ac1 = var_ac1;
+  }
+
+  public String getVar_phone_51() {
+    return var_phone_51;
+  }
+
+  public void setVar_phone_51(String var_phone_51) {
+    this.var_phone_51 = var_phone_51;
+  }
+
+  public String getVar_phone_52() {
+    return var_phone_52;
+  }
+
+  public void setVar_phone_52(String var_phone_52) {
+    this.var_phone_52 = var_phone_52;
+  }
+
+  public String getVar_undefined_20_0() {
+    return var_undefined_20_0;
+  }
+
+  public void setVar_undefined_20_0(String var_undefined_20_0) {
+    this.var_undefined_20_0 = var_undefined_20_0;
+  }
+
+  public String getVar_undefined_20() {
+    return var_undefined_20;
+  }
+
+  public void setVar_undefined_20(String var_undefined_20) {
+    this.var_undefined_20 = var_undefined_20;
+  }
+
+  public String getVar_undefined_19() {
+    return var_undefined_19;
+  }
+
+  public void setVar_undefined_19(String var_undefined_19) {
+    this.var_undefined_19 = var_undefined_19;
+  }
+
+  public String getVar_at_2() {
+    return var_at_2;
+  }
+
+  public void setVar_at_2(String var_at_2) {
+    this.var_at_2 = var_at_2;
+  }
+
+  public String getVar_ac4() {
+    return var_ac4;
+  }
+
+  public void setVar_ac4(String var_ac4) {
+    this.var_ac4 = var_ac4;
+  }
+
+  public String getVar_fax_52() {
+    return var_fax_52;
+  }
+
+  public void setVar_fax_52(String var_fax_52) {
+    this.var_fax_52 = var_fax_52;
+  }
+
+  public String getVar_undefined_numb_21() {
+    return var_undefined_numb_21;
+  }
+
+  public void setVar_undefined_numb_21(String var_undefined_numb_21) {
+    this.var_undefined_numb_21 = var_undefined_numb_21;
+  }
+
+  public String getVar_undefined_numb_22_0() {
+    return var_undefined_numb_22_0;
+  }
+
+  public void setVar_undefined_numb_22_0(String var_undefined_numb_22_0) {
+    this.var_undefined_numb_22_0 = var_undefined_numb_22_0;
+  }
+
+  public String getVar_undefined_numb_22() {
+    return var_undefined_numb_22;
+  }
+
+  public void setVar_undefined_numb_22(String var_undefined_numb_22) {
+    this.var_undefined_numb_22 = var_undefined_numb_22;
+  }
+
+  public String getVar_third_party_financing_addendum() {
+    return var_third_party_financing_addendum;
+  }
+
+  public void setVar_third_party_financing_addendum(String var_third_party_financing_addendum) {
+    this.var_third_party_financing_addendum = var_third_party_financing_addendum;
+  }
+
+  public String getVar_seller_financing_addendum() {
+    return var_seller_financing_addendum;
+  }
+
+  public void setVar_seller_financing_addendum(String var_seller_financing_addendum) {
+    this.var_seller_financing_addendum = var_seller_financing_addendum;
+  }
+
+  public String getVar_addendum_for_property_subject_to() {
+    return var_addendum_for_property_subject_to;
+  }
+
+  public void setVar_addendum_for_property_subject_to(String var_addendum_for_property_subject_to) {
+    this.var_addendum_for_property_subject_to = var_addendum_for_property_subject_to;
+  }
+
+  public String getVar_buyers_temporary_residential_lease() {
+    return var_buyers_temporary_residential_lease;
+  }
+
+  public void setVar_buyers_temporary_residential_lease(String var_buyers_temporary_residential_lease) {
+    this.var_buyers_temporary_residential_lease = var_buyers_temporary_residential_lease;
+  }
+
+  public String getVar_loan_assumption_addendum_2() {
+    return var_loan_assumption_addendum_2;
+  }
+
+  public void setVar_loan_assumption_addendum_2(String var_loan_assumption_addendum_2) {
+    this.var_loan_assumption_addendum_2 = var_loan_assumption_addendum_2;
+  }
+
+  public String getVar_addendum_for_sale_of_other_property_by() {
+    return var_addendum_for_sale_of_other_property_by;
+  }
+
+  public void setVar_addendum_for_sale_of_other_property_by(String var_addendum_for_sale_of_other_property_by) {
+    this.var_addendum_for_sale_of_other_property_by = var_addendum_for_sale_of_other_property_by;
+  }
+
+  public String getVar_addendum_for_reservation_of_oil_gas() {
+    return var_addendum_for_reservation_of_oil_gas;
+  }
+
+  public void setVar_addendum_for_reservation_of_oil_gas(String var_addendum_for_reservation_of_oil_gas) {
+    this.var_addendum_for_reservation_of_oil_gas = var_addendum_for_reservation_of_oil_gas;
+  }
+
+  public String getVar_addendum_for_backup_contract() {
+    return var_addendum_for_backup_contract;
+  }
+
+  public void setVar_addendum_for_backup_contract(String var_addendum_for_backup_contract) {
+    this.var_addendum_for_backup_contract = var_addendum_for_backup_contract;
+  }
+
+  public String getVar_check_box8() {
+    return var_check_box8;
+  }
+
+  public void setVar_check_box8(String var_check_box8) {
+    this.var_check_box8 = var_check_box8;
+  }
+
+  public String getVar_check_box9() {
+    return var_check_box9;
+  }
+
+  public void setVar_check_box9(String var_check_box9) {
+    this.var_check_box9 = var_check_box9;
+  }
+
+  public String getVar_check_box_10() {
+    return var_check_box_10;
+  }
+
+  public void setVar_check_box_10(String var_check_box_10) {
+    this.var_check_box_10 = var_check_box_10;
+  }
+
+  public String getVar_check_box_11() {
+    return var_check_box_11;
+  }
+
+  public void setVar_check_box_11(String var_check_box_11) {
+    this.var_check_box_11 = var_check_box_11;
+  }
+
+  public String getVar_environmental_assessment_threatened_or() {
+    return var_environmental_assessment_threatened_or;
+  }
+
+  public void setVar_environmental_assessment_threatened_or(String var_environmental_assessment_threatened_or) {
+    this.var_environmental_assessment_threatened_or = var_environmental_assessment_threatened_or;
+  }
+
+  public String getVar_sellers_temporary_residential_lease() {
+    return var_sellers_temporary_residential_lease;
+  }
+
+  public void setVar_sellers_temporary_residential_lease(String var_sellers_temporary_residential_lease) {
+    this.var_sellers_temporary_residential_lease = var_sellers_temporary_residential_lease;
+  }
+
+  public String getVar_short_sale_addendum() {
+    return var_short_sale_addendum;
+  }
+
+  public void setVar_short_sale_addendum(String var_short_sale_addendum) {
+    this.var_short_sale_addendum = var_short_sale_addendum;
+  }
+
+  public String getVar_addendum_for_property_located_seaward() {
+    return var_addendum_for_property_located_seaward;
+  }
+
+  public void setVar_addendum_for_property_located_seaward(String var_addendum_for_property_located_seaward) {
+    this.var_addendum_for_property_located_seaward = var_addendum_for_property_located_seaward;
+  }
+
+  public String getVar_sellers_disclos() {
+    return var_sellers_disclos;
+  }
+
+  public void setVar_sellers_disclos(String var_sellers_disclos) {
+    this.var_sellers_disclos = var_sellers_disclos;
+  }
+
+  public String getVar_addend() {
+    return var_addend;
+  }
+
+  public void setVar_addend(String var_addend) {
+    this.var_addend = var_addend;
+  }
+
+  public String getVar_addendum_for_property_in_a_propane_gas() {
+    return var_addendum_for_property_in_a_propane_gas;
+  }
+
+  public void setVar_addendum_for_property_in_a_propane_gas(String var_addendum_for_property_in_a_propane_gas) {
+    this.var_addendum_for_property_in_a_propane_gas = var_addendum_for_property_in_a_propane_gas;
+  }
+
+  public String getVar_pid() {
+    return var_pid;
+  }
+
+  public void setVar_pid(String var_pid) {
+    this.var_pid = var_pid;
+  }
+
+  public String getVar_addendum_for_section_1031() {
+    return var_addendum_for_section_1031;
+  }
+
+  public void setVar_addendum_for_section_1031(String var_addendum_for_section_1031) {
+    this.var_addendum_for_section_1031 = var_addendum_for_section_1031;
+  }
+
+  public String getVar_other() {
+    return var_other;
+  }
+
+  public void setVar_other(String var_other) {
+    this.var_other = var_other;
+  }
+
+  public String getVar_system_service_area() {
+    return var_system_service_area;
+  }
+
+  public void setVar_system_service_area(String var_system_service_area) {
+    this.var_system_service_area = var_system_service_area;
+  }
+
+  public String getVar_1() {
+    return var_1;
+  }
+
+  public void setVar_1(String var_1) {
+    this.var_1 = var_1;
+  }
+
+  public String getVar_2() {
+    return var_2;
+  }
+
+  public void setVar_2(String var_2) {
+    this.var_2 = var_2;
+  }
+
+  public String getVar_3() {
+    return var_3;
+  }
+
+  public void setVar_3(String var_3) {
+    this.var_3 = var_3;
+  }
+
+  public String getVar_attorney_is() {
+    return var_attorney_is;
+  }
+
+  public void setVar_attorney_is(String var_attorney_is) {
+    this.var_attorney_is = var_attorney_is;
+  }
+
+  public String getVar_undefined_24() {
+    return var_undefined_24;
+  }
+
+  public void setVar_undefined_24(String var_undefined_24) {
+    this.var_undefined_24 = var_undefined_24;
+  }
+
+  public String getVar_text2() {
+    return var_text2;
+  }
+
+  public void setVar_text2(String var_text2) {
+    this.var_text2 = var_text2;
+  }
+
+  public String getVar_text1() {
+    return var_text1;
+  }
+
+  public void setVar_text1(String var_text1) {
+    this.var_text1 = var_text1;
+  }
+
+  public String getVar_text7() {
+    return var_text7;
+  }
+
+  public void setVar_text7(String var_text7) {
+    this.var_text7 = var_text7;
+  }
+
+  public String getVar_text6() {
+    return var_text6;
+  }
+
+  public void setVar_text6(String var_text6) {
+    this.var_text6 = var_text6;
+  }
+
+  public String getVar_email() {
+    return var_email;
+  }
+
+  public void setVar_email(String var_email) {
+    this.var_email = var_email;
+  }
+
+  public String getVar_attorney_is_2() {
+    return var_attorney_is_2;
+  }
+
+  public void setVar_attorney_is_2(String var_attorney_is_2) {
+    this.var_attorney_is_2 = var_attorney_is_2;
+  }
+
+  public String getVar_undefined_25() {
+    return var_undefined_25;
+  }
+
+  public void setVar_undefined_25(String var_undefined_25) {
+    this.var_undefined_25 = var_undefined_25;
+  }
+
+  public String getVar_text22() {
+    return var_text22;
+  }
+
+  public void setVar_text22(String var_text22) {
+    this.var_text22 = var_text22;
+  }
+
+  public String getVar_phone11() {
+    return var_phone11;
+  }
+
+  public void setVar_phone11(String var_phone11) {
+    this.var_phone11 = var_phone11;
+  }
+
+  public String getVar_text23() {
+    return var_text23;
+  }
+
+  public void setVar_text23(String var_text23) {
+    this.var_text23 = var_text23;
+  }
+
+  public String getVar_phone_2() {
+    return var_phone_2;
+  }
+
+  public void setVar_phone_2(String var_phone_2) {
+    this.var_phone_2 = var_phone_2;
+  }
+
+  public String getVar_email_2() {
+    return var_email_2;
+  }
+
+  public void setVar_email_2(String var_email_2) {
+    this.var_email_2 = var_email_2;
+  }
+
+  public String getVar_initialed_for_identification_by_buyer_5() {
+    return var_initialed_for_identification_by_buyer_5;
+  }
+
+  public void setVar_initialed_for_identification_by_buyer_5(String var_initialed_for_identification_by_buyer_5) {
+    this.var_initialed_for_identification_by_buyer_5 = var_initialed_for_identification_by_buyer_5;
+  }
+
+  public String getVar_and_seller_7() {
+    return var_and_seller_7;
+  }
+
+  public void setVar_and_seller_7(String var_and_seller_7) {
+    this.var_and_seller_7 = var_and_seller_7;
+  }
+
+  public String getVar_undefined_22() {
+    return var_undefined_22;
+  }
+
+  public void setVar_undefined_22(String var_undefined_22) {
+    this.var_undefined_22 = var_undefined_22;
+  }
+
+  public String getVar_undefined_23() {
+    return var_undefined_23;
+  }
+
+  public void setVar_undefined_23(String var_undefined_23) {
+    this.var_undefined_23 = var_undefined_23;
+  }
+
+  public String getVar_address_of_property() {
+    return var_address_of_property;
+  }
+
+  public void setVar_address_of_property(String var_address_of_property) {
+    this.var_address_of_property = var_address_of_property;
+  }
+
+  public String getVar_executed_the() {
+    return var_executed_the;
+  }
+
+  public void setVar_executed_the(String var_executed_the) {
+    this.var_executed_the = var_executed_the;
+  }
+
+  public String getVar_day_of() {
+    return var_day_of;
+  }
+
+  public void setVar_day_of(String var_day_of) {
+    this.var_day_of = var_day_of;
+  }
+
+  public String getVar_20_2() {
+    return var_20_2;
+  }
+
+  public void setVar_20_2(String var_20_2) {
+    this.var_20_2 = var_20_2;
+  }
+
+  public String getVar_signature8() {
+    return var_signature8;
+  }
+
+  public void setVar_signature8(String var_signature8) {
+    this.var_signature8 = var_signature8;
+  }
+
+  public String getVar_signature10() {
+    return var_signature10;
+  }
+
+  public void setVar_signature10(String var_signature10) {
+    this.var_signature10 = var_signature10;
+  }
+
+  public String getVar_signature9() {
+    return var_signature9;
+  }
+
+  public void setVar_signature9(String var_signature9) {
+    this.var_signature9 = var_signature9;
+  }
+
+  public String getVar_signature11() {
+    return var_signature11;
+  }
+
+  public void setVar_signature11(String var_signature11) {
+    this.var_signature11 = var_signature11;
+  }
+
+  public String getVar_addr_of_prop() {
+    return var_addr_of_prop;
+  }
+
+  public void setVar_addr_of_prop(String var_addr_of_prop) {
+    this.var_addr_of_prop = var_addr_of_prop;
+  }
+
+  public String getVar_other_broker_firm() {
+    return var_other_broker_firm;
+  }
+
+  public void setVar_other_broker_firm(String var_other_broker_firm) {
+    this.var_other_broker_firm = var_other_broker_firm;
+  }
+
+  public String getVar_license_no() {
+    return var_license_no;
+  }
+
+  public void setVar_license_no(String var_license_no) {
+    this.var_license_no = var_license_no;
+  }
+
+  public String getVar_buyer_only() {
+    return var_buyer_only;
+  }
+
+  public void setVar_buyer_only(String var_buyer_only) {
+    this.var_buyer_only = var_buyer_only;
+  }
+
+  public String getVar_seller_as_list_brok_sub_agent() {
+    return var_seller_as_list_brok_sub_agent;
+  }
+
+  public void setVar_seller_as_list_brok_sub_agent(String var_seller_as_list_brok_sub_agent) {
+    this.var_seller_as_list_brok_sub_agent = var_seller_as_list_brok_sub_agent;
+  }
+
+  public String getVar_associates_name_numb_1() {
+    return var_associates_name_numb_1;
+  }
+
+  public void setVar_associates_name_numb_1(String var_associates_name_numb_1) {
+    this.var_associates_name_numb_1 = var_associates_name_numb_1;
+  }
+
+  public String getVar_license_no_2() {
+    return var_license_no_2;
+  }
+
+  public void setVar_license_no_2(String var_license_no_2) {
+    this.var_license_no_2 = var_license_no_2;
+  }
+
+  public String getVar_associates_name() {
+    return var_associates_name;
+  }
+
+  public void setVar_associates_name(String var_associates_name) {
+    this.var_associates_name = var_associates_name;
+  }
+
+  public String getVar_associates_email_address() {
+    return var_associates_email_address;
+  }
+
+  public void setVar_associates_email_address(String var_associates_email_address) {
+    this.var_associates_email_address = var_associates_email_address;
+  }
+
+  public String getVar_phone() {
+    return var_phone;
+  }
+
+  public void setVar_phone(String var_phone) {
+    this.var_phone = var_phone;
+  }
+
+  public String getVar_licensed_supervisor_of_associate() {
+    return var_licensed_supervisor_of_associate;
+  }
+
+  public void setVar_licensed_supervisor_of_associate(String var_licensed_supervisor_of_associate) {
+    this.var_licensed_supervisor_of_associate = var_licensed_supervisor_of_associate;
+  }
+
+  public String getVar_license_no_3() {
+    return var_license_no_3;
+  }
+
+  public void setVar_license_no_3(String var_license_no_3) {
+    this.var_license_no_3 = var_license_no_3;
+  }
+
+  public String getVar_other_brokers_address() {
+    return var_other_brokers_address;
+  }
+
+  public void setVar_other_brokers_address(String var_other_brokers_address) {
+    this.var_other_brokers_address = var_other_brokers_address;
+  }
+
+  public String getVar_city() {
+    return var_city;
+  }
+
+  public void setVar_city(String var_city) {
+    this.var_city = var_city;
+  }
+
+  public String getVar_state() {
+    return var_state;
+  }
+
+  public void setVar_state(String var_state) {
+    this.var_state = var_state;
+  }
+
+  public String getVar_zip() {
+    return var_zip;
+  }
+
+  public void setVar_zip(String var_zip) {
+    this.var_zip = var_zip;
+  }
+
+  public String getVar_listing_broker_firm() {
+    return var_listing_broker_firm;
+  }
+
+  public void setVar_listing_broker_firm(String var_listing_broker_firm) {
+    this.var_listing_broker_firm = var_listing_broker_firm;
+  }
+
+  public String getVar_license_no_4() {
+    return var_license_no_4;
+  }
+
+  public void setVar_license_no_4(String var_license_no_4) {
+    this.var_license_no_4 = var_license_no_4;
+  }
+
+  public String getVar_seller_and_buyer_as_an_intermediary() {
+    return var_seller_and_buyer_as_an_intermediary;
+  }
+
+  public void setVar_seller_and_buyer_as_an_intermediary(String var_seller_and_buyer_as_an_intermediary) {
+    this.var_seller_and_buyer_as_an_intermediary = var_seller_and_buyer_as_an_intermediary;
+  }
+
+  public String getVar_seller_only_as_sellers_agent() {
+    return var_seller_only_as_sellers_agent;
+  }
+
+  public void setVar_seller_only_as_sellers_agent(String var_seller_only_as_sellers_agent) {
+    this.var_seller_only_as_sellers_agent = var_seller_only_as_sellers_agent;
+  }
+
+  public String getVar_list_assoc_name() {
+    return var_list_assoc_name;
+  }
+
+  public void setVar_list_assoc_name(String var_list_assoc_name) {
+    this.var_list_assoc_name = var_list_assoc_name;
+  }
+
+  public String getVar_license_no_5() {
+    return var_license_no_5;
+  }
+
+  public void setVar_license_no_5(String var_license_no_5) {
+    this.var_license_no_5 = var_license_no_5;
+  }
+
+  public String getVar_listing_associates_name() {
+    return var_listing_associates_name;
+  }
+
+  public void setVar_listing_associates_name(String var_listing_associates_name) {
+    this.var_listing_associates_name = var_listing_associates_name;
+  }
+
+  public String getVar_listing_associates_email_address() {
+    return var_listing_associates_email_address;
+  }
+
+  public void setVar_listing_associates_email_address(String var_listing_associates_email_address) {
+    this.var_listing_associates_email_address = var_listing_associates_email_address;
+  }
+
+  public String getVar_phone_3() {
+    return var_phone_3;
+  }
+
+  public void setVar_phone_3(String var_phone_3) {
+    this.var_phone_3 = var_phone_3;
+  }
+
+  public String getVar_licensed_supervisor_of_listing_associate() {
+    return var_licensed_supervisor_of_listing_associate;
+  }
+
+  public void setVar_licensed_supervisor_of_listing_associate(String var_licensed_supervisor_of_listing_associate) {
+    this.var_licensed_supervisor_of_listing_associate = var_licensed_supervisor_of_listing_associate;
+  }
+
+  public String getVar_license_no_6() {
+    return var_license_no_6;
+  }
+
+  public void setVar_license_no_6(String var_license_no_6) {
+    this.var_license_no_6 = var_license_no_6;
+  }
+
+  public String getVar_listing_brokers_office_address() {
+    return var_listing_brokers_office_address;
+  }
+
+  public void setVar_listing_brokers_office_address(String var_listing_brokers_office_address) {
+    this.var_listing_brokers_office_address = var_listing_brokers_office_address;
+  }
+
+  public String getVar_phone_4() {
+    return var_phone_4;
+  }
+
+  public void setVar_phone_4(String var_phone_4) {
+    this.var_phone_4 = var_phone_4;
+  }
+
+  public String getVar_city_2() {
+    return var_city_2;
+  }
+
+  public void setVar_city_2(String var_city_2) {
+    this.var_city_2 = var_city_2;
+  }
+
+  public String getVar_state_2() {
+    return var_state_2;
+  }
+
+  public void setVar_state_2(String var_state_2) {
+    this.var_state_2 = var_state_2;
+  }
+
+  public String getVar_zip_2() {
+    return var_zip_2;
+  }
+
+  public void setVar_zip_2(String var_zip_2) {
+    this.var_zip_2 = var_zip_2;
+  }
+
+  public String getVar_selling_associates_name() {
+    return var_selling_associates_name;
+  }
+
+  public void setVar_selling_associates_name(String var_selling_associates_name) {
+    this.var_selling_associates_name = var_selling_associates_name;
+  }
+
+  public String getVar_license_no_7() {
+    return var_license_no_7;
+  }
+
+  public void setVar_license_no_7(String var_license_no_7) {
+    this.var_license_no_7 = var_license_no_7;
+  }
+
+  public String getVar_selling_associates_name_1() {
+    return var_selling_associates_name_1;
+  }
+
+  public void setVar_selling_associates_name_1(String var_selling_associates_name_1) {
+    this.var_selling_associates_name_1 = var_selling_associates_name_1;
+  }
+
+  public String getVar_selling_associates_email_address() {
+    return var_selling_associates_email_address;
+  }
+
+  public void setVar_selling_associates_email_address(String var_selling_associates_email_address) {
+    this.var_selling_associates_email_address = var_selling_associates_email_address;
+  }
+
+  public String getVar_phone_5() {
+    return var_phone_5;
+  }
+
+  public void setVar_phone_5(String var_phone_5) {
+    this.var_phone_5 = var_phone_5;
+  }
+
+  public String getVar_licensed_supervisor_of_selling_associate() {
+    return var_licensed_supervisor_of_selling_associate;
+  }
+
+  public void setVar_licensed_supervisor_of_selling_associate(String var_licensed_supervisor_of_selling_associate) {
+    this.var_licensed_supervisor_of_selling_associate = var_licensed_supervisor_of_selling_associate;
+  }
+
+  public String getVar_license_no_8() {
+    return var_license_no_8;
+  }
+
+  public void setVar_license_no_8(String var_license_no_8) {
+    this.var_license_no_8 = var_license_no_8;
+  }
+
+  public String getVar_selling_associates_office_address() {
+    return var_selling_associates_office_address;
+  }
+
+  public void setVar_selling_associates_office_address(String var_selling_associates_office_address) {
+    this.var_selling_associates_office_address = var_selling_associates_office_address;
+  }
+
+  public String getVar_city_3() {
+    return var_city_3;
+  }
+
+  public void setVar_city_3(String var_city_3) {
+    this.var_city_3 = var_city_3;
+  }
+
+  public String getVar_state_3() {
+    return var_state_3;
+  }
+
+  public void setVar_state_3(String var_state_3) {
+    this.var_state_3 = var_state_3;
+  }
+
+  public String getVar_zip_3() {
+    return var_zip_3;
+  }
+
+  public void setVar_zip_3(String var_zip_3) {
+    this.var_zip_3 = var_zip_3;
+  }
+
+  public String getVar_dollar_amt() {
+    return var_dollar_amt;
+  }
+
+  public void setVar_dollar_amt(String var_dollar_amt) {
+    this.var_dollar_amt = var_dollar_amt;
+  }
+
+  public String getVar_when_mailed_to() {
+    return var_when_mailed_to;
+  }
+
+  public void setVar_when_mailed_to(String var_when_mailed_to) {
+    this.var_when_mailed_to = var_when_mailed_to;
+  }
+
+  public String getVar_percentage() {
+    return var_percentage;
+  }
+
+  public void setVar_percentage(String var_percentage) {
+    this.var_percentage = var_percentage;
+  }
+
+  public String getVar_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from() {
+    return var_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from;
+  }
+
+  public void setVar_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from(
+      String var_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from) {
+    this.var_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from = var_when_the_listing_brokers_fee_is_received_escrow_agent_is_authorized_and_directed_to_pay_other_broker_from;
+  }
+
+  public String getVar_address_of_property_2() {
+    return var_address_of_property_2;
+  }
+
+  public void setVar_address_of_property_2(String var_address_of_property_2) {
+    this.var_address_of_property_2 = var_address_of_property_2;
+  }
+
+  public String getVar_is_acknowledged() {
+    return var_is_acknowledged;
+  }
+
+  public void setVar_is_acknowledged(String var_is_acknowledged) {
+    this.var_is_acknowledged = var_is_acknowledged;
+  }
+
+  public String getVar_option_fee_in_the_form_of() {
+    return var_option_fee_in_the_form_of;
+  }
+
+  public void setVar_option_fee_in_the_form_of(String var_option_fee_in_the_form_of) {
+    this.var_option_fee_in_the_form_of = var_option_fee_in_the_form_of;
+  }
+
+  public String getVar_seller_or_listing_broker() {
+    return var_seller_or_listing_broker;
+  }
+
+  public void setVar_seller_or_listing_broker(String var_seller_or_listing_broker) {
+    this.var_seller_or_listing_broker = var_seller_or_listing_broker;
+  }
+
+  public String getVar_date() {
+    return var_date;
+  }
+
+  public void setVar_date(String var_date) {
+    this.var_date = var_date;
+  }
+
+  public String getVar_is_acknowledged_2() {
+    return var_is_acknowledged_2;
+  }
+
+  public void setVar_is_acknowledged_2(String var_is_acknowledged_2) {
+    this.var_is_acknowledged_2 = var_is_acknowledged_2;
+  }
+
+  public String getVar_earnest_money_in_the_form_of() {
+    return var_earnest_money_in_the_form_of;
+  }
+
+  public void setVar_earnest_money_in_the_form_of(String var_earnest_money_in_the_form_of) {
+    this.var_earnest_money_in_the_form_of = var_earnest_money_in_the_form_of;
+  }
+
+  public String getVar_escrow_agent() {
+    return var_escrow_agent;
+  }
+
+  public void setVar_escrow_agent(String var_escrow_agent) {
+    this.var_escrow_agent = var_escrow_agent;
+  }
+
+  public String getVar_received_by() {
+    return var_received_by;
+  }
+
+  public void setVar_received_by(String var_received_by) {
+    this.var_received_by = var_received_by;
+  }
+
+  public String getVar_address() {
+    return var_address;
+  }
+
+  public void setVar_address(String var_address) {
+    this.var_address = var_address;
+  }
+
+  public String getVar_city_4() {
+    return var_city_4;
+  }
+
+  public void setVar_city_4(String var_city_4) {
+    this.var_city_4 = var_city_4;
+  }
+
+  public String getVar_state_4() {
+    return var_state_4;
+  }
+
+  public void setVar_state_4(String var_state_4) {
+    this.var_state_4 = var_state_4;
+  }
+
+  public String getVar_zip_4() {
+    return var_zip_4;
+  }
+
+  public void setVar_zip_4(String var_zip_4) {
+    this.var_zip_4 = var_zip_4;
+  }
+
+  public String getVar_email_address() {
+    return var_email_address;
+  }
+
+  public void setVar_email_address(String var_email_address) {
+    this.var_email_address = var_email_address;
+  }
+
+  public String getVar_datetime() {
+    return var_datetime;
+  }
+
+  public void setVar_datetime(String var_datetime) {
+    this.var_datetime = var_datetime;
+  }
+
+  public String getVar_phone_6() {
+    return var_phone_6;
+  }
+
+  public void setVar_phone_6(String var_phone_6) {
+    this.var_phone_6 = var_phone_6;
+  }
+
+  public String getVar_fax() {
+    return var_fax;
+  }
+
+  public void setVar_fax(String var_fax) {
+    this.var_fax = var_fax;
+  }
+
+  public String getVar_escrow_agent_2() {
+    return var_escrow_agent_2;
+  }
+
+  public void setVar_escrow_agent_2(String var_escrow_agent_2) {
+    this.var_escrow_agent_2 = var_escrow_agent_2;
+  }
+
+  public String getVar_received_by_2() {
+    return var_received_by_2;
+  }
+
+  public void setVar_received_by_2(String var_received_by_2) {
+    this.var_received_by_2 = var_received_by_2;
+  }
+
+  public String getVar_address_2() {
+    return var_address_2;
+  }
+
+  public void setVar_address_2(String var_address_2) {
+    this.var_address_2 = var_address_2;
+  }
+
+  public String getVar_city_5() {
+    return var_city_5;
+  }
+
+  public void setVar_city_5(String var_city_5) {
+    this.var_city_5 = var_city_5;
+  }
+
+  public String getVar_state_5() {
+    return var_state_5;
+  }
+
+  public void setVar_state_5(String var_state_5) {
+    this.var_state_5 = var_state_5;
+  }
+
+  public String getVar_zip_5() {
+    return var_zip_5;
+  }
+
+  public void setVar_zip_5(String var_zip_5) {
+    this.var_zip_5 = var_zip_5;
+  }
+
+  public String getVar_email_address_2() {
+    return var_email_address_2;
+  }
+
+  public void setVar_email_address_2(String var_email_address_2) {
+    this.var_email_address_2 = var_email_address_2;
+  }
+
+  public String getVar_date_2() {
+    return var_date_2;
+  }
+
+  public void setVar_date_2(String var_date_2) {
+    this.var_date_2 = var_date_2;
+  }
+
+  public String getVar_phone_7() {
+    return var_phone_7;
+  }
+
+  public void setVar_phone_7(String var_phone_7) {
+    this.var_phone_7 = var_phone_7;
+  }
+
+  public String getVar_fax_2() {
+    return var_fax_2;
+  }
+
+  public void setVar_fax_2(String var_fax_2) {
+    this.var_fax_2 = var_fax_2;
+  }
+
+  public String getVar_is_acknowledged_3() {
+    return var_is_acknowledged_3;
+  }
+
+  public void setVar_is_acknowledged_3(String var_is_acknowledged_3) {
+    this.var_is_acknowledged_3 = var_is_acknowledged_3;
+  }
+
+  public String getVar_additional_earnest_money_in_the_form_of() {
+    return var_additional_earnest_money_in_the_form_of;
+  }
+
+  public void setVar_additional_earnest_money_in_the_form_of(String var_additional_earnest_money_in_the_form_of) {
+    this.var_additional_earnest_money_in_the_form_of = var_additional_earnest_money_in_the_form_of;
+  }
+
+  public String getVar_escrow_agent_3() {
+    return var_escrow_agent_3;
+  }
+
+  public void setVar_escrow_agent_3(String var_escrow_agent_3) {
+    this.var_escrow_agent_3 = var_escrow_agent_3;
+  }
+
+  public String getVar_received_by_3() {
+    return var_received_by_3;
+  }
+
+  public void setVar_received_by_3(String var_received_by_3) {
+    this.var_received_by_3 = var_received_by_3;
+  }
+
+  // public String var_address_3;
+  // public String var_city_6;
+  // public String var_state_6;
+  // public String var_zip_6;
+  // public String var_email_address_3;
+  // public String var_datetime_2;
+  // public String var_phone_8;
+  // public String var_fax_3;
+
 }

@@ -4,7 +4,10 @@ import java.io.File;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.apache.pdfbox.cos.COSName;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -20,11 +23,11 @@ import com.timeandspacehub.formtopdf.dto.PdfFieldStructure;
 @Service
 public class PdfFormExtractorService {
 
-    public List<String> extractFormFieldNames() throws Exception {
+    public Set<String> extractFormFieldNames() throws Exception {
         ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
         String pdfPath = resource.getFile().getAbsolutePath();
 
-        List<String> fieldNames = new ArrayList<>();
+        Set<String> fieldNames = new LinkedHashSet<>();
 
         PDDocument document = PDDocument.load(new File(pdfPath));
         PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
@@ -34,9 +37,10 @@ public class PdfFormExtractorService {
             for (PDField field : fields) {
 
                 String rawStr = field.getFullyQualifiedName();
-                String rawStrAndUnderscore = rawStr.replaceAll("(?<=\\w) (?=\\w)", "_");
+                String rawStrAndUnderscore = rawStr.replaceAll("\\s+", "_");
+                rawStrAndUnderscore = rawStrAndUnderscore.replace('-', '_');
 
-                fieldNames.add("VAR_" + rawStrAndUnderscore);
+                fieldNames.add("public String var_" + rawStrAndUnderscore.toLowerCase() + ";");
             }
         }
 
@@ -90,23 +94,23 @@ public class PdfFormExtractorService {
 
             acroForm.setDefaultAppearance("/Helv 0 Tf 0 g");
 
-            for (int i = 0; i < pdfFileStructureList.size(); i++) {
-            // for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 255; i++) {
 
                 PdfFieldStructure fieldDto = pdfFileStructureList.get(i);
 
                 if (fieldDto.getFieldClass().equalsIgnoreCase("PDTextField")) {
 
-
                     String fieldName = fieldDto.getFieldName();
                     PDField field = acroForm.getField(fieldName);
                     field.getCOSObject().removeItem(COSName.DA);
                     
-    
-                    // Build method name: "get" + "Apple"
-                    //SAMPLE GETTER FOR INPUT OBJECT : getVAR_1_PARTIES_The_parties_to_this_contract_are
-                    String methodName = "getVAR_" + fieldName.substring(0, 1).toUpperCase() + fieldName.substring(1);
-                    methodName = methodName.replaceAll("(?<=\\w) (?=\\w)", "_");
+                    String rawStr = field.getFullyQualifiedName();
+                    String methodName = rawStr.replaceAll("\\s+", "_");
+                    methodName = "getVar_" + methodName.replace('-', '_').toLowerCase();
+
+                    if("getVar_received_by_3".equalsIgnoreCase(methodName)){
+                        System.out.println("YES");
+                    }
 
                     // Get method on BuyerInput
                     Method method = BuyerInput.class.getMethod(methodName);

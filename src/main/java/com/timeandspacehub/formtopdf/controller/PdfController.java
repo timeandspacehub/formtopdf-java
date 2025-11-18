@@ -3,6 +3,7 @@ package com.timeandspacehub.formtopdf.controller;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -67,9 +68,9 @@ public class PdfController {
     }
 
     @GetMapping("/fields")
-    public List<String> extractFormFields() throws Exception{
-        List<String> result = pdfFormExtractorService.extractFormFieldNames();
-        return result;
+    public ResponseEntity<Set<String>> extractFormFields() throws Exception{
+        Set<String> result = pdfFormExtractorService.extractFormFieldNames();
+        return ResponseEntity.ok(result);
     }
 
 }
