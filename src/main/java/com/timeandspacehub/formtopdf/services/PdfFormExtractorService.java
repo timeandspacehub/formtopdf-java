@@ -103,66 +103,120 @@ public class PdfFormExtractorService {
 
         if (acroForm != null) {
             acroForm.setNeedAppearances(false);
-
-            // 2. Lazy Instantiation
             List<PdfFieldStructure> pdfFileStructureList = getFieldInfo();
 
-            if(input.getBuyerInfoDto() != null){
-                for (int i = 0; i < buyerInfoDtoFieldsCt; i++) {
+            if (input.getBuyerInfoDto() != null) {
+                Object obj = input.getBuyerInfoDto();
+                writeToFile(0, buyerInfoDtoFieldsCt, originalDA, acroForm, obj, pdfFileStructureList);
+            }
 
-                    PdfFieldStructure fieldDto = pdfFileStructureList.get(i);
-                    String fieldName = fieldDto.getFieldName();
-                    PDField field = acroForm.getField(fieldName);
-                    String methodName = fieldName.replaceAll("\\s+", "_");
-                    methodName = "getVar_" + methodName.replace('-', '_').toLowerCase();
-                    Method method = BuyerInfoDto.class.getMethod(methodName);
+            if (input.getBrokerInfoDto() != null) {
+                Object obj = input.getBrokerInfoDto();
+                writeToFile(buyerInfoDtoFieldsCt, (buyerInfoDtoFieldsCt + brokerInfoDtoFieldsCt), originalDA, acroForm,
+                        obj, pdfFileStructureList);
+            }
 
-                    if (fieldDto.getFieldClass().equalsIgnoreCase("PDTextField")) {
-                        acroForm.setDefaultAppearance("/Helv 0 Tf 0 g");
-                        field.getCOSObject().removeItem(COSName.DA);
-
-                        // Invoke method
-                        Object value = method.invoke(input.getBuyerInfoDto());
-
-                        if (value != null) {
-                            String x = (String) value;
-                            field.setValue(x);
-                        }
-
-                        acroForm.refreshAppearances(Arrays.asList(field));
-                    }else if (fieldDto.getFieldClass().equalsIgnoreCase("PDCheckBox")){
-                        // Invoke method
-                        Object value = method.invoke(input.getBuyerInfoDto());
-
-                        if (value != null) {
-                            String yesNoString = (String) value;
-
-                            if (!yesNoString.trim().isEmpty() && yesNoString.trim().equalsIgnoreCase("Y")){
-
-                                acroForm.setDefaultAppearance(originalDA);
-                                PDCheckBox checkbox = (PDCheckBox) field;
-
-                                checkbox.check();
-                                acroForm.refreshAppearances(Arrays.asList(checkbox));
-                            }
-               
-                        }
-
-                        
-                    }
-                }
-
+            if (input.getReceiptInfoDto() != null) {
+                Object obj = input.getReceiptInfoDto();
+                writeToFile((buyerInfoDtoFieldsCt + brokerInfoDtoFieldsCt),
+                        (buyerInfoDtoFieldsCt + brokerInfoDtoFieldsCt + receiptInfoDtoFieldsCt), originalDA, acroForm,
+                        obj, pdfFileStructureList);
             }
 
         } else {
             System.err.println("Error: The PDF does not contain an AcroForm.");
         }
 
+        // Finally Save
         String outputPath = "result.pdf";
         document.save(outputPath);
         document.close();
 
         return outputPath;
+    }
+
+    public Method getMethodNameDynamically(Object inputObj, String methodName) throws Exception {
+        Method method = null;
+
+        try {
+            if (inputObj instanceof BuyerInfoDto) {
+                method = BuyerInfoDto.class.getMethod(methodName);
+            } else if (inputObj instanceof BrokerInfoDto) {
+                method = BrokerInfoDto.class.getMethod(methodName);
+            } else if (inputObj instanceof ReceiptInfoDto) {
+                method = ReceiptInfoDto.class.getMethod(methodName);
+            }
+        } catch (Exception e) {
+            System.out.println(methodName + " was not found");
+        }
+
+        return method;
+    }
+
+    public Object getFieldValueFromAPICall(Method method, Object inputObj) throws Exception {
+        Object value = null;
+
+        if (inputObj instanceof BuyerInfoDto) {
+            value = method.invoke((BuyerInfoDto) inputObj);
+        } else if (inputObj instanceof BrokerInfoDto) {
+            value = method.invoke((BrokerInfoDto) inputObj);
+        } else if (inputObj instanceof ReceiptInfoDto) {
+            value = method.invoke((ReceiptInfoDto) inputObj);
+        }
+        return value;
+    }
+
+    public void writeToFile(int startIndex, int endIndex, String originalDA, PDAcroForm acroForm, Object inputObj,
+            List<PdfFieldStructure> pdfFileStructureList) throws Exception {
+
+        for (int i = startIndex; i < endIndex; i++) {
+
+            PdfFieldStructure fieldDto = pdfFileStructureList.get(i);
+            String fieldName = fieldDto.getFieldName();
+            PDField field = acroForm.getField(fieldName);
+            String methodName = fieldName.replaceAll("\\s+", "_");
+            methodName = "getVar_" + methodName.replace('-', '_').toLowerCase();
+            Method method = getMethodNameDynamically(inputObj, methodName);
+
+            if (method == null) {
+                System.out.println(methodName + " was not found when i = " + i);
+                continue;
+            }
+
+            if (fieldDto.getFieldClass().equalsIgnoreCase("PDTextField")) {
+                acroForm.setDefaultAppearance("/Helv 0 Tf 0 g");
+                field.getCOSObject().removeItem(COSName.DA);
+
+                Object value = getFieldValueFromAPICall(method, inputObj);
+
+                if (value != null) {
+                    String x = (String) value;
+                    field.setValue(x);
+                }
+
+                acroForm.refreshAppearances(Arrays.asList(field));
+            } else if (fieldDto.getFieldClass().equalsIgnoreCase("PDCheckBox")) {
+                // Invoke method
+
+                Object value = getFieldValueFromAPICall(method, inputObj);
+
+                if (value != null) {
+                    String yesNoString = (String) value;
+
+                    if (!yesNoString.trim().isEmpty() && yesNoString.trim().equalsIgnoreCase("Y")) {
+
+                        acroForm.setDefaultAppearance(originalDA);
+                        PDCheckBox checkbox = (PDCheckBox) field;
+
+                        checkbox.check();
+                        acroForm.refreshAppearances(Arrays.asList(checkbox));
+                    }
+
+                }
+
+            }
+        }
+
     }
 
 }
