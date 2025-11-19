@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.timeandspacehub.formtopdf.dto.BuyerInput;
+import com.timeandspacehub.formtopdf.dto.BuyerInfoDto;
 import com.timeandspacehub.formtopdf.dto.PdfFieldStructure;
 import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
 
@@ -48,7 +48,7 @@ public class PdfController {
     }
 
     @PostMapping("/fill-and-save")
-    public ResponseEntity<?> fillAndSavePdf(@RequestBody BuyerInput input) {
+    public ResponseEntity<?> fillAndSavePdf(@RequestBody BuyerInfoDto input) {
         try {
 
             String savedFilePath = pdfFormExtractorService.fillAndSavePdf(input);
