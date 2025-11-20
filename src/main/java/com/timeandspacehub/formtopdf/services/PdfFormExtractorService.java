@@ -1,5 +1,6 @@
 package com.timeandspacehub.formtopdf.services;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -64,7 +65,7 @@ public class PdfFormExtractorService {
         return clazz.getDeclaredFields().length;
     }
 
-    public String fillAndSavePdf(InputDto input) throws Exception {
+    public byte[] fillAndSavePdf(InputDto input) throws Exception {
         // Cache this information
         int buyerInfoDtoFieldsCt = countDeclaredFields(BuyerInfoDto.class); // 0 to 177 (non-inclusive)
         int brokerInfoDtoFieldsCt = countDeclaredFields(BrokerInfoDto.class); // 177 to 225 (non-inclusive)
@@ -104,12 +105,13 @@ public class PdfFormExtractorService {
             System.err.println("Error: The PDF does not contain an AcroForm.");
         }
 
-        // Finally Save
-        String outputPath = "result.pdf";
-        document.save(outputPath);
+        // Use ByteArrayOutputStream to save to memory instead of disk
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        document.save(baos); 
         document.close();
 
-        return outputPath;
+        // Convert the in-memory data stream to a byte array
+        return baos.toByteArray();
     }
 
     public Method getMethodNameDynamically(Object inputObj, String methodName) throws Exception {

@@ -52,22 +52,25 @@ public class PdfController {
     }
 
     @PostMapping("/fill-and-save")
-    public ResponseEntity<?> fillAndSavePdf(@RequestBody InputDto input) {
+    public ResponseEntity<byte[]> fillAndSavePdf(@RequestBody InputDto input) {
         try {
+            // Get the PDF data as a byte array
+            byte[] pdfBytes = pdfFormExtractorService.fillAndSavePdf(input);
 
-            String savedFilePath = pdfFormExtractorService.fillAndSavePdf(input);
+            // Set HTTP headers for file download and PDF content type
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(MediaType.APPLICATION_PDF);
+            headers.setContentDispositionFormData("attachment", "filled_form.pdf"); // Forces download
+            headers.setContentLength(pdfBytes.length);
 
-            Map<String, Object> response = new HashMap<>();
-            response.put("success", true);
-            response.put("message", "PDF filled and saved successfully");
-            response.put("filePath", savedFilePath);
+            // Return the byte array within a ResponseEntity
+            return ResponseEntity.ok()
+                    .headers(headers)
+                    .body(pdfBytes);
 
-            return ResponseEntity.ok(response);
         } catch (Exception e) {
-            Map<String, Object> error = new HashMap<>();
-            error.put("success", false);
-            error.put("error", e.getMessage());
-            return ResponseEntity.badRequest().body(error);
+            // Handle exceptions appropriately
+            return ResponseEntity.internalServerError().body(null);
         }
     }
 
