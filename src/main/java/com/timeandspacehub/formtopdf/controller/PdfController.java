@@ -1,8 +1,6 @@
 package com.timeandspacehub.formtopdf.controller;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 import org.springframework.http.HttpHeaders;
@@ -20,7 +18,7 @@ import com.timeandspacehub.formtopdf.services.PdfCacheService;
 import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
 
 @RestController
-@RequestMapping("/api/pdf")
+@RequestMapping("/api/")
 public class PdfController {
 
     private PdfFormExtractorService pdfFormExtractorService;
@@ -31,27 +29,13 @@ public class PdfController {
         this.pdfCacheService = pdfCacheService;
     }
 
-    @GetMapping("/generate")
-    public ResponseEntity<byte[]> generatePdf() {
-        // TODO: Add your PDF generation logic here
-        byte[] pdfBytes = new byte[0];
-
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_PDF);
-        headers.setContentDispositionFormData("attachment", "document.pdf");
-
-        return ResponseEntity.ok()
-                .headers(headers)
-                .body(pdfBytes);
-    }
-
     @GetMapping("/field-info")
     public ResponseEntity<List<PdfFieldStructure>> getFieldInfo() throws Exception {
         List<PdfFieldStructure> list = pdfCacheService.getFieldInfo();
         return ResponseEntity.ok(list);
     }
 
-    @PostMapping("/fill-and-save")
+    @PostMapping("/pdf")
     public ResponseEntity<byte[]> fillAndSavePdf(@RequestBody InputDto input) {
         try {
             // Get the PDF data as a byte array
