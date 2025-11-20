@@ -2,7 +2,6 @@ package com.timeandspacehub.formtopdf.services;
 
 import java.io.File;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -24,6 +23,13 @@ import com.timeandspacehub.formtopdf.dto.ReceiptInfoDto;
 
 @Service
 public class PdfFormExtractorService {
+
+    private final PdfCacheService pdfCacheService;
+
+
+    public PdfFormExtractorService(PdfCacheService pdfCacheService) {
+        this.pdfCacheService = pdfCacheService;
+    }
 
     public Set<String> extractFormFieldNames() throws Exception {
         ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
@@ -50,35 +56,6 @@ public class PdfFormExtractorService {
         return fieldNames;
     }
 
-    public List<PdfFieldStructure> getFieldInfo() throws Exception {
-
-        List<PdfFieldStructure> list = new ArrayList<>();
-
-        ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
-        String pdfPath = resource.getFile().getAbsolutePath();
-
-        PDDocument document = PDDocument.load(new File(pdfPath));
-        PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
-
-        if (acroForm != null) {
-            List<PDField> fields = acroForm.getFields();
-            System.out.println("Total no. of fields is" + fields.size());
-
-            for (int i = 0; i < fields.size(); i++) {
-                PDField field = fields.get(i);
-
-                // PdfFieldStructure.b
-                PdfFieldStructure obj = new PdfFieldStructure(i + 1, field.getFullyQualifiedName(),
-                        field.getValueAsString(), field.getClass().getSimpleName());
-                list.add(obj);
-            }
-        }
-
-        document.close();
-
-        return list;
-    }
-
     public int countDeclaredFields(Class<?> clazz) {
         if (clazz == null) {
             throw new IllegalArgumentException("Class cannot be null");
@@ -103,7 +80,7 @@ public class PdfFormExtractorService {
 
         if (acroForm != null) {
             acroForm.setNeedAppearances(false);
-            List<PdfFieldStructure> pdfFileStructureList = getFieldInfo();
+            List<PdfFieldStructure> pdfFileStructureList = pdfCacheService.getFieldInfo();
 
             if (input.getBuyerInfoDto() != null) {
                 Object obj = input.getBuyerInfoDto();

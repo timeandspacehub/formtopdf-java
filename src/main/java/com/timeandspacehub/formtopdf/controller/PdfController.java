@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -17,14 +16,20 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.timeandspacehub.formtopdf.dto.InputDto;
 import com.timeandspacehub.formtopdf.dto.PdfFieldStructure;
+import com.timeandspacehub.formtopdf.services.PdfCacheService;
 import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
 
 @RestController
 @RequestMapping("/api/pdf")
 public class PdfController {
 
-    @Autowired
     private PdfFormExtractorService pdfFormExtractorService;
+    private final PdfCacheService pdfCacheService;
+
+    public PdfController(PdfFormExtractorService pdfFormExtractorService, PdfCacheService pdfCacheService) {
+        this.pdfFormExtractorService = pdfFormExtractorService;
+        this.pdfCacheService = pdfCacheService;
+    }
 
     @GetMapping("/generate")
     public ResponseEntity<byte[]> generatePdf() {
@@ -40,10 +45,9 @@ public class PdfController {
                 .body(pdfBytes);
     }
 
-
     @GetMapping("/field-info")
     public ResponseEntity<List<PdfFieldStructure>> getFieldInfo() throws Exception {
-        List<PdfFieldStructure> list = pdfFormExtractorService.getFieldInfo();
+        List<PdfFieldStructure> list = pdfCacheService.getFieldInfo();
         return ResponseEntity.ok(list);
     }
 
@@ -68,7 +72,7 @@ public class PdfController {
     }
 
     @GetMapping("/fields")
-    public ResponseEntity<Set<String>> extractFormFields() throws Exception{
+    public ResponseEntity<Set<String>> extractFormFields() throws Exception {
         Set<String> result = pdfFormExtractorService.extractFormFieldNames();
         return ResponseEntity.ok(result);
     }
