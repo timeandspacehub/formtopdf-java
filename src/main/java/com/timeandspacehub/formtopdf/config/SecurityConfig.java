@@ -4,6 +4,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.User;
@@ -20,6 +21,8 @@ public class SecurityConfig {
 
         http
                 .authorizeHttpRequests(auth -> auth
+                         // Allows OPTIONS requests (preflight) to go through without auth
+                        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll() 
                         .anyRequest().authenticated())
                 .httpBasic(withDefaults()) // popup login
                 .csrf(csrf -> csrf.disable());
