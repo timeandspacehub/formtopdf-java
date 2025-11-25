@@ -14,4 +14,9 @@ public class AuthController {
         // If we reach here, user is authenticated by Spring Security
         return ResponseEntity.ok("OK");
     }
+
+    @GetMapping("/health")
+    public String health() {
+        return "OK";
+    }
 }

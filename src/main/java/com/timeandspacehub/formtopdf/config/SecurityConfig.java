@@ -22,7 +22,8 @@ public class SecurityConfig {
         http
                 .authorizeHttpRequests(auth -> auth
                          // Allows OPTIONS requests (preflight) to go through without auth
-                        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll() 
+                        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                        .requestMatchers("/health").permitAll()
                         .anyRequest().authenticated())
                 .httpBasic(withDefaults()) // popup login
                 .csrf(csrf -> csrf.disable());
