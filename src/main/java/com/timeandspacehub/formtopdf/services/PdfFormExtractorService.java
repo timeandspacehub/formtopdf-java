@@ -2,6 +2,7 @@ package com.timeandspacehub.formtopdf.services;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.InputStream;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
@@ -33,29 +34,50 @@ public class PdfFormExtractorService {
     }
 
     public Set<String> extractFormFieldNames() throws Exception {
-        ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
-        String pdfPath = resource.getFile().getAbsolutePath();
-
         Set<String> fieldNames = new LinkedHashSet<>();
+        ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
 
-        PDDocument document = PDDocument.load(new File(pdfPath));
-        PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
+        PDDocument document = null;
+        InputStream is = null;
 
-        if (acroForm != null) {
-            List<PDField> fields = acroForm.getFields();
-            for (PDField field : fields) {
+        try {
+            // IMPORTANT: load as stream, NOT as a File
+            is = resource.getInputStream();
+            document = PDDocument.load(is);
 
-                String rawStr = field.getFullyQualifiedName();
-                String rawStrAndUnderscore = rawStr.replaceAll("\\s+", "_");
-                rawStrAndUnderscore = rawStrAndUnderscore.replace('-', '_');
+            PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
 
-                fieldNames.add("public String var_" + rawStrAndUnderscore.toLowerCase() + ";");
+            if (acroForm != null) {
+                List<PDField> fields = acroForm.getFields();
+                for (PDField field : fields) {
+
+                    String rawStr = field.getFullyQualifiedName();
+                    String rawStrAndUnderscore = rawStr.replaceAll("\\s+", "_")
+                            .replace('-', '_');
+
+                    fieldNames.add(
+                            "public String var_" + rawStrAndUnderscore.toLowerCase() + ";");
+                }
+            }
+
+        } catch (Exception e) {
+            // log this if you want
+            System.err.println("Error loading PDF: " + e.getMessage());
+            throw e;
+
+        } finally {
+            // clean up in the classic way
+            if (document != null) {
+                document.close();
+            }
+            if (is != null) {
+                is.close();
             }
         }
 
-        document.close();
         return fieldNames;
     }
+
 
     public int countDeclaredFields(Class<?> clazz) {
         if (clazz == null) {
