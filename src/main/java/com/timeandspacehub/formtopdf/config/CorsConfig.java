@@ -14,7 +14,12 @@ public class CorsConfig implements WebMvcConfigurer {
         registry.addMapping("/**") // Apply to all endpoints
             .allowedOrigins(
                 "http://localhost:3000",
-                            "https://dev.timeandspacehub.com") // Your React app's URL
+                
+                            "http://dev.timeandspacehub.com",
+                            "https://dev.timeandspacehub.com",
+
+                            "http://api-dev.timeandspacehub.com",
+                            "https://api-dev.timeandspacehub.com") // Your React app's URL
             .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // List all required methods
             .allowedHeaders("*") // Allows all headers, including Authorization
             .allowCredentials(true) // Necessary if you use HTTP basic or cookies
