@@ -26,7 +26,10 @@
 
 ## Overview
 
-`<PROJECT_NAME>` is a Spring Boot-based application that <briefly describe core functionality: e.g., "exposes REST APIs for managing orders and customers">.
+`TREC Backend PDF Project` is a Spring Boot-based application that exposes REST APIs for filling PDF form based on API call.
+
+## How to Run Locally?
+- Update port # to 8080 in application.properties file. Default port is set to 5000 because Elastic BeanStalk expects it.
 
 Key features:
 
