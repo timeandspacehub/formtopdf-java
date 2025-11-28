@@ -95,12 +95,16 @@ public class PdfFormExtractorService {
 
         // 1. Get PDF file from resources directory
         ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
-        String pdfPath = resource.getFile().getAbsolutePath();
-
-        PDDocument document = PDDocument.load(new File(pdfPath));
-        PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
-        String originalDA = acroForm.getDefaultAppearance(); // For switching Helvetica font and Original font of Acro
-
+      
+        // Use a try-with-resources block for automatic handling of streams/documents//
+        try (InputStream pdfStream = resource.getInputStream();
+             PDDocument document = PDDocument.load(pdfStream); // Load directly from the stream
+             ByteArrayOutputStream baos = new ByteArrayOutputStream()) { // Use ByteArrayOutputStream to save to memory
+     
+        	 PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
+        	 // Check if the originalDA is available before using it (optional safety check)
+             String originalDA = (acroForm != null) ? acroForm.getDefaultAppearance() : null; 
+      
         if (acroForm != null) {
             acroForm.setNeedAppearances(false);
             List<PdfFieldStructure> pdfFileStructureList = pdfCacheService.getFieldInfo();
@@ -127,14 +131,11 @@ public class PdfFormExtractorService {
             System.err.println("Error: The PDF does not contain an AcroForm.");
         }
 
-        // Use ByteArrayOutputStream to save to memory instead of disk
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
         document.save(baos); 
-        document.close();
-
         // Convert the in-memory data stream to a byte array
         return baos.toByteArray();
     }
+  }
 
     public Method getMethodNameDynamically(Object inputObj, String methodName) throws Exception {
         Method method = null;
