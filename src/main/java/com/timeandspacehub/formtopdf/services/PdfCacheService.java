@@ -1,6 +1,7 @@
 package com.timeandspacehub.formtopdf.services;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,9 +22,8 @@ public class PdfCacheService {
         List<PdfFieldStructure> list = new ArrayList<>();
 
         ClassPathResource resource = new ClassPathResource("one-to-four.pdf");
-        String pdfPath = resource.getFile().getAbsolutePath();
-
-        PDDocument document = PDDocument.load(new File(pdfPath));
+        try (InputStream pdfStream = resource.getInputStream(); 
+				PDDocument document = PDDocument.load(pdfStream);) {        
         PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
 
         if (acroForm != null) {
@@ -43,4 +43,5 @@ public class PdfCacheService {
         document.close();
         return list;
     }
+}
 }
