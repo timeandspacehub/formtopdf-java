@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.timeandspacehub.formtopdf.dto.InputDto;
 import com.timeandspacehub.formtopdf.dto.PdfFieldStructure;
+import com.timeandspacehub.formtopdf.entity.Buyer;
 import com.timeandspacehub.formtopdf.services.PdfCacheService;
 import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
 
@@ -62,6 +63,14 @@ public class PdfController {
     public ResponseEntity<Set<String>> extractFormFields() throws Exception {
         Set<String> result = pdfFormExtractorService.extractFormFieldNames();
         return ResponseEntity.ok(result);
+    }
+
+
+    @GetMapping("/test")
+    public ResponseEntity<Buyer> test() throws Exception {
+        Buyer buyer = new Buyer(1, "John", "Doe");
+        System.out.println(buyer.getFirstName());
+        return ResponseEntity.ok(buyer);
     }
 
 }
