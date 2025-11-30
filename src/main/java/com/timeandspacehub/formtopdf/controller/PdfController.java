@@ -1,5 +1,6 @@
 package com.timeandspacehub.formtopdf.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -15,6 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.timeandspacehub.formtopdf.dto.InputDto;
 import com.timeandspacehub.formtopdf.dto.PdfFieldStructure;
 import com.timeandspacehub.formtopdf.entity.Buyer;
+import com.timeandspacehub.formtopdf.request.CreateBuyerRequest;
+import com.timeandspacehub.formtopdf.response.CreateBuyerResponse;
+import com.timeandspacehub.formtopdf.services.BuyerService;
 import com.timeandspacehub.formtopdf.services.PdfCacheService;
 import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
 
@@ -23,11 +27,15 @@ import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
 public class PdfController {
 
     private PdfFormExtractorService pdfFormExtractorService;
-    private final PdfCacheService pdfCacheService;
+    private PdfCacheService pdfCacheService;
+    private BuyerService buyerService;
 
-    public PdfController(PdfFormExtractorService pdfFormExtractorService, PdfCacheService pdfCacheService) {
+    public PdfController(PdfFormExtractorService pdfFormExtractorService, PdfCacheService pdfCacheService, 
+        BuyerService buyerService
+    ) {
         this.pdfFormExtractorService = pdfFormExtractorService;
         this.pdfCacheService = pdfCacheService;
+        this.buyerService = buyerService;
     }
 
     @GetMapping("/field-info")
@@ -65,12 +73,25 @@ public class PdfController {
         return ResponseEntity.ok(result);
     }
 
+    @GetMapping("/buyers")
+    public ResponseEntity<List<CreateBuyerResponse>> test() throws Exception {
+        List<Buyer> buyersList = buyerService.getAllBuyers();
+        List<CreateBuyerResponse> result = new ArrayList<>();
 
-    @GetMapping("/test")
-    public ResponseEntity<Buyer> test() throws Exception {
-        Buyer buyer = new Buyer(1, "John", "Doe");
-        System.out.println(buyer.getFirstName());
-        return ResponseEntity.ok(buyer);
+        for(int i=0; i<buyersList.size(); i++){
+            Buyer buyer = buyersList.get(i);
+            CreateBuyerResponse response = new CreateBuyerResponse(buyer);
+            result.add(response);
+        }
+        
+        return ResponseEntity.ok(result);
+    }
+
+    @PostMapping("/buyer")
+    public ResponseEntity<CreateBuyerResponse> createBuyer(CreateBuyerRequest request) throws Exception {
+        Buyer buyer = buyerService.createBuyer(request);
+        CreateBuyerResponse response = new CreateBuyerResponse(buyer);
+        return ResponseEntity.ok(response);
     }
 
 }
