@@ -16,9 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.timeandspacehub.formtopdf.dto.InputDto;
 import com.timeandspacehub.formtopdf.dto.PdfFieldStructure;
 import com.timeandspacehub.formtopdf.entity.Buyer;
+import com.timeandspacehub.formtopdf.entity.Offer;
 import com.timeandspacehub.formtopdf.request.CreateBuyerRequest;
 import com.timeandspacehub.formtopdf.response.CreateBuyerResponse;
 import com.timeandspacehub.formtopdf.services.BuyerService;
+import com.timeandspacehub.formtopdf.services.OfferService;
 import com.timeandspacehub.formtopdf.services.PdfCacheService;
 import com.timeandspacehub.formtopdf.services.PdfFormExtractorService;
 
@@ -29,13 +31,15 @@ public class PdfController {
     private PdfFormExtractorService pdfFormExtractorService;
     private PdfCacheService pdfCacheService;
     private BuyerService buyerService;
+    private OfferService offerService;
 
     public PdfController(PdfFormExtractorService pdfFormExtractorService, PdfCacheService pdfCacheService, 
-        BuyerService buyerService
+        BuyerService buyerService, OfferService offerService
     ) {
         this.pdfFormExtractorService = pdfFormExtractorService;
         this.pdfCacheService = pdfCacheService;
         this.buyerService = buyerService;
+        this.offerService = offerService;
     }
 
     @GetMapping("/field-info")
@@ -92,6 +96,17 @@ public class PdfController {
         Buyer buyer = buyerService.createBuyer(request);
         CreateBuyerResponse response = new CreateBuyerResponse(buyer);
         return ResponseEntity.ok(response);
+    }
+
+
+    @GetMapping("/offer")
+    public ResponseEntity<List<Offer>> getAllOffers(){
+        return ResponseEntity.ok(offerService.getAllOffer());
+    }
+
+    @PostMapping("/offer")
+    public ResponseEntity<Offer> createOffer(@RequestBody Offer offer){
+        return ResponseEntity.ok(offerService.createOffer(offer));
     }
 
 }
