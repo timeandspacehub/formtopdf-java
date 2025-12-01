@@ -1,6 +1,9 @@
 package com.timeandspacehub.formtopdf.entity;
 
+import java.time.LocalDateTime;
 import java.util.Date;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -33,7 +36,8 @@ public class Offer {
     private long offeredAmount;
 
     @Column(name = "created_dt")
-    private Date createdDt;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss")
+    private LocalDateTime createdDt;
 
     @Column(name = "status")
     private String status;
