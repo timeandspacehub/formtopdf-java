@@ -35,6 +35,15 @@ public class Offer {
     @Column(name = "offered_amount")
     private long offeredAmount;
 
+     @Column(name = "cash_payment")
+    private Double cashPayment;
+
+    @Column(name = "financed_amount")
+    private Double financedAmount;
+
+    @Column(name = "closing_cost")
+    private Double closingCost;
+
     @Column(name = "created_dt")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss")
     private LocalDateTime createdDt;

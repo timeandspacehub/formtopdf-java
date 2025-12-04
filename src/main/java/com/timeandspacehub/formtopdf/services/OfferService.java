@@ -22,6 +22,9 @@ public class OfferService {
     }
 
     public Offer createOffer(Offer offer){
+        double cash = offer.getCashPayment() != null ? offer.getCashPayment() : 0.0;
+        double financed = offer.getFinancedAmount() != null ? offer.getFinancedAmount() : 0.0;
+        offer.setClosingCost(cash + financed);
         offer.setCreatedDt(LocalDateTime.now()); 
         return offerRepository.save(offer);
     }
