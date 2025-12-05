@@ -1,7 +1,6 @@
 package com.timeandspacehub.formtopdf.entity;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -31,6 +30,21 @@ public class Offer {
 
     @Column(name = "lot")
     private long lot;
+
+    @Column(name = "block")
+    private String block;
+
+    @Column(name = "subdivision")
+    private String subdivision;
+
+    @Column(name = "city")
+    private String city;
+
+    @Column(name = "county")
+    private String county;
+
+    @Column(name = "full_address")
+    private String fulladdress;
 
     @Column(name = "offered_amount")
     private long offeredAmount;
