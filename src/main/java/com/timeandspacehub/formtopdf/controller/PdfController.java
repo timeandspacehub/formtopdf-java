@@ -7,6 +7,7 @@ import java.util.Set;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -42,6 +43,7 @@ public class PdfController {
         this.offerService = offerService;
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/field-info")
     public ResponseEntity<List<PdfFieldStructure>> getFieldInfo() throws Exception {
         List<PdfFieldStructure> list = pdfCacheService.getFieldInfo();
@@ -98,12 +100,13 @@ public class PdfController {
         return ResponseEntity.ok(response);
     }
 
-
+    
     @GetMapping("/offer")
     public ResponseEntity<List<Offer>> getAllOffers(){
         return ResponseEntity.ok(offerService.getAllOffer());
     }
 
+    @PreAuthorize("hasRole('USER')")
     @PostMapping("/offer")
     public ResponseEntity<Offer> createOffer(@RequestBody Offer offer){
         return ResponseEntity.ok(offerService.createOffer(offer));
