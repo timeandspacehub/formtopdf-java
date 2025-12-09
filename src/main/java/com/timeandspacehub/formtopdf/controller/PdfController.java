@@ -49,7 +49,7 @@ public class PdfController {
         List<PdfFieldStructure> list = pdfCacheService.getFieldInfo();
         return ResponseEntity.ok(list);
     }
-
+    @PreAuthorize("hasRole('USER')")
     @PostMapping("/pdf")
     public ResponseEntity<byte[]> fillAndSavePdf(@RequestBody InputDto input) {
         try {
@@ -109,6 +109,7 @@ public class PdfController {
     @PreAuthorize("hasRole('USER')")
     @PostMapping("/offer")
     public ResponseEntity<Offer> createOffer(@RequestBody Offer offer){
+    	System.out.println("This is Offer Endpoint");
         return ResponseEntity.ok(offerService.createOffer(offer));
     }
 
