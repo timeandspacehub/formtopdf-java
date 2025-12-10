@@ -49,7 +49,7 @@ public class PdfController {
         List<PdfFieldStructure> list = pdfCacheService.getFieldInfo();
         return ResponseEntity.ok(list);
     }
-    @PreAuthorize("hasRole('USER')")
+   
     @PostMapping("/pdf")
     public ResponseEntity<byte[]> fillAndSavePdf(@RequestBody InputDto input) {
         try {
@@ -73,12 +73,14 @@ public class PdfController {
         }
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/fields")
     public ResponseEntity<Set<String>> extractFormFields() throws Exception {
         Set<String> result = pdfFormExtractorService.extractFormFieldNames();
         return ResponseEntity.ok(result);
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/buyers")
     public ResponseEntity<List<CreateBuyerResponse>> test() throws Exception {
         List<Buyer> buyersList = buyerService.getAllBuyers();
@@ -106,7 +108,6 @@ public class PdfController {
         return ResponseEntity.ok(offerService.getAllOffer());
     }
 
-    @PreAuthorize("hasRole('USER')")
     @PostMapping("/offer")
     public ResponseEntity<Offer> createOffer(@RequestBody Offer offer){
     	System.out.println("This is Offer Endpoint");
