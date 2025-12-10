@@ -7,6 +7,7 @@ import java.util.Set;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -42,12 +43,13 @@ public class PdfController {
         this.offerService = offerService;
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/field-info")
     public ResponseEntity<List<PdfFieldStructure>> getFieldInfo() throws Exception {
         List<PdfFieldStructure> list = pdfCacheService.getFieldInfo();
         return ResponseEntity.ok(list);
     }
-
+   
     @PostMapping("/pdf")
     public ResponseEntity<byte[]> fillAndSavePdf(@RequestBody InputDto input) {
         try {
@@ -71,12 +73,14 @@ public class PdfController {
         }
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/fields")
     public ResponseEntity<Set<String>> extractFormFields() throws Exception {
         Set<String> result = pdfFormExtractorService.extractFormFieldNames();
         return ResponseEntity.ok(result);
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/buyers")
     public ResponseEntity<List<CreateBuyerResponse>> test() throws Exception {
         List<Buyer> buyersList = buyerService.getAllBuyers();
@@ -98,7 +102,7 @@ public class PdfController {
         return ResponseEntity.ok(response);
     }
 
-
+    
     @GetMapping("/offer")
     public ResponseEntity<List<Offer>> getAllOffers(){
         return ResponseEntity.ok(offerService.getAllOffer());
@@ -106,6 +110,7 @@ public class PdfController {
 
     @PostMapping("/offer")
     public ResponseEntity<Offer> createOffer(@RequestBody Offer offer){
+    	System.out.println("This is Offer Endpoint");
         return ResponseEntity.ok(offerService.createOffer(offer));
     }
 
