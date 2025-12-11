@@ -111,7 +111,7 @@ public class PdfController {
     
     @PostMapping("/offer")
     public ResponseEntity<Offer> createOffer(@RequestBody Offer offer){
-    	System.out.println("This is Offer Endpoint");
+    	
         return ResponseEntity.ok(offerService.createOffer(offer));
     }
     

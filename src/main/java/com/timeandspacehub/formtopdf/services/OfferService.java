@@ -53,12 +53,14 @@ public class OfferService {
 
         boolean isAdmin = auth.getAuthorities().stream()
                 .anyMatch(a -> a.getAuthority().equals("ROLE_ADMIN"));
-
+        User user = userRepository.findByUsername(username)
+                .orElseThrow(() -> new UsernameNotFoundException("User not found: " + username));
         if (isAdmin) {
             return offerRepository.findAll();
         } else {
             // 🙋 Normal user sees only their own offers
-            return offerRepository.findByCreatedByUsername(username);
+        	return offerRepository.getOffers(user);
+//             offerRepository.findByCreatedByUsername(username);
         }
     }
 
