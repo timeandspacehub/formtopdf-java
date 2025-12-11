@@ -102,16 +102,18 @@ public class PdfController {
         return ResponseEntity.ok(response);
     }
 
-    
+    //UserSpecific
     @GetMapping("/offer")
-    public ResponseEntity<List<Offer>> getAllOffers(){
-        return ResponseEntity.ok(offerService.getAllOffer());
+    public ResponseEntity<List<Offer>> getMyOffers() {
+        return ResponseEntity.ok(offerService.getMyOffers());
     }
 
+    
     @PostMapping("/offer")
     public ResponseEntity<Offer> createOffer(@RequestBody Offer offer){
-    	System.out.println("This is Offer Endpoint");
+    	
         return ResponseEntity.ok(offerService.createOffer(offer));
     }
-
+    
+   
 }
