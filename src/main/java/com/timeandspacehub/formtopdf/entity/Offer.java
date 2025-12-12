@@ -53,14 +53,14 @@ public class Offer {
     @Column(name = "offered_amount")
     private long offeredAmount;
 
-     @Column(name = "cash_payment")
-    private Double cashPayment;
+     @Column(name = "down_payment")
+    private Double downPayment;
 
-    @Column(name = "financed_amount")
-    private Double financedAmount;
+    @Column(name = "loan_amount")
+    private Double loanAmount;
 
-    @Column(name = "closing_cost")
-    private Double closingCost;
+    @Column(name = "sales_price")
+    private Double salesPrice;
     
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY)
