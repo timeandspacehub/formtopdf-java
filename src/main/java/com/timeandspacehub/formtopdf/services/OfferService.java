@@ -37,9 +37,9 @@ public class OfferService {
         User user = userRepository.findByUsername(username)
                 .orElseThrow(() -> new UsernameNotFoundException("User not found: " + username));
         
-        double cash = offer.getCashPayment() != null ? offer.getCashPayment() : 0.0;
-        double financed = offer.getFinancedAmount() != null ? offer.getFinancedAmount() : 0.0;
-        offer.setClosingCost(cash + financed);
+        double cash = offer.getDownPayment() != null ? offer.getDownPayment() : 0.0;
+        double financed = offer.getLoanAmount() != null ? offer.getLoanAmount() : 0.0;
+        offer.setSalesPrice(cash + financed);
         offer.setCreatedDt(LocalDateTime.now()); 
         
         offer.setCreatedBy(user);
